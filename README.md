@@ -26,6 +26,7 @@ If your character is skilled in the specific task at hand, you will roll with ad
 If you have a relevant ability score of a 5 or 6, a roll of 1 is not necessarily a major failure.
  - 1's become minor failures, with a check for major failure. Roll 1 more die, an on a 1 or 2 it becomes a major failure.
  - 2's becomes mixed results, but not entirely in your favor
+
 Examples of relevant abilities for tasks are:
 - Dexterity for a climb check
 - Strength for a lift check
