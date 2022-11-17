@@ -107,3 +107,43 @@ Mages know 4 spells at level 1 and can cast up to 3 spells a day. Additionally, 
 - skilled in debate
 - knowledge of large battle strategy
 
+## Equipment
+
+### Weapons
+
+| Size | Damage | Examples |
+| --- | --- | --- |
+| small | 1d4 | club, dagger, dart, |
+| medium | 1d6 | short sword, rapier, quarter staff, handaxe, mace, 1h spear |
+| long, heavy | 1d8 | 1h longsword, 1h battleaxe, greatclub, flail |
+| two handed | 2d6 | 2h longsword, 2h battleaxe, 2h spear |
+| great | 1d10 | greatsword, great axe, heavy polearms |
+
+### Armor
+
+Armor reduces the damage of successful attacks that deal damage to flesh, and a smaller reduction to damage against endurance. However, in combat, any type damage cannot reduced to 0.
+
+| Size | Defense | Examples |
+| --- | --- | --- |
+| light | -2 / -1 | leather, studded leather |
+| medium | -4 / -2 | chainmail, beastplate, hide |
+| heavy | -6 / -3 | platemail, scalemail |
+
+## Combat
+All attacks are opposed checks, but the action performed is chosen by a dice roll.
+
+### Ones Are...
+Before a attack roll is performed players must declare a "Ones are," but that we mean based on the player's weapon they may prefer to priorize certain actions, such as a thrust with a spear or a cut with an axe. They may pick any of the options except ripostes.
+
+### Combat Attack Roll
+representing the following actions
+- \[ 2 \] Cuts: swinging & slicing actions
+    - available for any weapon, additional damage for sharp edged **great** weapons
+- \[ 3 \] Thrusts: piercing actions
+    - available for any weapon but additional damage giving to those designed for it, e.g. spears & swords
+- \[ 4 \] Parries: blocking the blow of a weapon with your weapon
+    - a major successful parry allows for a riposte*
+- \[ 5 \] Dodges: evading an attack with quick movement
+- \[ 6 \] Grapples: clinging to your opponent to attempt a throw, with or without your weapon
+- *Ripostes: a follow up attack after a parry, half damage
+    - with weapon specialization, does normal damage
