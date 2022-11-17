@@ -8,7 +8,7 @@ A simple OSR inspired TTRPG with a focus on combat
 
 ## Dice and Checks
 The bulk of this system will use D6s for checks and spells, damage will be done with other dice depending on weapons used.
-| Die Roll          | Example opening a door                                               |
+| Die Roll          | Example opening a locked door                                        |
 |-------------------|----------------------------------------------------------------------|
 | [1] major failure | your lock pick breaks, as does the lock                              |
 | [2] minor failure | your lock pick is damaged somewhat                                   |
