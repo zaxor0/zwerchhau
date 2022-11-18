@@ -61,7 +61,7 @@ The Dungeon Master has the last say in allowed races, heritage, backgrounds. It 
 
 ### Pick Two Traits
 Traits in this rule set are considered a broad characteristic, unlike skills which would apply to specific tasks.
-For whatever background a player picks, they should decide 2 traits that describe them (and their kind generally) that would effect gameplay.
+For whatever background a player picks, they should decide 2 traits that describe them (and their people generally) that would effect gameplay.
 Examples:
 - Dwarf : strong, resistant to poison, stout
 - Elf : wise, quick, magic-adept
