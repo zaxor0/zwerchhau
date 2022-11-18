@@ -173,6 +173,7 @@ representing the following actions
 
 ### Combat Result Check
 The priorty table to determine result check:
+```
 1. Any Dodge..........Dex
 2. Any Cut............Dex or Str
 3. Thrust v. Thrusts..Dex
@@ -180,7 +181,8 @@ The priorty table to determine result check:
 5. One Grapple........Dex then Str
 6. Grapple v Grapple..Str
 7. Others.............No Result / nil 
-
+```
+A table view of the same information:
 |       |Cut  |Thrust|Parry|Dodge|Grapple|
 |-------|-----|------|-----|-----|-------|
 |Cut    | DvS | DvS  | DvS | Dex | D&S   |
