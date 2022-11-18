@@ -11,12 +11,12 @@ A simple OSR inspired TTRPG with a focus on combat
 The bulk of this system will use D6s for checks and spells, damage will be done with other dice depending on weapons used.
 | Die Roll          | Example opening a locked door                                        |
 |-------------------|----------------------------------------------------------------------|
-| [1] major failure | your lock pick breaks, as does the lock                              |
-| [2] minor failure | your lock pick is damaged somewhat                                   |
-| [3] mixed results | the lock is damaged but the door will open                           |
-| [4] mixed results | the door is unlocked, but cannot be opened quietly                   |
-| [5] minor success | the door is unlocked and opens quietly & with ease                   |
-| [6] major success | the door is unlocked and you are now more adept at this kind of lock |
+| [1] Major Failure | your lock pick breaks, as does the lock                              |
+| [2] Minor Failure | your lock pick is damaged somewhat                                   |
+| [3] Mixed Results | the lock is damaged but the door will open                           |
+| [4] Mixed Results | the door is unlocked, but cannot be opened quietly                   |
+| [5] Minor Success | the door is unlocked and opens quietly & with ease                   |
+| [6] Major Success | the door is unlocked and you are now more adept at this kind of lock |
 
 A 3 should skew to slightly less good results and 4 should skew to slightly better results, at the DM's discretion.
 
@@ -138,6 +138,7 @@ These are heavy, oversized, two handed weapons. Therefore, without proper traini
 To use one without penalty, you must:
 - Have a specialization in with a specific great weapon
 - have a 6 in strength
+
 If you do not meet both of these requirements, then suffer a -1 on Dex related combat result checks.
 Lastly, you may *not use dex* for cut related combat checks.
 
@@ -147,9 +148,9 @@ Armor reduces the damage of successful attacks that deal damage to flesh, and a 
 
 | Size | Defense | Examples |
 | --- | --- | --- |
-| light | -2 / -1 | leather, studded leather |
-| medium | -4 / -2 | chainmail, beastplate, hide |
-| heavy | -6 / -3 | platemail, scalemail |
+| Light | -2 / -1 | leather, studded leather |
+| Medium | -4 / -2 | chainmail, beastplate, hide |
+| Heavy | -6 / -3 | platemail, scalemail |
 
 ## Combat
 All attacks are opposed checks, but the action performed is chosen by a dice roll. One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt for a defensive stance.
