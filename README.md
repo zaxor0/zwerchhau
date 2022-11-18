@@ -127,11 +127,19 @@ Mages know 4 spells at level 1 and can cast up to 3 spells a day. Additionally, 
 
 | Size | Damage | Examples |
 | --- | --- | --- |
-| small | 1d4 | club, dagger, dart, |
-| medium | 1d6 | short sword, rapier, quarter staff, handaxe, mace, 1h spear |
-| long, heavy | 1d8 | 1h longsword, 1h battleaxe, greatclub, flail |
-| two handed | 2d6 | 2h longsword, 2h battleaxe, 2h spear |
-| great | 1d10 | greatsword, great axe, heavy polearms |
+| Small | 1d4 | club, dagger, dart, |
+| Medium | 1d6 | short sword, rapier, quarter staff, handaxe, mace, 1h spear |
+| Long, heavy | 1d8 | 1h longsword, 1h battleaxe, greatclub, flail |
+| Two Handed | 2d6 | 2h longsword, 2h battleaxe, 2h spear |
+| Great | 1d12 | greatsword, great axe, heavy polearms |
+
+#### Great Weapons 
+These are heavy, oversized, two handed weapons. Therefore, without proper training and strength, they are slower to use.
+To use one without penalty, you must:
+- Have a specialization in with a specific great weapon
+- have a 6 in strength
+If you do not meet both of these requirements, then suffer a -1 on Dex related combat result checks.
+Lastly, you may *not use dex* for cut related combat checks.
 
 ### Armor
 
