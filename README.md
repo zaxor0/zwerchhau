@@ -7,6 +7,7 @@ A simple OSR inspired TTRPG with a focus on combat
 - Combat, Magic, Skills inspired by conversations with Gronka
 
 ## Dice and Checks
+
 The bulk of this system will use D6s for checks and spells, damage will be done with other dice depending on weapons used.
 | Die Roll          | Example opening a locked door                                        |
 |-------------------|----------------------------------------------------------------------|
@@ -64,7 +65,7 @@ Whenever a player has to perform a check that their background would be relevant
 If the DM wants humans to be more generic, then they should just gain +2 skills to have advantage on as opposed to the more broad traits.
 
 ## Classes
-There are 4 classes based on classic D&D archtypes.  While players may pick anything as a subclass as the focal identity of their character, they should try to stay within one of the classes. Classes guide leveling and character advancement.
+There are 4 classes based on classic D&D archtypes. While players may pick anything as a subclass as the focal identity of their character, they should try to stay within one of the classes. Classes guide leveling and character advancement.
 - Warriors : Someone with advanced combat training
 - Rogues : Someone with keen skills or intuition: slyness, discreteness, cleverness, back stabbing
 - Magic-Users : Someone with spellcasting abilities, gained from study or supernatural influence
@@ -73,13 +74,13 @@ There are 4 classes based on classic D&D archtypes.  While players may pick anyt
 Players should pick a subclass or identity that falls under one of these types. This is completely open ended, players are free to come up with any kind of identity. Here are some examples:
 - Warrior : Streetfighter, Kung Fu Master, Gladiator, Paladin, Ranger, Knight, Swordsman, Samurai, Crossbowmen
 - Rogues : Thief, Bard, Assassin, Scout, Swashbuckler, Detective
-- Magic-Users : Mage, Wizard, Sorcerer, Warlock, Witch, Necromancer, Illusionist, Sage, 
+- Magic-Users : Mage, Wizard, Sorcerer, Warlock, Witch, Necromancer, Illusionist, Sage,
 - Priest : Druid, Cleric, Monk, Preacher, Cultist
 
 Players should develop a clear idea of what background, training, or expierence they have.
 
 ### Warriors
-Warriors start with 1 weapon specialization, players may freely pick any weapon that suits their intended character identity. 
+Warriors start with 1 weapon specialization, players may freely pick any weapon that suits their intended character identity.
 This gives them the following abilities with their chosen weapon:
  - For combat with their chosen weapon, once per day, ignore 1 major failure
  - For combat with their chosen weapon, once per day, advantage roll for damage
@@ -143,20 +144,32 @@ Armor reduces the damage of successful attacks that deal damage to flesh, and a 
 | heavy | -6 / -3 | platemail, scalemail |
 
 ## Combat
-All attacks are opposed checks, but the action performed is chosen by a dice roll.
+All attacks are opposed checks, but the action performed is chosen by a dice roll. One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt 
 
 ### Ones Are...
-Before a attack roll is performed players must declare a "Ones are," but that we mean based on the player's weapon they may prefer to priorize certain actions, such as a thrust with a spear or a cut with an axe. They may pick any of the options except ripostes.
+Before a attack roll is performed players must declare a "Ones are," meaning players pick what the result of a 1 die roll should be. This is ideally based on the player's weapon as they may prefer to priorize certain actions, such as a thrust with a spear or a cut with an axe. They may pick any of the options except ripostes.
+
+### Engagement
+In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. If their default posture is to disengage, they gain a +1 to win a grapple challenge but do not enter the grapple.
 
 ### Combat Attack Roll
 representing the following actions
 - \[ 2 \] Cuts: swinging & slicing actions
-    - available for any weapon, additional damage for sharp edged **great** weapons
+    - Additional damage (+2) for sharp edged **great** weapons, only on successes
 - \[ 3 \] Thrusts: piercing actions
-    - available for any weapon but additional damage giving to those designed for it, e.g. spears & swords
+    - Additional damage (+2) giving to those designed for it, e.g. spears & swords, only on successes
 - \[ 4 \] Parries: blocking the blow of a weapon with your weapon
     - a major successful parry allows for a riposte*
 - \[ 5 \] Dodges: evading an attack with quick movement
 - \[ 6 \] Grapples: clinging to your opponent to attempt a throw, with or without your weapon
 - *Ripostes: a follow up attack after a parry, half damage
     - with weapon specialization, does normal damage
+
+### Combat Results
+|       |Cut  |Thrust|Parry|Dodge|Grapple|
+|-------|-----|------|-----|-----|-------|
+|Cut    | OG  | OG   | nil | nil | 
+|Thrust |
+|Parry  |
+|Dodge  |
+|Grapple|
