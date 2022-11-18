@@ -193,11 +193,11 @@ representing the following actions
 - *Ripostes: a follow up attack after a parry, half damage
     - with weapon specialization, does normal damage
 
-### Combat Result Check
+### Combat Attack Results
 The priorty table to determine result check:
 ```
-1. Any Dodge..........Dex
-2. Any Cut............Dex or Str
+1. Dodge v. Any.......Dex
+2. Cut v. Any.........Dex or Str
 3. Thrust v. Thrusts..Dex
 4. Parry v. Thrusts...Dex
 5. One Grapple........Dex then Str
@@ -213,5 +213,26 @@ A table view of the same information:
 |Dodge  | Dex | Dex  | nil | nil | D&S   |
 |Grapple| D&S | D&S  | D&S | D&S | Str   |
 
+### Opposed Checks & Damage
+Once you've determined which check will occur, whether strength or dex (or none at all), each side rolls 1d6 + the attribute.
 
+The higher value wins the check and deals damage. 
+
+The rolled value determines if the damage effects the oppents flesh or endurance.
+
+#### Riposte
+If a player rolled a parry versus a cut or thrust, and they win the opposed check with a roll of 6, they may riposte!
+
+A riposte is follow up successful attack that allows for a standard damage roll, but if the player does not have specailization with the weapon, it is half damage.
+
+### Damage
+Damage is split between flesh / body and endurance. Most attacks do not deal damage directly to the oppent's flesh but wears them down. 
+| Roll | Damage                  |
+|------|-------------------------|
+|   1  | endurance               |
+|   2  | endurance               |
+|   3  | endurance               |
+|   4  | endurance               |
+|   5  | 1 flesh, rest endurance |
+|   6  | 2 flesh, rest endurance |
 
