@@ -109,7 +109,7 @@ Weapon Proficiency: may choose 1 weapon to be skilled in combat with. For combat
 
 For every even level as a rogue (2,4,6,etc.) they may gain one of:
 - one additional skill, rogueish or relevant to their character's experience
-- one additional advantage die for a given skill, limit of +3. For instance, Backstabing + 3 means roll 4 die pick the best roll.
+- one additional advantage die for a given skill, limit of +2. For instance, Backstabing +2 means roll 3 die pick the best roll.
 - one additional weapon proficiency
 
 
@@ -144,7 +144,13 @@ Armor reduces the damage of successful attacks that deal damage to flesh, and a 
 | heavy | -6 / -3 | platemail, scalemail |
 
 ## Combat
-All attacks are opposed checks, but the action performed is chosen by a dice roll. One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt 
+All attacks are opposed checks, but the action performed is chosen by a dice roll. One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt for a defensive stance.
+
+The combat loop is as follows:
+- Prepare, set your one's and engagement posture
+- roll opposing dice
+- react to results, decide to use dex or str & roll accordingly
+- winner deals damage, 
 
 ### Ones Are...
 Before a attack roll is performed players must declare a "Ones are," meaning players pick what the result of a 1 die roll should be. This is ideally based on the player's weapon as they may prefer to priorize certain actions, such as a thrust with a spear or a cut with an axe. They may pick any of the options except ripostes.
@@ -165,11 +171,23 @@ representing the following actions
 - *Ripostes: a follow up attack after a parry, half damage
     - with weapon specialization, does normal damage
 
-### Combat Results
+### Combat Result Check
+The priorty table to determine result check:
+1. Any Dodge..........Dex
+2. Any Cut............Dex or Str
+3. Thrust v. Thrusts..Dex
+4. Parry v. Thrusts...Dex
+5. One Grapple........Dex then Str
+6. Grapple v Grapple..Str
+7. Others.............No Result / nil 
+
 |       |Cut  |Thrust|Parry|Dodge|Grapple|
 |-------|-----|------|-----|-----|-------|
-|Cut    | OG  | OG   | nil | nil | 
-|Thrust |
-|Parry  |
-|Dodge  |
-|Grapple|
+|Cut    | DvS | DvS  | DvS | Dex | D&S   |
+|Thrust | DvS | Dex  | Dex | Dex | D&S   |
+|Parry  | DvS | Dex  | nil | nil | D&S   |
+|Dodge  | Dex | Dex  | nil | nil | D&S   |
+|Grapple| D&S | D&S  | D&S | D&S | Str   |
+
+
+
