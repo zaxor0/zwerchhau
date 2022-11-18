@@ -50,8 +50,8 @@ If your endurance reaches 0, you collapse and are not reliably able to defend yo
 ### Intelligence
 This represents your ability to learn and both informal and formal education. Half this number and round up, this represents additional skills you receive advantage on. You may also choose to use one of these points on additional languages, instead of skills.
 
-## Background or Race
-The Dungeon Master has the last say in allowed races, heritage, backgrounds. It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player. Within the limits defined by their DM, players may freely choose any fantasy race that they deem that best suits their intended identity.  Some backgrounds could be unbalanced*, the following table is just a suggestion.
+## Background or Heritage 
+The Dungeon Master has the last say in allowed heritage or backgrounds (races as is referred to older D&D editions). It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player. Within the limits defined by their DM, players may freely choose any fantasy heritage that they deem that best suits their intended identity.  Some backgrounds could be unbalanced*, the following table is just a suggestion.
 | Classic  | Expanded   | Modern*     |
 |----------|------------|-------------|
 | Human    | Half Orc   | Half Giant  |
