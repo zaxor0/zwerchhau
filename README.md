@@ -44,7 +44,7 @@ For each of the 4 abilities, *roll 2d6* and keep the best number.
 - Intelligence
 
 ### Endurance
-Endurace is total sum of Strength, Dexterity, and Will. Used in combat, it represents your total ability to perserve and survive. The majority of damage in combat is against your endurance, not your flesh and blood. 
+Endurace is total sum of Strength, Dexterity, Will, and your current level. For each level you gain, you also gain + 1 endurance. Used in combat, it represents your total ability to perserve and survive. The majority of damage in combat is against your endurance, not your flesh and blood. 
 
 If your endurance reaches 0, you collapse and are not reliably able to defend yourself against a coup de gras.
 
