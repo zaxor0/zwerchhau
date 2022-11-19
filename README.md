@@ -1,4 +1,5 @@
 # zwerchhau
+![zwerchhau](https://github.com/zaxor0/zwerchhau/blob/main/zwerchhau.png)
 A simple OSR inspired TTRPG with a focus on combat
 
 - Simplicity, traits inspired by Oz Browning's OZR
@@ -226,7 +227,7 @@ If a player rolled a parry versus a cut or thrust, and they win the opposed chec
 A riposte is follow up successful attack that allows for a standard damage roll, but if the player does not have specailization with the weapon, it is half damage.
 
 ### Damage
-Damage is split between flesh / body and endurance. Most attacks do not deal damage directly to the oppent's flesh but wears them down. 
+Damage is split between flesh / body and endurance. Most attacks do not deal damage directly to the opponent's flesh but wears them down. A successful grapple does not follow this chart, see the next section.
 | Roll | Damage                  |
 |------|-------------------------|
 |   1  | endurance               |
@@ -236,3 +237,4 @@ Damage is split between flesh / body and endurance. Most attacks do not deal dam
 |   5  | 1 flesh, rest endurance |
 |   6  | 2 flesh, rest endurance |
 
+### Grappling and Wrestling
