@@ -38,3 +38,32 @@ SIDE ... PERCENT
 5 ...... 28 %
 6 ...... 42 %
 ```
+
+## Combat Testing
+Still need to add more nuance
+
+```
+(STR, DEX, WILL, INT, Endurance, HP)
+[4, 6, 6, 2, 17, 6] wielding a sword
+...versus...
+[3, 2, 3, 4, 9, 6] wielding a spear
+new round
+... thrust v. parry  >  dex
+player wins!
+endurance damage 2
+player HP 6 En 17   |   enemy HP 6 En 7
+...end combat round 1
+new round
+... parry v. cut  >  dex or str
+player wins!
+endurance damage 6
+player HP 6 En 17   |   enemy HP 6 En 1
+...end combat round 2
+new round
+... grapple v. parry  >  dex then str
+player wins!
+player wins!
+endurance damage 2
+player HP 6 En 17   |   enemy HP 6 En -1
+...end combat round 3
+```

@@ -1,6 +1,5 @@
 import random
 
-
 def statGenerator():
   results = []
   # generate str dex will int (this is the assumed order)
@@ -29,12 +28,9 @@ def combatAction(weapon):
     ones = "thrust"
   roll = random.randint(1, 6)
   actions = [ones, "cut", "thrust", "parry", "dodge", "grapple"]
-  #print(actions)
-  #print("rolling..", actions[roll-1], "!")
   return actions[roll-1]
 
 def combatCheckResult(attack1, attack2):
-  print("\n", attack1, "v.", attack2)
   check = "nil"
   while check == "nil":
     if attack1 == "grapple" or attack2 == "grapple":
@@ -60,6 +56,7 @@ def combatCheckResult(attack1, attack2):
       break
     else:
       break
+  print("...", attack1, "v.", attack2, " > ", check)
   return check
 
 def combatRoll(player, enemy, combatCheck):
@@ -79,10 +76,10 @@ def combatRoll(player, enemy, combatCheck):
   for stat in stats:
     playerRoll = random.randint(1, 6)
     playerTotal = playerRoll + player[stat]
-    print("player rolls a", playerRoll, "with a +", player[stat])
+   #print("player rolls a", playerRoll, "with a +", player[stat])
     enemyRoll = random.randint(1, 6)
     enemyTotal = enemyRoll + enemy[stat]
-    print("enemy rolls a", enemyRoll, "with a +", enemy[stat])
+  # print("enemy rolls a", enemyRoll, "with a +", enemy[stat])
     if enemyTotal > playerTotal:
       winner = "enemy"
       cRoll = enemyRoll
@@ -94,38 +91,38 @@ def combatRoll(player, enemy, combatCheck):
 
 def damageRoll(victim, cRoll, damageDie):
   damage = random.randint(1, damageDie)
-  print("DAMAGE!", damage, cRoll)
   if cRoll < 5:
-     print("endurance damage")
+     print("endurance damage", damage)
      victim[4] -= damage
   if cRoll == 5:
-     print("-1 to flesh")
+     print("-1 to flesh and endurance damage", damage -1)
      victim[4] -= (damage - 1)
      victim[5] -= 1
   if cRoll == 6:
-     print("-2 to flesh")
+     print("-2 to flesh and endurance damage", damage -2)
      victim[4] -= (damage - 2)
      victim[5] -= 2
-  print(victim)
+  return victim
   
-
+# main
 player = statGenerator()
 enemy = statGenerator()
+print("(STR, DEX, WILL, INT, Endurance, HP)")
 print(player, "wielding a sword")
 print("...versus...")
 print(enemy,"wielding a spear")
 combatRound = 0
 while player[4] > 0 and player[5] > 0 and enemy[4] > 0 and enemy[5] > 0:
+  print("new round")
   combatRound += 1
   playerAttack = combatAction("sword")
   enemyAttack = combatAction("spear")
   combatCheck = combatCheckResult(playerAttack, enemyAttack)
-  print("!!",combatCheck,"!!")
   if combatCheck != "nil":
     winner, cRoll = combatRoll(player, enemy, combatCheck)
     if winner == "player":
       enemy = damageRoll(enemy, cRoll, 6)
     else:
       player = damageRoll(player, cRoll, 6)
-  #print(player, enemy)
+  print("player HP",player[5],"En",player[4],"  |  ","enemy HP",enemy[5],"En",enemy[4])
   print("...end combat round", combatRound)
