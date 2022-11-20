@@ -75,6 +75,34 @@ Whenever a player has to perform a check that their background would be relevant
 
 If the DM wants humans to be more generic, then they should just gain +2 skills to have advantage on as opposed to the more broad traits.
 
+## Skills
+Skills are specific abilities that a given player would have, they are more focused than traits and represent your personal experience and training. There are no limits to what a skill could be, but it is up to the DM to limit what is acceptable for their campaign. Additionally, a DM has the right to reject a skill for being too broad. An example of a badly chosedn skill would be a character who is good at "building;" structures are build out of a variety of material and techniques, a more appropriate choice would be carpentry or masonry.
+
+All characters start with 2 skills; additionally some classes provide more skills, as does leveling.
+
+Besides during combat, most things *should not* require a skill check. Climbing up an old stonewall, negotiating prices in a market, dressing a wound, are not the sort of things that you would need to have a skill check in. 
+
+Skill checks need to performed when without specialized experience or knowledge failure would lead to terrible consequences. Such as pick pocketing the kings purse, or forging a nobles signature, organizing the constuction of fortified defenses.
+
+Even then, with specialized skills being required, group efforts to resolve a problem with coherent dialog between players should generally trump a skill check. As long as the plan is detailed, concievable, and some what reasonable, players should be able to execute complex tasks without pedantic skill checks.
+
+### Sample Combat Skills
+These skills are mentioned because they are specifically referenced in the combat rules and would be appropriate for any player interested in combat.
+- Grappling
+- Wrestling throws
+- Disarming
+- Improvised weaponry
+- Defensive melee combat
+- Firing into Melee
+
+### Sample Non-Combat Skills
+- Carpentry   - Sailing          - Library Research
+- Bartering   - Lock Picking     - Specialized Knowledge
+- Fletching   - Forgery          - Diplomacy
+- Smithing    - Mountaineering   - 
+- Tanning     - Construction     -
+
+
 ## Classes
 There are 4 classes based on classic D&D archtypes. While players may pick anything as a subclass as the focal identity of their character, they should try to stay within one of the classes. Classes guide leveling and character advancement.
 - Warriors : Someone with advanced combat training
@@ -130,7 +158,8 @@ Mages know 4 spells at level 1 and can cast up to 3 spells a day. Additionally, 
 - speak an ancient language fluently
 - skilled in diplomatic policies
 - skilled in debate
-- knowledge of large battle strategy
+- Strategic warfare
+- Mercantile economics
 
 ## Equipment
 
@@ -155,7 +184,7 @@ Lastly, you may *not use dex* for cut related combat checks.
 
 ### Armor
 
-Armor reduces the damage of successful attacks that deal damage to flesh, and a smaller reduction to damage against constitution. However, in combat, any type damage cannot reduced to 0.
+Armor reduces the damage of successful attacks that deal damage to flesh, and a smaller reduction to damage against constitution. However, in combat, any type damage cannot reduced to 0; meaning, at least 1 point of damage must be dealt to either flesh or constitution.
 
 | Size   | Defense | Examples                    |
 |--------|---------|-----------------------------|
@@ -166,7 +195,7 @@ Armor reduces the damage of successful attacks that deal damage to flesh, and a 
 #### Shields
 Whether a buckler, heater, or tower shield, all shields provide a +1 bonus to parry.
 
-## Combat
+## Melee Combat
 All attacks are opposed checks, but the action performed is chosen by a dice roll. One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt for a defensive stance.
 
 The combat loop is as follows:
@@ -230,14 +259,14 @@ A riposte is follow up successful attack that allows for a standard damage roll,
 
 ### Damage
 Damage is split between flesh / body and constitution. Most attacks do not deal damage directly to the opponent's flesh but wears them down. A successful grapple does not follow this chart, see the next section.
-| Roll | Melee Damage      | Damage while downed | Ranged Damage    |
-|------|-------------------|---------------------|------------------|
-|   1  | Constitution      | Constitution        |  |
-|   2  | Constitution      | 1 flesh, Con - 1    |  |
-|   3  | Constitution      | 1 flesh, Con - 1    |  |
-|   4  | Constitution      | 2 flesh, Con - 2    |  |
-|   5  | 1 flesh & Con - 1 | 3 flesh, Con - 3    |  |
-|   6  | 2 flesh & Con - 2 | 4 flesh, Con - 4    |  |
+| Roll | Melee Damage      | Damage while downed | 
+|------|-------------------|---------------------|-
+|   1  | Constitution      | Constitution        | 
+|   2  | Constitution      | 1 flesh, Con - 1    | 
+|   3  | Constitution      | 1 flesh, Con - 1    | 
+|   4  | Constitution      | 2 flesh, Con - 2    | 
+|   5  | 1 flesh & Con - 1 | 3 flesh, Con - 3    | 
+|   6  | 2 flesh & Con - 2 | 4 flesh, Con - 4    | 
 
 When you see "Con - 1" it means of the total damage dealt, 1 point harms the flesh and the remainder harms constitution.
 
@@ -245,5 +274,26 @@ When you see "Con - 1" it means of the total damage dealt, 1 point harms the fle
 Once opponents are in a grapple and one side has one the strength check, there are few options for following actions. Each of which is a standard 1d6 skill check to succeed. These maneurves are the sort of thing a warrior would want to have "skills" in.
 - Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield. 
 - Throw the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
+
+### Ranged Combat
+Ranged combat is a simplified process of the melee combat steps. You simple need to roll a standard 1d6 skill check to attack the target.
+
+Upon a success (3-6), roll for damage using the above damage chart.
+
+#### Unsuspecting Targets
+If your target is unsuspecting and not moving, use the following variation on "Damage while downed" chart:
+| Roll | Ranged Damage v. unsuspecting targets | 
+|------|---------------------------------------|
+|   1  | Miss, target is now aware of attack   | 
+|   2  | 2 flesh, Con - 2                      | 
+|   3  | 2 flesh, Con - 2                      | 
+|   4  | 3 flesh, Con - 3                      | 
+|   5  | 4 flesh, Con - 4                      | 
+|   6  | 5 flesh, Con - 5                      | 
+
+#### Firing into Melee
+It is not easy to fire on a target that is engaged in melee. Attack rolls suffer a -1 modifier.
+If you do not have a specialization for this particular skill "Firing into melee" you must take a -1 modifier to your attack roll. This means you cannot do better than a 5, and a 1 or 2 would result in a major failure.
+
 
 
