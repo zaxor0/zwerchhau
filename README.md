@@ -44,12 +44,15 @@ For each of the 4 abilities, *roll 2d6* and keep the best number.
 - Intelligence
 
 ### Constitution 
-Constituion is total sum of Strength, Dexterity, Will, and your current level. For each level you gain, you also gain + 1 constituion. Used in combat, it represents your total ability to perserve and survive. The majority of damage in combat is against your constitution, not your flesh and blood. This means that you risk being exhausted and overwhelmed when you take constitution damage.
+Constituion is total sum of Strength, Dexterity, Will, and your current level. Used in combat, it represents your total ability to perserve and survive. The majority of damage in combat is against your constitution, not your flesh and blood. This means that you risk being exhausted and overwhelmed when you take constitution damage.
 
 If your constitution reaches 0, you do not die. However, you collapse and are not reliably able to defend yourself against attacks.
 
 ### Intelligence
 This represents your ability to learn and both informal and formal education. Half this number and round up, this represents additional skills you receive advantage on. You may also choose to use one of these points on additional languages, instead of skills.
+
+### Hit points
+All players have 6 hit points, this does not increase with leveling. Often the rules refer to damage to flesh, this is damage to your hit points--as opposed to damage to your constitution. 
 
 ## Background or Heritage 
 The Dungeon Master has the last say in allowed heritage or backgrounds (races as is referred to older D&D editions). It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player. Within the limits defined by their DM, players may freely choose any fantasy heritage that they deem that best suits their intended identity.  Some backgrounds could be unbalanced*, the following table is just a suggestion.
@@ -96,12 +99,12 @@ These skills are mentioned because they are specifically referenced in the comba
 - Firing into Melee
 
 ### Sample Non-Combat Skills
-- Carpentry   - Sailing          - Library Research
-- Bartering   - Lock Picking     - Specialized Knowledge
-- Fletching   - Forgery          - Diplomacy
-- Smithing    - Mountaineering   - 
-- Tanning     - Construction     -
-
+|-------------|------------------|------------------------|
+| Carpentry   | Sailing          | Library Research       |
+| Bartering   | Lock Picking     | Specialized Knowledge  |
+| Fletching   | Forgery          | Diplomacy              |
+| Smithing    | Mountaineering   |                        |
+| Tanning     | Construction     |                        |
 
 ## Classes
 There are 4 classes based on classic D&D archtypes. While players may pick anything as a subclass as the focal identity of their character, they should try to stay within one of the classes. Classes guide leveling and character advancement.
