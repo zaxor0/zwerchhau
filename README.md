@@ -43,10 +43,10 @@ For each of the 4 abilities, *roll 2d6* and keep the best number.
 - Will
 - Intelligence
 
-### Endurance
-Endurace is total sum of Strength, Dexterity, Will, and your current level. For each level you gain, you also gain + 1 endurance. Used in combat, it represents your total ability to perserve and survive. The majority of damage in combat is against your endurance, not your flesh and blood. 
+### Constitution 
+Constituion is total sum of Strength, Dexterity, Will, and your current level. For each level you gain, you also gain + 1 constituion. Used in combat, it represents your total ability to perserve and survive. The majority of damage in combat is against your constitution, not your flesh and blood. This means that you risk being exhausted and overwhelmed when you take constitution damage.
 
-If your endurance reaches 0, you collapse and are not reliably able to defend yourself against a coup de gras.
+If your constitution reaches 0, you do not die. However, you collapse and are not reliably able to defend yourself against attacks.
 
 ### Intelligence
 This represents your ability to learn and both informal and formal education. Half this number and round up, this represents additional skills you receive advantage on. You may also choose to use one of these points on additional languages, instead of skills.
@@ -101,7 +101,7 @@ For every even level as a warrior (2,4,6,etc.) they may gain either:
 - 1 additional weapon specialization, they gain the above 3 abilities for this weapon.
 - 1 combat weapon feat. This is like a skill but it pertains to just 1 weapon type. Players should be creative here and work with their DM. Examples include:
   - Swift attack, gain +1 attacks with weapon against a specific target (recommended limit of +2)
-  - Heavy attack, deal +1 endurance damage
+  - Heavy attack, deal +1 constitution damage
   - Lethal attack, deal +1 body damage on 6's
   - Cleaving attack, upon successful downing of opponent gain 1 attack on any adjacent enemy,
 
@@ -112,7 +112,7 @@ Rogues starts with 3 skill specializations, they may pick any **specific** skill
 - Sleight of hand: players are talented at being physically misleading and trickery
 - Lying / verbal deception: players are exceptional at spinning falsehoods to unknowing victims
 - Seduction: players exude charisma and physical attraction, NPCs have a disadvantage when trying to resist player suggestions
-- Back stabbing: players have an advantage to successful stab an unwitting victim (body damage not endurance, see Combat)
+- Back stabbing: players have an advantage to successful stab an unwitting victim (flesh damage not constition, see Combat)
 
 Weapon Proficiency: may choose 1 weapon to be skilled in combat with. For combat with their chosen weapon, once per day, may either:
 - ignore 1 major failure
@@ -155,13 +155,13 @@ Lastly, you may *not use dex* for cut related combat checks.
 
 ### Armor
 
-Armor reduces the damage of successful attacks that deal damage to flesh, and a smaller reduction to damage against endurance. However, in combat, any type damage cannot reduced to 0.
+Armor reduces the damage of successful attacks that deal damage to flesh, and a smaller reduction to damage against constitution. However, in combat, any type damage cannot reduced to 0.
 
-| Size | Defense | Examples |
-| --- | --- | --- |
-| Light | -2 / -1 | leather, studded leather |
-| Medium | -4 / -2 | chainmail, beastplate, hide |
-| Heavy | -6 / -3 | platemail, scalemail |
+| Size   | Defense | Examples                    |
+|--------|---------|-----------------------------|
+| Light  | -1 / 0  | leather, studded leather    |
+| Medium | -3 / -1 | chainmail, beastplate, hide |
+| Heavy  | -5 / -2 | platemail, scalemail        |
 
 #### Shields
 Whether a buckler, heater, or tower shield, all shields provide a +1 bonus to parry.
@@ -197,13 +197,13 @@ representing the following actions
 ### Combat Attack Results
 The priorty table to determine result check:
 ```
-1. Dodge v. Any.......Dex
-2. Cut v. Any.........Dex or Str
-3. Thrust v. Thrusts..Dex
-4. Parry v. Thrusts...Dex
-5. One Grapple........Dex then Str
-6. Grapple v Grapple..Str
-7. Others.............No Result / nil 
+1. Grapple v. Grapple..Str
+2. Grapple v. any......Dex then Str
+3. Dodge v. Any........Dex
+4. Cut v. Any..........Dex or Str
+5. Thrust v. Thrusts...Dex
+6. Parry v. Thrusts....Dex
+7. Others..............No Result / nil 
 ```
 A table view of the same information:
 |       |Cut  |Thrust|Parry|Dodge|Grapple|
@@ -219,7 +219,9 @@ Once you've determined which check will occur, whether strength or dex (or none 
 
 The higher value wins the check and deals damage. 
 
-The rolled value determines if the damage effects the oppents flesh or endurance.
+The rolled value determines if the damage effects the oppents flesh or constitution.
+
+To succeed in a grapple check, you must first win a dex check to wrestle your opponent, and then a strength check to enter the grapple phase. If both sides attempt a grapple, you only need the strength check.
 
 #### Riposte
 If a player rolled a parry versus a cut or thrust, and they win the opposed check with a roll of 6, they may riposte!
@@ -227,14 +229,21 @@ If a player rolled a parry versus a cut or thrust, and they win the opposed chec
 A riposte is follow up successful attack that allows for a standard damage roll, but if the player does not have specailization with the weapon, it is half damage.
 
 ### Damage
-Damage is split between flesh / body and endurance. Most attacks do not deal damage directly to the opponent's flesh but wears them down. A successful grapple does not follow this chart, see the next section.
-| Roll | Damage                  |
-|------|-------------------------|
-|   1  | endurance               |
-|   2  | endurance               |
-|   3  | endurance               |
-|   4  | endurance               |
-|   5  | 1 flesh, rest endurance |
-|   6  | 2 flesh, rest endurance |
+Damage is split between flesh / body and constitution. Most attacks do not deal damage directly to the opponent's flesh but wears them down. A successful grapple does not follow this chart, see the next section.
+| Roll | Melee Damage      | Damage while downed | Ranged Damage    |
+|------|-------------------|---------------------|------------------|
+|   1  | Constitution      | Constitution        |  |
+|   2  | Constitution      | 1 flesh, Con - 1    |  |
+|   3  | Constitution      | 1 flesh, Con - 1    |  |
+|   4  | Constitution      | 2 flesh, Con - 2    |  |
+|   5  | 1 flesh & Con - 1 | 3 flesh, Con - 3    |  |
+|   6  | 2 flesh & Con - 2 | 4 flesh, Con - 4    |  |
+
+When you see "Con - 1" it means of the total damage dealt, 1 point harms the flesh and the remainder harms constitution.
 
 ### Grappling and Wrestling
+Once opponents are in a grapple and one side has one the strength check, there are few options for following actions. Each of which is a standard 1d6 skill check to succeed. These maneurves are the sort of thing a warrior would want to have "skills" in.
+- Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield. 
+- Throw the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
+
+
