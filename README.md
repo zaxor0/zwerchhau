@@ -99,6 +99,7 @@ These skills are mentioned because they are specifically referenced in the comba
 - Firing into Melee
 
 ### Sample Non-Combat Skills
+| samples| samples| samples|
 |-------------|------------------|------------------------|
 | Carpentry   | Sailing          | Library Research       |
 | Bartering   | Lock Picking     | Specialized Knowledge  |
