@@ -229,15 +229,17 @@ representing the following actions
 
 ### Combat Attack Results
 The priorty table to determine result check:
-```
-1. Grapple v. Grapple..Str
-2. Grapple v. any......Dex then Str
-3. Dodge v. Any........Dex
-4. Cut v. Any..........Dex or Str
-5. Thrust v. Thrusts...Dex
-6. Parry v. Thrusts....Dex
-7. Others..............No Result / nil 
-```
+
+|Priority | Opposing Rolls      | Check        |
+|---------|---------------------|--------------|
+|   1     | Grapple v. Grapple  | Str          |
+|   2     | Grapple v. any      | Dex then Str |
+|   3     | Dodge v. Any        | Dex          |
+|   4     | Cut v. Any          | Dex or Str   |
+|   5     | Thrust v. Thrusts   | Dex          |
+|   6     | Parry v. Thrusts    | Dex          |
+|   7     | Others              | No Result    | 
+
 A table view of the same information:
 |       |Cut  |Thrust|Parry|Dodge|Grapple|
 |-------|-----|------|-----|-----|-------|
@@ -264,7 +266,7 @@ A riposte is follow up successful attack that allows for a standard damage roll,
 ### Damage
 Damage is split between flesh / body and constitution. Most attacks do not deal damage directly to the opponent's flesh but wears them down. A successful grapple does not follow this chart, see the next section.
 | Roll | Melee Damage      | Damage while downed | 
-|------|-------------------|---------------------|-
+|------|-------------------|---------------------|
 |   1  | Constitution      | Constitution        | 
 |   2  | Constitution      | 1 flesh, Con - 1    | 
 |   3  | Constitution      | 1 flesh, Con - 1    | 
