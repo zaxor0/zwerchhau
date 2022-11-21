@@ -17,14 +17,14 @@ DMs and players both have have a duty to serve the game, to make the overall exp
 ## Dice and Checks
 
 The bulk of this system will use D6s for checks and spells, damage will be done with other dice depending on weapons used.
-| Die Roll          | Example opening a locked door                                        |
-|-------------------|----------------------------------------------------------------------|
-| [1] Major Failure | your lock pick breaks, as does the lock                              |
-| [2] Minor Failure | your lock pick is damaged somewhat                                   |
-| [3] Mixed Results | the lock is damaged but the door will open                           |
-| [4] Mixed Results | the door is unlocked, but cannot be opened quietly                   |
-| [5] Minor Success | the door is unlocked and opens quietly & with ease                   |
-| [6] Major Success | the door is unlocked and you are now more adept at this kind of lock |
+| Roll | Result        | Example opening a locked door                                        |
+|------|---------------|----------------------------------------------------------------------|
+| 1    | Major Failure | your lock pick breaks, as does the lock                              |
+| 2    | Minor Failure | your lock pick is damaged somewhat                                   |
+| 3    | Mixed Results | the lock is damaged but the door will open                           |
+| 4    | Mixed Results | the door is unlocked, but cannot be opened quietly                   |
+| 5    | Minor Success | the door is unlocked and opens quietly & with ease                   |
+| 6    | Major Success | the door is unlocked and you are now more adept at this kind of lock |
 
 A 3 should skew to slightly less good results and 4 should skew to slightly better results, at the DM's discretion.
 
