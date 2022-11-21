@@ -1,11 +1,18 @@
-# zwerchhau
-![zwerchhau](https://github.com/zaxor0/zwerchhau/blob/main/zwerchhau.png)
+# Zwerchhau
+![Zwerchhau](https://github.com/zaxor0/zwerchhau/blob/main/zwerchhau.png)
 A simple OSR inspired TTRPG with a focus on combat
 
 - Simplicity, traits inspired by Oz Browning's OZR
 - Classes and Spells inspired by D&D
 - Magical effects inspired by Dungeon Crawl Classics
 - Combat, Magic, Skills inspired by conversations with Gronka
+
+## Serve the game
+DMs and players both have have a duty to serve the game, to make the overall experience of this game enjoyable. What enjoyable is, exactly, is not easy to define; however, there are a few items to consider:
+- Set expectations; what is the world like, what are the people like?
+  - Some worlds are dangerous, some people are distrustful, some places are scary; a DM has a duty to their players to give them sign posts about these details.
+- Accept failures; trails, tribulations, can help gameplay as long as they give players opportunities to continue to develop their characters.
+  - Consider the [Hero's Journey](https://en.wikipedia.org/wiki/Hero's_journey)
 
 ## Dice and Checks
 
@@ -51,6 +58,13 @@ If your constitution reaches 0, you do not die. However, you collapse and are no
 ### Intelligence
 This represents your ability to learn and both informal and formal education. Half this number and round up, this represents additional skills you receive advantage on. You may also choose to use one of these points on additional languages, instead of skills.
 
+### Charisma
+There are no points assigned to charisma. As a role playing game, dialogue is considered a core feature; as such, reducing social interactions to points or rolls limits experience of play in regards to this "core" feature. 
+
+This system assumes that a player's character should be however charismatic they want them to be. That does not mean they can charm their way into anything, but any attempt to do so better serves gameplay with thoughtful and engaging dialogue. 
+
+What is a successful charismatic action then? This ultimately should be up to the DM, who should have some concept of what a given NPC might find convincing or not. If a check is needed, simply roll "behind the scenes" based on a standard check. If a player has relevant skills, diplomacy, lying, or is knowledgeable on the topic at hand, consider giving them advantage.  
+
 ### Hit points
 All players have 6 hit points, this does not increase with leveling. Often the rules refer to damage to flesh, this is damage to your hit points--as opposed to damage to your constitution. 
 
@@ -72,18 +86,18 @@ Examples:
 - Human : quick learned, open minded, strong, quick
 - Halfling : sly, quick, stealthy, hungry
 
-Player example: "My character is a tall burly human from the desert region, my people are known for being (1) strong-willed and (2) stealthy"
+Player example: "My character is a tall burly human from the desert region, my people are known for being (1) well educated and (2) stealthy"
 
 Whenever a player has to perform a check that their background would be relevant for, they are able to roll advantage, meaning roll two dice and pick the one they want.
 
 If the DM wants humans to be more generic, then they should just gain +2 skills to have advantage on as opposed to the more broad traits.
 
 ## Skills
-Skills are specific abilities that a given player would have, they are more focused than traits and represent your personal experience and training. There are no limits to what a skill could be, but it is up to the DM to limit what is acceptable for their campaign. Additionally, a DM has the right to reject a skill for being too broad. An example of a badly chosedn skill would be a character who is good at "building;" structures are build out of a variety of material and techniques, a more appropriate choice would be carpentry or masonry.
+Skills are specific abilities that a given player would have, they are more focused than traits and represent your personal experience and training. Except for DM discretion, there are generally no limits to what a skill could be. Additionally, a DM has the right to reject a skill for being too broad. An example of a badly chosen skill would be a character who is good at "building;" structures are build out of a variety of material and techniques, a more appropriate choice would be carpentry or masonry.
 
-All characters start with 2 skills; additionally some classes provide more skills, as does leveling.
+All characters have a number of skills based on their intelligence, (Int / 2, rounded up); additionally some classes provide more skills, as does leveling in a class.
 
-Besides during combat, most things *should not* require a skill check. Climbing up an old stonewall, negotiating prices in a market, dressing a wound, are not the sort of things that you would need to have a skill check in. 
+Besides during combat, most things *should not* require a skill check. Climbing up an old stonewall, negotiating prices in a market, dressing a wound, are not the sort of things that you would need to have a skill check in. Rather, if a check for a common / general task is *needed* a DM should defer to an ability check.
 
 Skill checks need to performed when without specialized experience or knowledge failure would lead to terrible consequences. Such as pick pocketing the kings purse, or forging a nobles signature, organizing the constuction of fortified defenses.
 
@@ -277,29 +291,42 @@ Damage is split between flesh / body and constitution. Most attacks do not deal 
 When you see "Con - 1" it means of the total damage dealt, 1 point harms the flesh and the remainder harms constitution.
 
 ### Grappling and Wrestling
-Once opponents are in a grapple and one side has one the strength check, there are few options for following actions. Each of which is a standard 1d6 skill check to succeed. These maneurves are the sort of thing a warrior would want to have "skills" in.
+If only one combatant attempts a grapple, the check is dexterity; this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
+
+However, if both sides are performing a grapple, then we move straight to the opposed strength check to see who dominates.
+
+Once opponents are in a grapple and one side has won the strength check, there are few options for following actions. Each of which is a standard 1d6 skill check to succeed. These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
 - Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield. 
 - Throw the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
 
 ### Ranged Combat
 Ranged combat is a simplified process of the melee combat steps. You simple need to roll a standard 1d6 skill check to attack the target.
 
-Upon a success (3-6), roll for damage using the above damage chart.
+Only upon a success (3-6), roll for damage using the above damage chart.
 
 #### Unsuspecting Targets
-If your target is unsuspecting and not moving, use the following variation on "Damage while downed" chart:
-| Roll | Ranged Damage v. unsuspecting targets | 
-|------|---------------------------------------|
-|   1  | Miss, target is now aware of attack   | 
-|   2  | 2 flesh, Con - 2                      | 
-|   3  | 2 flesh, Con - 2                      | 
-|   4  | 3 flesh, Con - 3                      | 
-|   5  | 4 flesh, Con - 4                      | 
-|   6  | 5 flesh, Con - 5                      | 
+Bows in small combat are best utilized against unsuspecting targets, therefore the damage possibiliies lend themselves toward the attacker.
+
+The below chart indicates the results of the attack roll based on the current status of the target.
+
+| Roll | Ranged Damage v. Unmoving & Unaware targets   | Ranged Damage v. Moving & Unaware Targets | 
+|------|-----------------------------------------------|-------------------------------------------|
+|   1  | Miss, target is now aware of attack           | Miss, target is now aware of the attack   |
+|   2  | 1 flesh, Con - 1                              | Miss, target still unaware                | 
+|   3  | 2 flesh, Con - 2                              | 1 flesh, Con - 1                          |
+|   4  | 3 flesh, Con - 3                              | 2 flesh, Con - 2                          |
+|   5  | 4 flesh, Con - 4                              | 3 flesh, Con - 3                          |
+|   6  | 5 flesh, Con - 5                              | 4 flesh, Con - 4                          |
 
 #### Firing into Melee
 It is not easy to fire on a target that is engaged in melee. Attack rolls suffer a -1 modifier.
 If you do not have a specialization for this particular skill "Firing into melee" you must take a -1 modifier to your attack roll. This means you cannot do better than a 5, and a 1 or 2 would result in a major failure.
 
+### Defensive Fighting
+In the case where a player or NPC is prone or surrounded by more than 1 opponent, they may wish to engage in defensive fighting to keep the attackers at bay. This is distinct from melee combat because they are *not* rolling on the combat attack roll chart. The goals for fighting defensively are:
+- Keep enemies at bay
+- Parry incoming attacks
+- Avoid being encircled
+- Regain footing after being knock down
 
 
