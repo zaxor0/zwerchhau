@@ -93,7 +93,9 @@ Whenever a player has to perform a check that their background would be relevant
 If the DM wants humans to be more generic, then they should just gain +2 skills to have advantage on as opposed to the more broad traits.
 
 ## Skills
-Skills are specific abilities that a given player would have, they are more focused than traits and represent your personal experience and training. Except for DM discretion, there are generally no limits to what a skill could be. Additionally, a DM has the right to reject a skill for being too broad. An example of a badly chosen skill would be a character who is good at "building;" structures are build out of a variety of material and techniques, a more appropriate choice would be carpentry or masonry.
+Skills are specific abilities that a given player would have, they are more focused than traits and represent your personal experience and training. Except for DM discretion, there are generally no limits to what a skill could be. 
+
+A DM has the right to reject a skill for being too broad. An example of a badly chosen skill would be a character who is good at "building;" structures are build out of a variety of material and techniques, a more appropriate choice would be carpentry or masonry.
 
 All characters have a number of skills based on their intelligence, (Int / 2, rounded up); additionally some classes provide more skills, as does leveling in a class.
 
@@ -213,7 +215,7 @@ Armor reduces the damage of successful attacks that deal damage to flesh, and a 
 #### Shields
 Whether a buckler, heater, or tower shield, all shields provide a +1 bonus to parry.
 
-## Melee Combat
+## Melee Combat Against Humanoids
 All attacks are opposed checks, but the action performed is chosen by a dice roll. One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt for a defensive stance.
 
 The combat loop is as follows:
@@ -328,5 +330,40 @@ In the case where a player or NPC is prone or surrounded by more than 1 opponent
 - Parry incoming attacks
 - Avoid being encircled
 - Regain footing after being knock down
+
+### Size Differences
+If you are 1/2 the size of your opponent, any constitution damage you deal is also halved. This *does not* apply to flesh damage to HP. Simply, anyone can kill you with a lethal weapon, but not everyone can exhaust you physically in combat.
+
+For example, a halfling equipped with a two-handed long sword should be able to land a lethal blow on a human; however, due to their relative strength, they are unlikely to "wear down" the physical endurance of someone twice their size.
+
+Additionally, players receive advantage during grappling if their posture is to disengage and they are 1/2 size of their opponent.
+
+Unfortunately, this does not scale uniformly. When fighting exceptionally large creatures, more than twice the size of a human, it is easier to assume just a very large pool of constituion points and a large number of hit points, instead of doing division. That is, if a gigantic scorpion of say 30 feet in length is fighting against a handful of humanoids, they do not do 1/3 or 1/4 damage to its constitution or HP; rather, the DM should just give it a generally large number of points for each, such as 25 HP and 25 Con. 
+
+#### Basic Sizes
+|Small   | Medium | Large | Gigantic |
+|--------|--------|-------|----------|
+|Halfling| Human  | Troll | Dragons  |
+|Gnome   | Elf    | Giant |          |
+|Kobold  | Dwarf  | Ogre  |          |
+
+## Combat against Monsters and Beasts
+Tactics used against against monsters and beasts are not the same as those used against a humanoid. 
+
+The concept of an opposed check starts to fall apart when your opponent can spew acid from its mouth or swipe at you with its tail. Attacks like tripping, wrestling, and the like may apply to another humanoid, but they make far less sense against beholder or a rhinocerous. 
+
+Therefore, to keep combat simple, when fighting a target that is not your standard humanoid, such as a  werebear, beholder, or a dragon, damage is done directly to HP and we ignore the Con aspect of combat. Essentially, you are trying to stay alive while trying to wound the beast, ideally landing a killing blow; you are not trying to overwhelm it.
+
+### How do I know I am fighting a monster?
+The basic rule of thumb is grappling, can you engage in a grappling struggle with a target and not suffer greatly? For example, would you grapple with 800lb 10 foot tall polar bear? Probably not. Would you engage in a grapple with a 7 foot 300 lb Orc? Maybe. 
+
+### Combat Loop, Modified for Monsters and Beasts
+The combat loop against a monster is as follows:
+- Prepare, set your one's and engagement posture
+  - Posture is different here, just defensive or offensive
+- roll combat attack dice
+- react to results
+- winner deals damage
+
 
 
