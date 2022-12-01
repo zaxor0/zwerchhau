@@ -16,7 +16,7 @@ DMs and players both have have a duty to serve the game, to make the overall exp
 
 ## Dice and Checks
 
-The bulk of this system will use D6s for checks and spells, damage will be done with other dice depending on weapons used.
+The bulk of this system will use D6s for checks and spells; damage will be done with other dice depending on weapons used.
 | Roll | Result        | Example opening a locked door                                        |
 |------|---------------|----------------------------------------------------------------------|
 | 1    | Major Failure | your lock pick breaks, as does the lock                              |
@@ -33,13 +33,25 @@ If your character is skilled in the specific task at hand, you will roll with ad
 
 ### Relevant Ability Scores
 If you have a relevant ability score of a 5 or 6, a roll of 1 is not necessarily a major failure.
- - 1's become minor failures, with a check for major failure. Roll 1 more die, an on a 1 or 2 it becomes a major failure.
+ - 1's become minor failures, with a check for major failure. 
+   - Roll a "failure confirmation," 1d6 where a 1 or 2 results in a major failure.
  - 2's becomes mixed results, but not entirely in your favor
 
 Examples of relevant abilities for tasks are:
 - Dexterity for a climb check
 - Strength for a lift check
 - Intelligence for a research check
+
+The relevance of an ability is determined by the DM, who should give this information to the player prior to a roll. For instance, if the player is strong and wants to lift 200 Lbs. then they have a relevant ability score; however, if this same player tries to lift 1000 Lbs. then they do not have a relevant ability bonus.
+
+### Defining Success
+Before any rolls for checks are made, a DM must give the players an idea what a "success" would look like. This could be cracking a safe with ease, or sneaking past a sleeping guard dog unnoticed.
+
+However, some tasks some tasks would simply be outside the ability of a player, and as such a "success" may just be the best case scenario given their abilities. 
+
+As an example, if a player has a high strength and wants to "kick down an iron door," but would not be physically capable due to the iron reinforcements, the DM should inform the player that "at best the player will damage the door, but they could not alone break it down."
+
+We do not necessarily need to give players negative modifiers to prevent them from performing a ridiculous task (solving a quantum equation in minutes), but *we do need* to give them an idea of what they are capable of in the *best possible case*.
 
 ## Abilities
 Like traditional D&D, players should roll their ability scores. It is recommended to “roll down the line” where each rolls is not arranged according to preference. 
@@ -331,21 +343,16 @@ In the case where a player or NPC is prone or surrounded by more than 1 opponent
 - Avoid being encircled
 - Regain footing after being knock down
 
-### Size Differences
-If you are 1/2 the size of your opponent, any constitution damage you deal is also halved. This *does not* apply to flesh damage to HP. Simply, anyone can kill you with a lethal weapon, but not everyone can exhaust you physically in combat.
+### Small Sized Combatants
+This mainly applies to half sized humanoids (halflings, gnomes, kobolds, etc.) fighting medium sized humanoids (humans, dwarves, elves, etc). 
 
-For example, a halfling equipped with a two-handed long sword should be able to land a lethal blow on a human; however, due to their relative strength, they are unlikely to "wear down" the physical endurance of someone twice their size.
+If you are of this "small" size fighting a medium sized opponent:
+- Any constitution damage you deal is halved. This *does not* apply to flesh damage to HP. 
+- You receive advantage during grappling if your posture is to disengage.
 
-Additionally, players receive advantage during grappling if their posture is to disengage and they are 1/2 size of their opponent.
+For example, a halfling equipped with a two-handed long sword should be able to land a lethal blow on a human; however, due to their relative strength, they are unlikely to "wear down" the physical endurance of someone twice their size. Additionally, being small often tends to increase nimbleness and agility, therefore the "small" sized combatant is better suited to escape a grapple.
 
-Unfortunately, this does not scale uniformly. When fighting exceptionally large creatures, more than twice the size of a human, it is easier to assume just a very large pool of constituion points and a large number of hit points, instead of doing division. That is, if a gigantic scorpion of say 30 feet in length is fighting against a handful of humanoids, they do not do 1/3 or 1/4 damage to its constitution or HP; rather, the DM should just give it a generally large number of points for each, such as 25 HP and 25 Con. 
-
-#### Basic Sizes
-|Small   | Medium | Large | Gigantic |
-|--------|--------|-------|----------|
-|Halfling| Human  | Troll | Dragons  |
-|Gnome   | Elf    | Giant |          |
-|Kobold  | Dwarf  | Ogre  |          |
+These advantages do not scale beyond small versus medium opponents.
 
 ## Combat against Monsters and Beasts
 Tactics used against against monsters and beasts are not the same as those used against a humanoid. 
