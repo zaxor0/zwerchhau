@@ -31,8 +31,8 @@ A 3 should skew to slightly less good results and 4 should skew to slightly bett
 ### Advantage
 If your character is skilled in the specific task at hand, you will roll with advantage. Advantage means roll 2d6 and pick the better of the two.
 
-### Relevant Ability Scores
-If you have a relevant ability score of a 5 or 6, a roll of 1 is not necessarily a major failure.
+### Relevant Ability Scores & Failure Checks
+If you have a relevant ability score of a 5 or 6, a roll of 1 is not necessarily a major failure. You will need to roll again to "confrim the failure" which occurs on a 1 or 2.
  - 1's become minor failures, with a check for major failure. 
    - Roll a "failure confirmation," 1d6 where a 1 or 2 results in a major failure.
  - 2's becomes mixed results, but not entirely in your favor
@@ -45,13 +45,15 @@ Examples of relevant abilities for tasks are:
 The relevance of an ability is determined by the DM, who should give this information to the player prior to a roll. For instance, if the player is strong and wants to lift 200 Lbs. then they have a relevant ability score; however, if this same player tries to lift 1000 Lbs. then they do not have a relevant ability bonus.
 
 ### Defining Success
-Before any rolls for checks are made, a DM must give the players an idea what a "success" would look like. This could be cracking a safe with ease, or sneaking past a sleeping guard dog unnoticed.
+Before any rolls for checks are made, a DM must give the players an idea what a "success" would generally look like. This could be cracking a safe with ease, or sneaking past a sleeping guard dog unnoticed.
 
 However, some tasks some tasks would simply be outside the ability of a player, and as such a "success" may just be the best case scenario given their abilities. 
 
 As an example, if a player has a high strength and wants to "kick down an iron door," but would not be physically capable due to the iron reinforcements, the DM should inform the player that "at best the player will damage the door, but they could not alone break it down."
 
 We do not necessarily need to give players negative modifiers to prevent them from performing a ridiculous task (solving a quantum equation in minutes), but *we do need* to give them an idea of what they are capable of in the *best possible case*.
+
+As a last note, while a DM should give the idea of possible successes, this should be around a 5 in terms of the die roll as a 6 might give unique or interesting bonuses that themselves should be a surpise.
 
 ## Abilities
 Like traditional D&D, players should roll their ability scores. It is recommended to “roll down the line” where each rolls is not arranged according to preference. 
@@ -63,7 +65,7 @@ For each of the 4 abilities, *roll 2d6* and keep the best number.
 - Intelligence
 
 ### Constitution 
-Constituion is total sum of Strength, Dexterity, Will, and your current level. Used in combat, it represents your total ability to perserve and survive. The majority of damage in combat is against your constitution, not your flesh and blood. This means that you risk being exhausted and overwhelmed when you take constitution damage.
+Constituion is total sum of Strength, Dexterity, Will, and your current level. Used in combat, it represents your total ability to persevere and survive. The majority of damage in combat is against your constitution, not your flesh and blood. This means that you risk being exhausted and overwhelmed when you take constitution damage.
 
 If your constitution reaches 0, you do not die. However, you collapse and are not reliably able to defend yourself against attacks.
 
@@ -73,9 +75,18 @@ This represents your ability to learn and both informal and formal education. Ha
 ### Charisma
 There are no points assigned to charisma. As a role playing game, dialogue is considered a core feature; as such, reducing social interactions to points or rolls limits experience of play in regards to this "core" feature. 
 
+Not all players prefer to role play as their character, but in dialogue based interactions players should come up with details on how or what they do while interacting with NPCs. Simple saying "I want to convince the king to hire us" provides less flavor for everyone else at the table than saying "My character, points out his noble lineage of the House of Swarsington, provides examples of loyalty to the throne (including a list of battles), in order to sway the king to hire us."
+
 This system assumes that a player's character should be however charismatic they want them to be. That does not mean they can charm their way into anything, but any attempt to do so better serves gameplay with thoughtful and engaging dialogue. 
 
 What is a successful charismatic action then? This ultimately should be up to the DM, who should have some concept of what a given NPC might find convincing or not. If a check is needed, simply roll "behind the scenes" based on a standard check. If a player has relevant skills, diplomacy, lying, or is knowledgeable on the topic at hand, consider giving them advantage.  
+
+#### Earned Charisma
+Optionally, a DM could keep track of:
+- well done charismatic moments
+- Moments where a player character would have learned a lesson about social interactions in the game world. 
+
+In this way, if a tally is kept, a DM could hand out a total of number of Charisma points earned in a session. These points could be converted into a free advantage roll when the players receive a certain number depending on the campaign setting. 3 points for an advantage roll gives players incentive to attempt interactions with NPCs
 
 ### Hit points
 All players have 6 hit points, this does not increase with leveling. Often the rules refer to damage to flesh, this is damage to your hit points--as opposed to damage to your constitution. 
@@ -90,7 +101,7 @@ The Dungeon Master has the last say in allowed heritage or backgrounds (races as
 | Halfling |            | Fairy       |
 
 ### Pick Two Traits
-Traits in this rule set are considered a broad characteristic, unlike skills which would apply to specific tasks.
+Traits in this rule set are considered a _broad characteristic_, unlike skills which would apply to specific tasks.
 For whatever background a player picks, they should decide 2 traits that describe them (and their people generally) that would effect gameplay.
 Examples:
 - Dwarf : strong, resistant to poison, stout
@@ -102,8 +113,6 @@ Player example: "My character is a tall burly human from the desert region, my p
 
 Whenever a player has to perform a check that their background would be relevant for, they are able to roll advantage, meaning roll two dice and pick the one they want.
 
-If the DM wants humans to be more generic, then they should just gain +2 skills to have advantage on as opposed to the more broad traits.
-
 ## Skills
 Skills are specific abilities that a given player would have, they are more focused than traits and represent your personal experience and training. Except for DM discretion, there are generally no limits to what a skill could be. 
 
@@ -113,9 +122,9 @@ All characters have a number of skills based on their intelligence, (Int / 2, ro
 
 Besides during combat, most things *should not* require a skill check. Climbing up an old stonewall, negotiating prices in a market, dressing a wound, are not the sort of things that you would need to have a skill check in. Rather, if a check for a common / general task is *needed* a DM should defer to an ability check.
 
-Skill checks need to performed when without specialized experience or knowledge failure would lead to terrible consequences. Such as pick pocketing the kings purse, or forging a nobles signature, organizing the constuction of fortified defenses.
+Skill checks are required when specialized experience or knowledge is required; specifically if failure of the task would lead to terrible consequences. Such as pick pocketing the kings purse, or forging a nobles signature, organizing the constuction of fortified defenses.
 
-Even then, with specialized skills being required, group efforts to resolve a problem with coherent dialog between players should generally trump a skill check. As long as the plan is detailed, concievable, and some what reasonable, players should be able to execute complex tasks without pedantic skill checks.
+Even then, with specialized skills being required, group efforts to resolve a problem with coherent dialog between players should generally trump a skill check. As long as the plan is detailed, concievable, and somewhat reasonable, players should be able to execute complex tasks without pedantic skill checks.
 
 ### Sample Combat Skills
 These skills are mentioned because they are specifically referenced in the combat rules and would be appropriate for any player interested in combat.
@@ -139,8 +148,8 @@ These skills are mentioned because they are specifically referenced in the comba
 There are 4 classes based on classic D&D archtypes. While players may pick anything as a subclass as the focal identity of their character, they should try to stay within one of the classes. Classes guide leveling and character advancement.
 - Warriors : Someone with advanced combat training
 - Rogues : Someone with keen skills or intuition: slyness, discreteness, cleverness, back stabbing
-- Magic-Users : Someone with spellcasting abilities, gained from study or supernatural influence
-- Priests : Someone with powers influence or inspired by a holy deity or supernatural presence (personified or not)
+- Magic-Users : Someone with spellcasting abilities, gained from study, natural adeptness to magic, or supernatural influence
+- Priests : Someone with spellcasting-like abilities that are inspired by a holy deity or supernatural presence (personified or not)
 
 Players should pick a subclass or identity that falls under one of these types. This is completely open ended, players are free to come up with any kind of identity. Here are some examples:
 - Warrior : Streetfighter, Kung Fu Master, Gladiator, Paladin, Ranger, Knight, Swordsman, Samurai, Crossbowmen
@@ -192,6 +201,30 @@ Mages know 4 spells at level 1 and can cast up to 3 spells a day. Additionally, 
 - skilled in debate
 - Strategic warfare
 - Mercantile economics
+
+### Priests
+Priests are distinguished from magic-users becuase they *believe* (with or without good justification) that their magical abilities are both:
+- attuned to a moral or natural order of the universe
+- only possible due to a supernatural influence
+
+The ability of a priest to case a healing spell, for example, is evidence to them that their moral / religious/ supernatural based beliefs are objectively correct. 
+
+Although, if a players wants their character to have doubts about a religion yet be able to practice priest-like qualities, they can hold this class. It is recommended they either try to "keep up appearances" or are actively deal with a spiritual dilemma in-game and in-character. Otherwise a player should make a magic-user and just say "they were once a priest." 
+
+There are two types of priests, "holy warriors" who fight for their gods / beliefs and "holy ritualists" who channel divine powers and perform rituals.
+
+#### Holy Warriors
+- Do not gain spell abilities at level 1, they gain them at level 3 after proving their faith
+- Never gain the ability to perform rituals
+- Can turn the undead
+- Have 1 weapon specialization
+- Skilled in tending the wounded
+
+#### Holy Ritualists
+- Start with 2 spells known, 2 casts per day
+- Can perform ritual versions of the spells over the course of 1 hour, without "casting" them
+- Can turn the undead
+- Skilled in tending the wounded
 
 ## Equipment
 
