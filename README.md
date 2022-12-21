@@ -206,15 +206,15 @@ Mages know 1 spell at level 1 and can cast up to 1 spell a day. Additionally, Ma
 | Level | Spells per day |
 |-------|----------------|
 |   1   |  1  -  -  -  -  -   |
-|   2   |  2 - - - - -   |
-|   3   |  2 1 - - - -   |
-|   4   |  2 2 - - - -   |
-|   5   |  2 2 1 - - -   |
-|   6   |  2 2 2 - - -   |
-|   7   |  3 2 2 1 - -   |
-|   8   |  3 3 2 2 - -   |
-|   9   |  3 3 2 2 1 -   |
-|   10  |  3 3 3 3 2 -   |
+|   2   |  2  -  -  -  -  -   |
+|   3   |  2 1  -  -  -  -   |
+|   4   |  2 2  -  -  -  -   |
+|   5   |  2 2 1  -  -  -   |
+|   6   |  2 2 2  -  -  -   |
+|   7   |  3 2 2 1  -  -   |
+|   8   |  3 3 2 2  -  -   |
+|   9   |  3 3 2 2 1  -   |
+|   10  |  3 3 3 3 2  -   |
 |   11  |  4 3 3 3 2 1   |
 |   12  |  4 4 3 3 3 2   |
 |   13  |  4 4 4 3 3 3   |
@@ -247,7 +247,7 @@ If a player wants their character to have doubts about a religion yet be able to
 #### Spell Progression
 | Level | Spells per day |
 |-------|----------------|
-|   1   | *1 - - - -    |
+|   1\*   | 1 - - - -    |
 |   2   |   1 - - - -    |
 |   3   |   2 - - - -    |
 |   4   |   2 1 - - -    |
