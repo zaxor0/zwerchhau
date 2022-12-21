@@ -194,7 +194,7 @@ For every even level as a rogue (2,4,6,etc.) they may gain one of:
 
 
 ### Magic-Users
-Mages know 4 spells at level 1 and can cast up to 3 spells a day. Additionally, Mages gain 1 skill based on their subclass. This could be knowldged based, experience based, training based, etc. Some example include:
+Mages know 1 spell at level 1 and can cast up to 1 spell a day. Additionally, Mages gain 1 skill based on their subclass. This could be knowldged based, experience based, training based, etc. Some example include:
 - Knowledge of local history
 - speak an ancient language fluently
 - skilled in diplomatic policies
@@ -202,14 +202,30 @@ Mages know 4 spells at level 1 and can cast up to 3 spells a day. Additionally, 
 - Strategic warfare
 - Mercantile economics
 
+#### Spell Progression
+| Level | Spells per day |
+|-------|----------------|
+|   1   |  1 - - - - -   |
+|   2   |  2 - - - - -   |
+|   3   |  2 1 - - - -   |
+|   4   |  2 2 - - - -   |
+|   5   |  2 2 1 - - -   |
+|   6   |  2 2 2 - - -   |
+|   7   |  3 2 2 1 - -   |
+|   8   |  3 3 2 2 - -   |
+|   9   |  3 3 2 2 1 -   |
+|   10  |  3 3 3 3 2 -   |
+|   11  |  4 3 3 3 2 1   |
+|   12  |  4 4 3 3 3 2   |
+|   13  |  4 4 4 3 3 3   |
+|   14  |  4 4 4 4 3 3   |
+
 ### Priests
 Priests are distinguished from magic-users becuase they *believe* (with or without good justification) that their magical abilities are both:
 - attuned to a moral or natural order of the universe
 - only possible due to a supernatural influence
 
 The ability of a priest to case a healing spell, for example, is evidence to them that their moral / religious/ supernatural based beliefs are objectively correct. 
-
-Although, if a players wants their character to have doubts about a religion yet be able to practice priest-like qualities, they can hold this class. It is recommended they either try to "keep up appearances" or are actively deal with a spiritual dilemma in-game and in-character. Otherwise a player should make a magic-user and just say "they were once a priest." 
 
 There are two types of priests, "holy warriors" who fight for their gods / beliefs and "holy ritualists" who channel divine powers and perform rituals.
 
@@ -221,10 +237,31 @@ There are two types of priests, "holy warriors" who fight for their gods / belie
 - Skilled in tending the wounded
 
 #### Holy Ritualists
-- Start with 2 spells known, 2 casts per day
-- Can perform ritual versions of the spells over the course of 1 hour, without "casting" them
+- Start with 1 spell known, 1 cast per day
+- Can perform 1 ritual versions of a spell over the course of 1 hour, without "casting" them.
 - Can turn the undead
 - Skilled in tending the wounded
+
+If a player wants their character to have doubts about a religion yet be able to practice priest-like qualities, they can hold this class. It is recommended they either try to "keep up appearances" or are actively deal with a spiritual dilemma in-game and in-character. Otherwise a player should make a magic-user and just say "they were once a priest." 
+
+#### Spell Progression
+| Level | Spells per day |
+|-------|----------------|
+|   1   |  *1 - - - -    |
+|   2   |   1 - - - -    |
+|   3   |   2 - - - -    |
+|   4   |   2 1 - - -    |
+|   5   |   2 2 - - -    |
+|   6   |   2 2 1 1 -    |
+|   7   |   2 2 2 1 1    |
+|   8   |   3 3 2 2 1    |
+|   9   |   3 3 3 2 2    |
+|   10  |   4 4 3 3 2    |
+|   11  |   4 4 4 3 3    |
+|   12  |   5 5 4 4 3    |
+|   13  |   5 5 5 4 4    |
+|   14  |   6 5 5 5 4    |
+*Only a holy ritualist gains a spell at first level, not a holy warrior.
 
 ## Equipment
 
