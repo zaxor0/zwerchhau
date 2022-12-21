@@ -169,10 +169,30 @@ This gives them the following abilities with their chosen weapon:
 For every even level as a warrior (2,4,6,etc.) they may gain either:
 - 1 additional weapon specialization, they gain the above 3 abilities for this weapon.
 - 1 combat weapon feat. This is like a skill but it pertains to just 1 weapon type. Players should be creative here and work with their DM. Examples include:
-  - Swift attack, gain +1 attacks with weapon against a specific target (recommended limit of +2)
+  - Swift attack, gain +1 attacks with weapon against a single target during combat (recommended limit of +2)
   - Heavy attack, deal +1 constitution damage
-  - Lethal attack, deal +1 body damage on 6's
-  - Cleaving attack, upon successful downing of opponent gain 1 attack on any adjacent enemy,
+  - Lethal attack, deal +1 flesh/HP damage on 6's
+  - Cleaving attack, upon delivering a killing blow to a standing target, additional "unused" damage may be applied to an adjacent target.
+
+Starting at level 2, warriors may gain henchmen who are willing to adventure with the party for a portion of the treasure. They are additional fighters with melee weapon and follow tactical orders given by the player character. Their basic stats are, 6HP, 10 Con, and they only deal 1d6 damage.
+
+#### Henchmen Progression
+| Level |  Max Count | Moral |
+|-------|------------|-------|
+|   1   |      0     |   -   |
+|   2   |      1     |   4   |
+|   3   |      2     |   4   |
+|   4   |      2     |   5   |
+|   5   |      3     |   5   |
+|   6   |      3     |   6   |
+|   7   |      3     |   6   |
+|   8   |      4     |   7   |
+|   9   |      4     |   7   |
+|   10  |      4     |   8   |
+|   11  |      5     |   8   |
+|   12  |      5     |   9   |
+|   13  |      5     |   9   |
+|   14  |      6     |   10  |
 
 ### Rogues
 Rogues starts with 3 skill specializations, they may pick any **specific** skill or task to have an advangtage doing. This is more narrow than the background traits. Generally this should follow a rogue-ish motif, but with a good character concept a player should not feel limited. Examples include:
@@ -205,16 +225,16 @@ Mages know 1 spell at level 1 and can cast up to 1 spell a day. Additionally, Ma
 #### Spell Progression
 | Level | Spells per day |
 |-------|----------------|
-|   1   |  1  -  -  -  -  -   |
-|   2   |  2  -  -  -  -  -   |
-|   3   |  2 1  -  -  -  -   |
-|   4   |  2 2  -  -  -  -   |
-|   5   |  2 2 1  -  -  -   |
-|   6   |  2 2 2  -  -  -   |
-|   7   |  3 2 2 1  -  -   |
-|   8   |  3 3 2 2  -  -   |
-|   9   |  3 3 2 2 1  -   |
-|   10  |  3 3 3 3 2  -   |
+|   1   |  1 - - - - -   |
+|   2   |  2 - - - - -   |
+|   3   |  2 1 - - - -   |
+|   4   |  2 2 - - - -   |
+|   5   |  2 2 1 - - -   |
+|   6   |  2 2 2 - - -   |
+|   7   |  3 2 2 1 - -   |
+|   8   |  3 3 2 2 - -   |
+|   9   |  3 3 2 2 1 -   |
+|   10  |  3 3 3 3 2 -   |
 |   11  |  4 3 3 3 2 1   |
 |   12  |  4 4 3 3 3 2   |
 |   13  |  4 4 4 3 3 3   |
@@ -230,7 +250,7 @@ The ability of a priest to case a healing spell, for example, is evidence to the
 There are two types of priests, "holy warriors" who fight for their gods / beliefs and "holy ritualists" who channel divine powers and perform rituals.
 
 #### Holy Warriors
-- Do not gain spell abilities at level 1, they gain them at level 3 after proving their faith
+- Do not gain spell abilities at level 1, they gain them at level 2 after proving their faith
 - Never gain the ability to perform rituals
 - Can turn the undead
 - Have 1 weapon specialization
@@ -238,16 +258,14 @@ There are two types of priests, "holy warriors" who fight for their gods / belie
 
 #### Holy Ritualists
 - Start with 1 spell known, 1 cast per day
-- Can perform 1 ritual versions of a spell over the course of 1 hour, without "casting" them.
+- Can perform ritual versions of a spell over the course of 1 hour, without "casting" them.
 - Can turn the undead
 - Skilled in tending the wounded
-
-If a player wants their character to have doubts about a religion yet be able to practice priest-like qualities, they can hold this class. It is recommended they either try to "keep up appearances" or are actively deal with a spiritual dilemma in-game and in-character. Otherwise a player should make a magic-user and just say "they were once a priest." 
 
 #### Spell Progression
 | Level | Spells per day |
 |-------|----------------|
-|   1\*   | 1 - - - -    |
+|   1\* |   1 - - - -    |
 |   2   |   1 - - - -    |
 |   3   |   2 - - - -    |
 |   4   |   2 1 - - -    |
@@ -262,7 +280,7 @@ If a player wants their character to have doubts about a religion yet be able to
 |   13  |   5 5 5 4 4    |
 |   14  |   6 5 5 5 4    |
 
-*Only a holy ritualist gains a spell at first level, not a holy warrior.
+\*Only a holy ritualist gains a spell at first level, not a holy warrior.
 
 ## Equipment
 
@@ -298,20 +316,34 @@ Armor reduces the damage of successful attacks that deal damage to flesh, and a 
 #### Shields
 Whether a buckler, heater, or tower shield, all shields provide a +1 bonus to parry.
 
+
+# Combat
+Combat in Zwerhhau is meant to be swift, deadly, and decisive. 
+
+It is a ritual well practiced by adventurers.
+
 ## Melee Combat Against Humanoids
-All attacks are opposed checks, but the action performed is chosen by a dice roll. One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt for a defensive stance.
+
+
+The result of an attack is an opposed check, either strength, dexterity, or both. The check is determined by the "kind" of attack performed by each side.
+
+One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt for a defensive stance.
 
 The combat loop is as follows:
 - Prepare, set your one's and engagement posture
-- roll opposing dice
-- react to results, decide to use dex or str & roll accordingly
-- winner deals damage, 
+- Combat Attack Roll - each side rolls 1d6
+  - Determine the opposed check based on results (dex, str, or both)
+- Opposed Roll - highest die wins, note winner's value
+  - Like any ability check, 
+- Damage Roll - Winner rolls their weapon's damage dice, splits damage between HP and Con based on the opposed roll value.
 
 ### Ones Are...
 Before a attack roll is performed players must declare a "Ones are," meaning players pick what the result of a 1 die roll should be. This is ideally based on the player's weapon as they may prefer to priorize certain actions, such as a thrust with a spear or a cut with an axe. They may pick any of the options except ripostes.
 
 ### Engagement
-In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. If their default posture is to disengage, they gain a +1 to win a grapple challenge but do not enter the grapple.
+In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. 
+
+If their default posture is to disengage, they gain a +1 to win a grapple challenge but do not enter the grapple.
 
 ### Combat Attack Roll
 representing the following actions
@@ -320,10 +352,10 @@ representing the following actions
 - \[ 3 \] Thrusts: piercing actions
     - Additional damage (+2) giving to those designed for it, e.g. spears & swords, only on successes
 - \[ 4 \] Parries: blocking the blow of a weapon with your weapon
-    - a major successful parry allows for a riposte*
+    - a major successful parry allows for a riposte\*
 - \[ 5 \] Dodges: evading an attack with quick movement
 - \[ 6 \] Grapples: clinging to your opponent to attempt a throw, with or without your weapon
-- *Ripostes: a follow up attack after a parry, half damage
+- \*Ripostes: a follow up attack after a parry, half damage
     - with weapon specialization, does normal damage
 
 ### Combat Attack Results
@@ -332,7 +364,7 @@ The priorty table to determine result check:
 |Priority | Opposing Rolls      | Check        |
 |---------|---------------------|--------------|
 |   1     | Grapple v. Grapple  | Str          |
-|   2     | Grapple v. any      | Dex then Str |
+|   2     | Grapple v. Any      | Dex then Str |
 |   3     | Dodge v. Any        | Dex          |
 |   4     | Cut v. Any          | Dex or Str   |
 |   5     | Thrust v. Thrusts   | Dex          |
@@ -360,7 +392,7 @@ To succeed in a grapple check, you must first win a dex check to wrestle your op
 #### Riposte
 If a player rolled a parry versus a cut or thrust, and they win the opposed check with a roll of 6, they may riposte!
 
-A riposte is follow up successful attack that allows for a standard damage roll, but if the player does not have specailization with the weapon, it is half damage.
+A riposte is follow up to a successful parry that allows for a standard damage roll, but if the player does not have specailization with the weapon, it is half damage.
 
 ### Damage
 Damage is split between flesh / body and constitution. Most attacks do not deal damage directly to the opponent's flesh but wears them down. A successful grapple does not follow this chart, see the next section.
@@ -375,14 +407,19 @@ Damage is split between flesh / body and constitution. Most attacks do not deal 
 
 When you see "Con - 1" it means of the total damage dealt, 1 point harms the flesh and the remainder harms constitution.
 
+Damage to flesh / HP is always dealt first, and if the subject lives apply the rest to consitution.
+
 ### Grappling and Wrestling
-If only one combatant attempts a grapple, the check is dexterity; this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
+If only one combatant attempts a grapple, there are two checks:
+-first dexterity, this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
+- Next, upon a successful opposed dexterity check, a standard opposed strength check to see who dominates.
 
 However, if both sides are performing a grapple, then we move straight to the opposed strength check to see who dominates.
 
 Once opponents are in a grapple and one side has won the strength check, there are few options for following actions. Each of which is a standard 1d6 skill check to succeed. These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
 - Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield. 
 - Throw the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
+- Sleeperhold: Attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself.
 
 ### Ranged Combat
 Ranged combat is a simplified process of the melee combat steps. You simple need to roll a standard 1d6 skill check to attack the target.
