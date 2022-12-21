@@ -205,7 +205,7 @@ Mages know 1 spell at level 1 and can cast up to 1 spell a day. Additionally, Ma
 #### Spell Progression
 | Level | Spells per day |
 |-------|----------------|
-|   1   |  1 - - - - -   |
+|   1   |  1  -  -  -  -  -   |
 |   2   |  2 - - - - -   |
 |   3   |  2 1 - - - -   |
 |   4   |  2 2 - - - -   |
@@ -247,7 +247,7 @@ If a player wants their character to have doubts about a religion yet be able to
 #### Spell Progression
 | Level | Spells per day |
 |-------|----------------|
-|   1   |  *1 - - - -    |
+|   1   | *1 - - - -    |
 |   2   |   1 - - - -    |
 |   3   |   2 - - - -    |
 |   4   |   2 1 - - -    |
@@ -261,6 +261,7 @@ If a player wants their character to have doubts about a religion yet be able to
 |   12  |   5 5 4 4 3    |
 |   13  |   5 5 5 4 4    |
 |   14  |   6 5 5 5 4    |
+
 *Only a holy ritualist gains a spell at first level, not a holy warrior.
 
 ## Equipment
