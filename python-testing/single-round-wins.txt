@@ -1,0 +1,84 @@
+PLAYER {'STR': 4, 'DEX': 4, 'WILL': 5, 'INT': 3, 'CON': 13, 'HP': 6}
+ENEMY  {'STR': 5, 'DEX': 6, 'WILL': 6, 'INT': 4, 'CON': 17, 'HP': 6} 
+  player wins 16952
+  enemy wins 71874
+  no one wins 11174
+
+PLAYER {'STR': 4, 'DEX': 6, 'WILL': 5, 'INT': 5, 'CON': 15, 'HP': 6}
+ENEMY  {'STR': 6, 'DEX': 6, 'WILL': 3, 'INT': 5, 'CON': 15, 'HP': 6} 
+  player wins 43723
+  enemy wins 45089
+  no one wins 11188
+
+PLAYER {'STR': 4, 'DEX': 3, 'WILL': 6, 'INT': 6, 'CON': 13, 'HP': 6}
+ENEMY  {'STR': 6, 'DEX': 6, 'WILL': 3, 'INT': 5, 'CON': 15, 'HP': 6} 
+  player wins 11088
+  enemy wins 77629
+  no one wins 11283
+
+PLAYER {'STR': 5, 'DEX': 5, 'WILL': 2, 'INT': 6, 'CON': 12, 'HP': 6}
+ENEMY  {'STR': 4, 'DEX': 6, 'WILL': 4, 'INT': 5, 'CON': 14, 'HP': 6} 
+  player wins 29667
+  enemy wins 59245
+  no one wins 11088
+
+PLAYER {'STR': 6, 'DEX': 6, 'WILL': 6, 'INT': 5, 'CON': 18, 'HP': 6}
+ENEMY  {'STR': 3, 'DEX': 5, 'WILL': 5, 'INT': 4, 'CON': 13, 'HP': 6} 
+  player wins 60911
+  enemy wins 27964
+  no one wins 11125
+
+PLAYER {'STR': 6, 'DEX': 6, 'WILL': 3, 'INT': 4, 'CON': 15, 'HP': 6}
+ENEMY  {'STR': 5, 'DEX': 6, 'WILL': 6, 'INT': 6, 'CON': 17, 'HP': 6} 
+  player wins 45061
+  enemy wins 43823
+  no one wins 11116
+
+PLAYER {'STR': 2, 'DEX': 4, 'WILL': 6, 'INT': 3, 'CON': 12, 'HP': 6}
+ENEMY  {'STR': 4, 'DEX': 5, 'WILL': 6, 'INT': 6, 'CON': 15, 'HP': 6} 
+  player wins 28341
+  enemy wins 60634
+  no one wins 11025
+
+PLAYER {'STR': 2, 'DEX': 6, 'WILL': 6, 'INT': 2, 'CON': 14, 'HP': 6}
+ENEMY  {'STR': 5, 'DEX': 6, 'WILL': 6, 'INT': 6, 'CON': 17, 'HP': 6} 
+  player wins 43273
+  enemy wins 45640
+  no one wins 11087
+
+PLAYER {'STR': 6, 'DEX': 5, 'WILL': 5, 'INT': 6, 'CON': 16, 'HP': 6}
+ENEMY  {'STR': 6, 'DEX': 5, 'WILL': 4, 'INT': 4, 'CON': 15, 'HP': 6} 
+  player wins 44455
+  enemy wins 44485
+  no one wins 11060
+
+PLAYER {'STR': 6, 'DEX': 6, 'WILL': 6, 'INT': 4, 'CON': 18, 'HP': 6}
+ENEMY  {'STR': 6, 'DEX': 6, 'WILL': 5, 'INT': 2, 'CON': 17, 'HP': 6} 
+  player wins 44274
+  enemy wins 44569
+  no one wins 11157
+
+PLAYER {'STR': 5, 'DEX': 4, 'WILL': 5, 'INT': 3, 'CON': 14, 'HP': 6}
+ENEMY  {'STR': 2, 'DEX': 4, 'WILL': 6, 'INT': 3, 'CON': 12, 'HP': 6} 
+  player wins 50441
+  enemy wins 38305
+  no one wins 11254
+
+PLAYER {'STR': 6, 'DEX': 6, 'WILL': 4, 'INT': 6, 'CON': 16, 'HP': 6}
+ENEMY  {'STR': 6, 'DEX': 5, 'WILL': 5, 'INT': 6, 'CON': 16, 'HP': 6} 
+  player wins 54892
+  enemy wins 34189
+  no one wins 10919
+
+PLAYER {'STR': 3, 'DEX': 1, 'WILL': 5, 'INT': 6, 'CON': 9, 'HP': 6}
+ENEMY  {'STR': 4, 'DEX': 4, 'WILL': 4, 'INT': 5, 'CON': 12, 'HP': 6} 
+  player wins 15238
+  enemy wins 73728
+  no one wins 11034
+
+PLAYER {'STR': 6, 'DEX': 3, 'WILL': 6, 'INT': 3, 'CON': 15, 'HP': 6}
+ENEMY  {'STR': 3, 'DEX': 3, 'WILL': 2, 'INT': 2, 'CON': 8, 'HP': 6} 
+  player wins 56936
+  enemy wins 31888
+  no one wins 11176
+

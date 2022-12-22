@@ -1,9 +1,10 @@
 import random
 
 def statGenerator():
-  results = []
+  stats = [ "STR", "DEX", "WILL", "INT"]
+  results = {}
   # generate str dex will int (this is the assumed order)
-  for die in range(0,4):
+  for stat in stats:
     rolls = []
     for i in range(0,2):
       roll = random.randint(1, 6)
@@ -12,94 +13,127 @@ def statGenerator():
     for die in rolls:
       if die > highestVal:
         highestVal = die
-    results.append(highestVal)
+    results[stat]= highestVal
   # assuming level 1, endurance = str + dex + will + 1
-  endurance = 1
-  for stat in range(0,3):
-     endurance += results[stat]
-  results.append(endurance)
-  results.append(6)
+  constitution = results["STR"] + results["DEX"] + results["WILL"]
+  results["CON"] = constitution
+  results["HP"] = 6
   return results
 
 def combatAction(weapon):
   if weapon == "sword":
-    ones = "cut"
+    ones = "slash"
   if weapon == "spear":
     ones = "thrust"
   roll = random.randint(1, 6)
-  actions = [ones, "cut", "thrust", "parry", "dodge", "grapple"]
+  #print("ones are",ones,"rolled", roll)
+  actions = [ones, "parry", "thrust", "slash", "dodge", "grapple"]
   return actions[roll-1]
 
 def combatCheckResult(attack1, attack2):
-  check = "nil"
-  while check == "nil":
+  check = { "player" : "nil", "enemy" : "nil", "player2" : "nil", "enemy2" : "nil"}
+  while True:
+    # if at least 1 grapple
     if attack1 == "grapple" or attack2 == "grapple":
-      check = "dex then str"
+      # if both grapple, then STR
       if attack1 == "grapple" and attack2 == "grapple":
-        check = "str"
+        check["player"] = "STR"
+        check["enemy"] = "STR"
+      # if only 1 grapple, then DEX and STR
+      else:
+        check["player"] = "DEX"
+        check["enemy"] = "DEX"
+        check["player2"] = "STR"
+        check["enemy2"] = "STR"
       break
+    # if at least 1 dodge
     if attack1 == "dodge" or attack2 == "dodge":
-      check = "dex"
+      # if both dodge, nothing
       if attack1 == "dodge" and attack2 == "dodge":
-        check = "nil"
+        none
+      # if both parry, nothing
       if attack1 == "parry" or attack2 == "parry":
-        check = "nil"
+        none
+      # if only 1 dodge, then DEX
+      else:
+        check["player"] = "DEX"
+        check["enemy"] = "DEX"
       break
-    if attack1 == "cut" or attack2 == "cut":
-      check = "dex or str"
+    # if at least one slashing
+    if attack1 == "slash" or attack2 == "slash":
+      # better of DEX or STR for both
+      if player["STR"] > player["DEX"]:
+        statRolls["player"] = "STR"
+      else:
+        statRolls["player"] = "DEX"
+      if enemy["STR"] > enemy["DEX"]:
+        statRolls["enemy"] = "STR"
+      else:
+        statRolls["enemy"] = "DEX"
       break
+    # if both thrusting
     if attack1 == "thrust" and attack2 == "thrust":
-      check = "dex"
+      check["player"] = "DEX"
+      check["enemy"] = "DEX"
       break
+    # if a combination of thrusting and parrying, then DEX
     if (attack1 == "parry" and attack2 == "thrust") or (attack1 == "thrust" and attack2 == "parry"):
-      check = "dex"
+      check["player"] = "DEX"
+      check["enemy"] = "DEX"
       break
     else:
+      none
       break
-  print("...", attack1, "v.", attack2, " > ", check)
+  print("  PLAYER",attack1,"| ENEMY",attack2, " > ", check, "check!")
   return check
 
-def combatRoll(player, enemy, combatCheck):
-  stats = []
-  if combatCheck == "str":
-    stats.append(0)
-  if combatCheck == "dex":
-    stats.append(1)
-  if combatCheck == "dex then str":
-    stats.append(1) 
-    stats.append(0) 
-  if combatCheck == "dex or str":
-    if player[0] > player[1]:
-      stats.append(0)
-    if player[1] > player[0]:
-      stats.append(1)
-  for stat in stats:
+def combatRoll(player, enemy, playerAttack, enemyAttack, statRolls):
+  # single grapple check
+  if playerAttack == "grapple" and enemyAttack != "grapple":
+    grappler = "player"
+  if playerAttack != "grapple" and enemyAttack == "grapple":
+    grappler = "enemy"
+  else:
+    grappler = "none"
+  # perform rolls
+  reroll = True
+  while reroll == True:
     playerRoll = random.randint(1, 6)
-    playerTotal = playerRoll + player[stat]
-   #print("player rolls a", playerRoll, "with a +", player[stat])
+    playerStat = player[statRolls["player"]]
+    playerTotal = playerRoll + playerStat
     enemyRoll = random.randint(1, 6)
-    enemyTotal = enemyRoll + enemy[stat]
-  # print("enemy rolls a", enemyRoll, "with a +", enemy[stat])
+    enemyStat = enemy[statRolls["enemy"]]
+    enemyTotal = enemyRoll + enemyStat
+    print("  player: rolls a", playerRoll, "+", playerStat,statRolls["player"],"=",playerTotal)
+    print("  enemy:  rolls a", enemyRoll, "+", enemyStat,statRolls["enemy"],"=",enemyTotal)
     if enemyTotal > playerTotal:
       winner = "enemy"
       cRoll = enemyRoll
-    else:
+      reroll = False
+    elif playerTotal > enemyTotal:
       winner = "player"
       cRoll = playerRoll
-    print(winner, "wins!")
+      reroll = False
+    else:
+      #print("  ...REROLLING")
+      reroll = True
+    # single sided grapple attempt
+    #if attackType == "single grapple":
+    #  print("...")
   return winner, cRoll
+
 
 def damageRoll(victim, cRoll, damageDie):
   damage = random.randint(1, damageDie)
   if cRoll < 5:
-     print("endurance damage", damage)
+     print("Con damage", damage)
      victim[4] -= damage
   if cRoll == 5:
-     print("-1 to flesh and endurance damage", damage -1)
+     print("-1 to HP and Con damage", damage -1)
      victim[4] -= (damage - 1)
      victim[5] -= 1
   if cRoll == 6:
-     print("-2 to flesh and endurance damage", damage -2)
+     print("-2 to HP and Con damage", damage -2)
      victim[4] -= (damage - 2)
      victim[5] -= 2
   return victim
@@ -107,22 +141,35 @@ def damageRoll(victim, cRoll, damageDie):
 # main
 player = statGenerator()
 enemy = statGenerator()
-print("(STR, DEX, WILL, INT, Endurance, HP)")
-print(player, "wielding a sword")
-print("...versus...")
-print(enemy,"wielding a spear")
+print("PLAYER",player)
+print("ENEMY ",enemy,"\n")
+playerWins = 0
+enemyWins = 0
+noWins = 0
 combatRound = 0
-while player[4] > 0 and player[5] > 0 and enemy[4] > 0 and enemy[5] > 0:
-  print("new round")
+#for i in range(0,100):
+while player["CON"] > 0 and player["HP"] > 0 and enemy["CON"] > 0 and enemy["HP"] > 0:
   combatRound += 1
+  print("COMBAT ROUND",str(combatRound),"  |  PLAYER:",player["HP"],"HP /",player["CON"],"CON |  ENEMY:",enemy["HP"],"HP /",enemy["CON"],"CON")
   playerAttack = combatAction("sword")
   enemyAttack = combatAction("spear")
-  combatCheck = combatCheckResult(playerAttack, enemyAttack)
-  if combatCheck != "nil":
-    winner, cRoll = combatRoll(player, enemy, combatCheck)
+  statRolls = combatCheckResult(playerAttack, enemyAttack)
+  if statRolls["player"] != "nil":
+    winner, cRoll = combatRoll(player, enemy, playerAttack, enemyAttack, statRolls)
+    #if winner == "player":
+    #  playerWins +=1
+    #if winner == "enemy":
+    #  enemyWins +=1
+  #else:
+  #  noWins += 1
+    break
     if winner == "player":
       enemy = damageRoll(enemy, cRoll, 6)
     else:
       player = damageRoll(player, cRoll, 6)
   print("player HP",player[5],"En",player[4],"  |  ","enemy HP",enemy[5],"En",enemy[4])
   print("...end combat round", combatRound)
+#print("player wins",playerWins)
+#print("enemy wins",enemyWins)
+#print("no one wins",noWins)
+

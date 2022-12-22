@@ -286,13 +286,13 @@ There are two types of priests, "holy warriors" who fight for their gods / belie
 
 ### Weapons
 
-| Size | Damage | Examples |
-| --- | --- | --- |
-| Small | 1d4 | club, dagger, dart, |
-| Medium | 1d6 | short sword, rapier, quarter staff, handaxe, mace, 1h spear |
-| Long, heavy | 1d8 | 1h longsword, 1h battleaxe, greatclub, flail |
-| Two Handed | 2d6 | 2h longsword, 2h battleaxe, 2h spear |
-| Great | 1d12 | greatsword, great axe, heavy polearms |
+| Size        | Damage | Examples                                                    |
+|-------------|--------|-------------------------------------------------------------|
+| Small       | 1d4    | club, dagger, dart,                                         |
+| Medium      | 1d6    | short sword, rapier, quarter staff, handaxe, mace, 1h spear |
+| Long, Heavy | 1d8    | 1h longsword, 1h battleaxe, greatclub, flail                |
+| Two Handed  | 2d6    | 2h longsword, 2h battleaxe, 2h spear                        |
+| Great       | 1d12   | greatsword, great axe, heavy polearms                       |
 
 #### Great Weapons 
 These are heavy, oversized, two handed weapons. Therefore, without proper training and strength, they are slower to use.
@@ -301,7 +301,7 @@ To use one without penalty, you must:
 - have a 6 in strength
 
 If you do not meet both of these requirements, then suffer a -1 on Dex related combat result checks.
-Lastly, you may *not use dex* for cut related combat checks.
+Lastly, you may *not use dex* for slash related combat checks.
 
 ### Armor
 
@@ -323,7 +323,7 @@ Combat in Zwerhhau is meant to be swift, deadly, and decisive.
 It is a ritual well practiced by adventurers.
 
 ## Melee Combat Against Humanoids
-
+For one on one combat, one six sided die is rolled for each side. This is the Combat Attack Roll.
 
 The result of an attack is an opposed check, either strength, dexterity, or both. The check is determined by the "kind" of attack performed by each side.
 
@@ -333,12 +333,11 @@ The combat loop is as follows:
 - Prepare, set your one's and engagement posture
 - Combat Attack Roll - each side rolls 1d6
   - Determine the opposed check based on results (dex, str, or both)
-- Opposed Roll - highest die wins, note winner's value
-  - Like any ability check, 
+- Opposed Roll - Add the relevant ability (dex, str) - Highest wins, note winner's value, reroll on equal values. 
 - Damage Roll - Winner rolls their weapon's damage dice, splits damage between HP and Con based on the opposed roll value.
 
 ### Ones Are...
-Before a attack roll is performed players must declare a "Ones are," meaning players pick what the result of a 1 die roll should be. This is ideally based on the player's weapon as they may prefer to priorize certain actions, such as a thrust with a spear or a cut with an axe. They may pick any of the options except ripostes.
+Before a attack roll is performed players must declare a "Ones are," meaning players pick what the result of a 1 die roll should be. This is ideally based on the player's weapon as they may prefer to priorize certain actions, such as a thrust with a spear or a slash with an axe. They may pick any of the options except ripostes.
 
 ### Engagement
 In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. 
@@ -346,15 +345,16 @@ In the thick of combat, the blows may turn to a grapple. Prior to attack players
 If their default posture is to disengage, they gain a +1 to win a grapple challenge but do not enter the grapple.
 
 ### Combat Attack Roll
-representing the following actions
-- \[ 2 \] Cuts: swinging & slicing actions
-    - Additional damage (+2) for sharp edged **great** weapons, only on successes
+One d6 die roll representing the following actions
+- \[ 2 \] Parries: blocking the blow of a weapon with your weapon
+    - a major successful parry allows for a riposte\*
 - \[ 3 \] Thrusts: piercing actions
     - Additional damage (+2) giving to those designed for it, e.g. spears & swords, only on successes
-- \[ 4 \] Parries: blocking the blow of a weapon with your weapon
-    - a major successful parry allows for a riposte\*
+- \[ 4 \] Slashs: swinging & slicing actions
+    - Additional damage (+2) for sharp edged **great** weapons, only on successes
 - \[ 5 \] Dodges: evading an attack with quick movement
 - \[ 6 \] Grapples: clinging to your opponent to attempt a throw, with or without your weapon
+    - Single sided grapple attempts take half damage on failed DEX checks
 - \*Ripostes: a follow up attack after a parry, half damage
     - with weapon specialization, does normal damage
 
@@ -366,22 +366,22 @@ The priorty table to determine result check:
 |   1     | Grapple v. Grapple  | Str          |
 |   2     | Grapple v. Any      | Dex then Str |
 |   3     | Dodge v. Any        | Dex          |
-|   4     | Cut v. Any          | Dex or Str   |
+|   4     | Slash v. Any        | Dex or Str   |
 |   5     | Thrust v. Thrusts   | Dex          |
-|   6     | Parry v. Thrusts    | Dex          |
+|   6     | Parry v. Thrusts    | Str          |
 |   7     | Others              | No Result    | 
 
 A table view of the same information:
 |       |Cut  |Thrust|Parry|Dodge|Grapple|
 |-------|-----|------|-----|-----|-------|
-|Cut    | DvS | DvS  | DvS | Dex | D&S   |
-|Thrust | DvS | Dex  | Dex | Dex | D&S   |
-|Parry  | DvS | Dex  | nil | nil | D&S   |
+|Slash  | DvS | DvS  | DvS | Dex | D&S   |
+|Thrust | DvS | Dex  | Str | Dex | D&S   |
+|Parry  | DvS | Str  | nil | nil | D&S   |
 |Dodge  | Dex | Dex  | nil | nil | D&S   |
 |Grapple| D&S | D&S  | D&S | D&S | Str   |
 
 ### Opposed Checks & Damage
-Once you've determined which check will occur, whether strength or dex (or none at all), each side rolls 1d6 + the attribute.
+Once you've determined which check will occur, whether strength or dex (or none at all), each side rolls 1d6 + their attribute.
 
 The higher value wins the check and deals damage. 
 
@@ -390,7 +390,7 @@ The rolled value determines if the damage effects the oppents flesh or constitut
 To succeed in a grapple check, you must first win a dex check to wrestle your opponent, and then a strength check to enter the grapple phase. If both sides attempt a grapple, you only need the strength check.
 
 #### Riposte
-If a player rolled a parry versus a cut or thrust, and they win the opposed check with a roll of 6, they may riposte!
+If a player rolled a parry versus a slash or thrust, and they win the opposed check with a roll of 6, they may riposte!
 
 A riposte is follow up to a successful parry that allows for a standard damage roll, but if the player does not have specailization with the weapon, it is half damage.
 
@@ -410,10 +410,13 @@ When you see "Con - 1" it means of the total damage dealt, 1 point harms the fle
 Damage to flesh / HP is always dealt first, and if the subject lives apply the rest to consitution.
 
 ### Grappling and Wrestling
+#### One Sided Grapple Attempts
 If only one combatant attempts a grapple, there are two checks:
--first dexterity, this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
+- First dexterity, this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
+- Upon failure of this dexterity check, suffer half damage from the opposing side. 
 - Next, upon a successful opposed dexterity check, a standard opposed strength check to see who dominates.
 
+#### Grapple Strength Check
 However, if both sides are performing a grapple, then we move straight to the opposed strength check to see who dominates.
 
 Once opponents are in a grapple and one side has won the strength check, there are few options for following actions. Each of which is a standard 1d6 skill check to succeed. These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
