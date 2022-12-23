@@ -50,10 +50,10 @@ def combatCheckResult(attack1, attack2):
     if attack1 == "dodge" or attack2 == "dodge":
       # if both dodge, nothing
       if attack1 == "dodge" and attack2 == "dodge":
-        none
+        None
       # if both parry, nothing
       if attack1 == "parry" or attack2 == "parry":
-        none
+        None
       # if only 1 dodge, then DEX
       else:
         check["player"] = "DEX"
@@ -63,13 +63,13 @@ def combatCheckResult(attack1, attack2):
     if attack1 == "slash" or attack2 == "slash":
       # better of DEX or STR for both
       if player["STR"] > player["DEX"]:
-        statRolls["player"] = "STR"
+        check["player"] = "STR"
       else:
-        statRolls["player"] = "DEX"
+        check["player"] = "DEX"
       if enemy["STR"] > enemy["DEX"]:
-        statRolls["enemy"] = "STR"
+        check["enemy"] = "STR"
       else:
-        statRolls["enemy"] = "DEX"
+        check["enemy"] = "DEX"
       break
     # if both thrusting
     if attack1 == "thrust" and attack2 == "thrust":
@@ -82,7 +82,7 @@ def combatCheckResult(attack1, attack2):
       check["enemy"] = "DEX"
       break
     else:
-      none
+      None
       break
   print("  PLAYER",attack1,"| ENEMY",attack2, " > ", check, "check!")
   return check
@@ -91,7 +91,7 @@ def combatRoll(player, enemy, playerAttack, enemyAttack, statRolls):
   # single grapple check
   if playerAttack == "grapple" and enemyAttack != "grapple":
     grappler = "player"
-  if playerAttack != "grapple" and enemyAttack == "grapple":
+  elif playerAttack != "grapple" and enemyAttack == "grapple":
     grappler = "enemy"
   else:
     grappler = "none"
@@ -115,11 +115,34 @@ def combatRoll(player, enemy, playerAttack, enemyAttack, statRolls):
       cRoll = playerRoll
       reroll = False
     else:
-      #print("  ...REROLLING")
+      print("  ...REROLLING")
       reroll = True
-    # single sided grapple attempt
-    #if attackType == "single grapple":
-    #  print("...")
+  # grappling!
+  if grappler != "none":
+    if grappler != winner:
+      if enemyAttack == "slash" or enemyAttack == "thrust":
+        print("enemy does damage")
+      elif playerAttack == "slash" or playerAttack == "thrust":
+        print("player does damage")
+    if grappler == winner:
+      # do a str check
+      playerRoll = random.randint(1, 6)
+      playerStat = player[statRolls["player2"]]
+      playerTotal = playerRoll + playerStat
+      enemyRoll = random.randint(1, 6)
+      enemyStat = enemy[statRolls["enemy2"]]
+      enemyTotal = enemyRoll + enemyStat
+      print("  GRAPPLED! Enter Strength Check!")
+      print("    player: rolls a", playerRoll, "+", playerStat,statRolls["player2"],"=",playerTotal)
+      print("    enemy:  rolls a", enemyRoll, "+", enemyStat,statRolls["enemy2"],"=",enemyTotal)
+      if enemyTotal > playerTotal:
+        winner = "enemy"
+        cRoll = enemyRoll
+        reroll = False
+      elif playerTotal > enemyTotal:
+        winner = "player"
+        cRoll = playerRoll
+  print(winner,"wins!")
   return winner, cRoll
 
 
@@ -167,6 +190,9 @@ while player["CON"] > 0 and player["HP"] > 0 and enemy["CON"] > 0 and enemy["HP"
       enemy = damageRoll(enemy, cRoll, 6)
     else:
       player = damageRoll(player, cRoll, 6)
+  else:
+    print("nils")
+  break
   print("player HP",player[5],"En",player[4],"  |  ","enemy HP",enemy[5],"En",enemy[4])
   print("...end combat round", combatRound)
 #print("player wins",playerWins)
