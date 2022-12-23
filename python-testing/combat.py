@@ -18,6 +18,7 @@ def statGenerator():
   constitution = results["STR"] + results["DEX"] + results["WILL"]
   results["CON"] = constitution
   results["HP"] = 6
+  results["Thrown"] = False
   return results
 
 def combatAction(weapon):
@@ -104,8 +105,8 @@ def combatRoll(player, enemy, playerAttack, enemyAttack, statRolls):
     enemyRoll = random.randint(1, 6)
     enemyStat = enemy[statRolls["enemy"]]
     enemyTotal = enemyRoll + enemyStat
-    print("  player: rolls a", playerRoll, "+", playerStat,statRolls["player"],"=",playerTotal)
-    print("  enemy:  rolls a", enemyRoll, "+", enemyStat,statRolls["enemy"],"=",enemyTotal)
+    #print("  player: rolls a", playerRoll, "+", playerStat,statRolls["player"],"=",playerTotal)
+    #print("  enemy:  rolls a", enemyRoll, "+", enemyStat,statRolls["enemy"],"=",enemyTotal)
     if enemyTotal > playerTotal:
       winner = "enemy"
       cRoll = enemyRoll
@@ -115,50 +116,79 @@ def combatRoll(player, enemy, playerAttack, enemyAttack, statRolls):
       cRoll = playerRoll
       reroll = False
     else:
-      print("  ...REROLLING")
       reroll = True
   # grappling!
+  thrown = "none"
   if grappler != "none":
     if grappler != winner:
       if enemyAttack == "slash" or enemyAttack == "thrust":
-        print("enemy does damage")
-      elif playerAttack == "slash" or playerAttack == "thrust":
-        print("player does damage")
-    if grappler == winner:
-      # do a str check
-      playerRoll = random.randint(1, 6)
-      playerStat = player[statRolls["player2"]]
-      playerTotal = playerRoll + playerStat
-      enemyRoll = random.randint(1, 6)
-      enemyStat = enemy[statRolls["enemy2"]]
-      enemyTotal = enemyRoll + enemyStat
-      print("  GRAPPLED! Enter Strength Check!")
-      print("    player: rolls a", playerRoll, "+", playerStat,statRolls["player2"],"=",playerTotal)
-      print("    enemy:  rolls a", enemyRoll, "+", enemyStat,statRolls["enemy2"],"=",enemyTotal)
-      if enemyTotal > playerTotal:
-        winner = "enemy"
+        winner = "ememy"
         cRoll = enemyRoll
-        reroll = False
-      elif playerTotal > enemyTotal:
+      elif playerAttack == "slash" or playerAttack == "thrust":
         winner = "player"
         cRoll = playerRoll
-  print(winner,"wins!")
-  return winner, cRoll
+      else:
+        winner = "none"
+    #print("  GRAPPLED! Enter Strength Check!")
+    if grappler == winner:
+      # do a str check
+      reroll = True
+      while reroll == True:
+        playerRoll = random.randint(1, 6)
+        playerStat = player[statRolls["player2"]]
+        playerTotal = playerRoll + playerStat
+        enemyRoll = random.randint(1, 6)
+        enemyStat = enemy[statRolls["enemy2"]]
+        enemyTotal = enemyRoll + enemyStat
+        #print("    player: rolls a", playerRoll, "+", playerStat,statRolls["player2"],"=",playerTotal)
+        #print("    enemy:  rolls a", enemyRoll, "+", enemyStat,statRolls["enemy2"],"=",enemyTotal)
+        if enemyTotal > playerTotal:
+          winner = "enemy"
+          thrown = "player"
+          cRoll = enemyRoll
+          reroll = False
+        elif playerTotal > enemyTotal:
+          winner = "player"
+          thrown = "enemy"
+          cRoll = playerRoll
+          reroll = False
+        else:
+          print("  ...REROLLING")
+          reroll = True
+      print("  !!",thrown,"HAS BEEN THROWN!")
+  print(" ",winner,"wins!")
+  return winner, cRoll, thrown
 
 
 def damageRoll(victim, cRoll, damageDie):
   damage = random.randint(1, damageDie)
-  if cRoll < 5:
-     print("Con damage", damage)
-     victim[4] -= damage
-  if cRoll == 5:
-     print("-1 to HP and Con damage", damage -1)
-     victim[4] -= (damage - 1)
-     victim[5] -= 1
-  if cRoll == 6:
-     print("-2 to HP and Con damage", damage -2)
-     victim[4] -= (damage - 2)
-     victim[5] -= 2
+  if victim["Thrown"] == False:
+    if cRoll < 5:
+       victim["CON"] -= damage
+    if cRoll == 5:
+       victim["CON"] -= (damage - 1)
+       victim["HP"] -= 1
+    if cRoll == 6:
+       victim["CON"] -= (damage - 2)
+       victim["HP"] -= 2
+  if victim["Thrown"] == True:
+    if cRoll == 1:
+       victim["CON"] -= damage
+    if cRoll == 2:
+       victim["CON"] -= (damage - 1)
+       victim["HP"] -= 1
+    if cRoll == 3:
+       victim["CON"] -= (damage - 1)
+       victim["HP"] -= 1
+    if cRoll == 4:
+       victim["CON"] -= (damage - 2)
+       victim["HP"] -= 2
+    if cRoll == 5:
+       victim["CON"] -= (damage - 3)
+       victim["HP"] -= 3
+    if cRoll == 6:
+       victim["CON"] -= (damage - 4)
+       victim["HP"] -= 4
   return victim
   
 # main
@@ -173,29 +203,22 @@ combatRound = 0
 #for i in range(0,100):
 while player["CON"] > 0 and player["HP"] > 0 and enemy["CON"] > 0 and enemy["HP"] > 0:
   combatRound += 1
-  print("COMBAT ROUND",str(combatRound),"  |  PLAYER:",player["HP"],"HP /",player["CON"],"CON |  ENEMY:",enemy["HP"],"HP /",enemy["CON"],"CON")
+  #print("COMBAT ROUND",str(combatRound),"  |  PLAYER:",player["HP"],"HP /",player["CON"],"CON |  ENEMY:",enemy["HP"],"HP /",enemy["CON"],"CON")
   playerAttack = combatAction("sword")
   enemyAttack = combatAction("spear")
   statRolls = combatCheckResult(playerAttack, enemyAttack)
   if statRolls["player"] != "nil":
-    winner, cRoll = combatRoll(player, enemy, playerAttack, enemyAttack, statRolls)
-    #if winner == "player":
-    #  playerWins +=1
-    #if winner == "enemy":
-    #  enemyWins +=1
-  #else:
-  #  noWins += 1
-    break
-    if winner == "player":
-      enemy = damageRoll(enemy, cRoll, 6)
-    else:
-      player = damageRoll(player, cRoll, 6)
+    winner, cRoll, thrown = combatRoll(player, enemy, playerAttack, enemyAttack, statRolls)
+    if thrown == "none":
+      if winner == "player":
+        enemy = damageRoll(enemy, cRoll, 8)
+      else:
+        player = damageRoll(player, cRoll, 8)
+    elif thrown == "player":
+      player["Thrown"] = True
+    elif thrown == "enemy":
+      enemy["Thrown"] = True
   else:
-    print("nils")
-  break
-  print("player HP",player[5],"En",player[4],"  |  ","enemy HP",enemy[5],"En",enemy[4])
-  print("...end combat round", combatRound)
-#print("player wins",playerWins)
-#print("enemy wins",enemyWins)
-#print("no one wins",noWins)
+    print("  nils")
+  print("  player HP",player["HP"],"CON",player["CON"],"  |  ","enemy HP",enemy["HP"],"CON",enemy["CON"])
 

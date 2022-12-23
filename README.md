@@ -316,47 +316,56 @@ Armor reduces the damage of successful attacks that deal damage to flesh, and a 
 #### Shields
 Whether a buckler, heater, or tower shield, all shields provide a +1 bonus to parry.
 
-
 # Combat
 Combat in Zwerhhau is meant to be swift, deadly, and decisive. 
 
 It is a ritual well practiced by adventurers.
 
 ## Melee Combat Against Humanoids
-For one on one combat, one six sided die is rolled for each side. This is the Combat Attack Roll.
-
-The result of an attack is an opposed check, either strength, dexterity, or both. The check is determined by the "kind" of attack performed by each side.
-
-One versus one combat is simple enough, both sides roll 1d6. However, if the scenario is one versus two or more, the one may opt for a defensive stance.
-
 The combat loop is as follows:
-- Prepare, set your one's and engagement posture
-- Combat Attack Roll - each side rolls 1d6
-  - Determine the opposed check based on results (dex, str, or both)
-- Opposed Roll - Add the relevant ability (dex, str) - Highest wins, note winner's value, reroll on equal values. 
-- Damage Roll - Winner rolls their weapon's damage dice, splits damage between HP and Con based on the opposed roll value.
+- Declare engagement posture
+- Determine Player's Attacking Combat Action
+- DM Rolls for NPC's action
+- Determine the opposed check based on results (dex, str, or both)
+- Opposed Roll - Add the relevant ability (dex, str)
+  - Highest wins, note winner's value, reroll on equal values. 
+- Damage Roll - Winner rolls their weapon's damage dice
+- Reduce Constituion Points, 2 per round of combat
 
-### Ones Are...
-Before a attack roll is performed players must declare a "Ones are," meaning players pick what the result of a 1 die roll should be. This is ideally based on the player's weapon as they may prefer to priorize certain actions, such as a thrust with a spear or a slash with an axe. They may pick any of the options except ripostes.
-
-### Engagement
+### Engagement Posture
 In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. 
 
 If their default posture is to disengage, they gain a +1 to win a grapple challenge but do not enter the grapple.
 
-### Combat Attack Roll
+### Combat Actions
+Players Decide which type of attack based on the following.
+- Thrusts: Piercing actions
+  - Additional damage (+1) for 1h spears
+  - Additional damage (+2) for 2h spears
+- Slashes / Cuts: Swinging & slicing actions
+  - Additional damage (+2) for sharp edged **great** weapons
+- Parries: blocking the blow of a weapon with your weapon
+  - An opposed roll of 6 allows for a riposte
+- Ripostes: a free follow up attack after a parry opposed roll of 6, half damage
+  - With weapon specialization, does normal damage
+- Dodges: evading an attack with quick movement
+  - Allow for bonus to escape
+- Grapples: clinging to your opponent to attempt a wrestling maneuvre, with or without your weapon
+  - Single sided grapple attempts take half damage on failed DEX checks
+  - Throw the opponent to the ground, greatly decreases opponent defenses, ideal action for a swift kill
+  - Disarm the opponent, ideal to force an opponent to yield
+  - Sleeperhold, attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself
+
+#### NPC Combat Attack Roll
 One d6 die roll representing the following actions
-- \[ 2 \] Parries: blocking the blow of a weapon with your weapon
-    - a major successful parry allows for a riposte\*
-- \[ 3 \] Thrusts: piercing actions
-    - Additional damage (+2) giving to those designed for it, e.g. spears & swords, only on successes
-- \[ 4 \] Slashs: swinging & slicing actions
-    - Additional damage (+2) for sharp edged **great** weapons, only on successes
-- \[ 5 \] Dodges: evading an attack with quick movement
-- \[ 6 \] Grapples: clinging to your opponent to attempt a throw, with or without your weapon
-    - Single sided grapple attempts take half damage on failed DEX checks
-- \*Ripostes: a follow up attack after a parry, half damage
-    - with weapon specialization, does normal damage
+| Roll | Slashing | Thrust & Slash |  Thrusting   |
+|------|----------|----------------|--------------|
+|   1  |  DM Pick |    DM Pick     |  DM Pick     |  
+|   2  |  Parry   |    Parry       |  Parry       |
+|   3  |  Slash   |    Thrust      |  Thrust      |
+|   4  |  Slash   |    Slash       |  Thrust      |
+|   5  |  Dodge   |    Dodge       |  Dodge       |
+|   6  |  Grapple |    Grapple     |  Grapple     |
 
 ### Combat Attack Results
 The priorty table to determine result check:
@@ -395,57 +404,58 @@ If a player rolled a parry versus a slash or thrust, and they win the opposed ch
 A riposte is follow up to a successful parry that allows for a standard damage roll, but if the player does not have specailization with the weapon, it is half damage.
 
 ### Damage
-Damage is split between flesh / body and constitution. Most attacks do not deal damage directly to the opponent's flesh but wears them down. A successful grapple does not follow this chart, see the next section.
-| Roll | Melee Damage      | Damage while downed | 
-|------|-------------------|---------------------|
-|   1  | Constitution      | Constitution        | 
-|   2  | Constitution      | 1 flesh, Con - 1    | 
-|   3  | Constitution      | 1 flesh, Con - 1    | 
-|   4  | Constitution      | 2 flesh, Con - 2    | 
-|   5  | 1 flesh & Con - 1 | 3 flesh, Con - 3    | 
-|   6  | 2 flesh & Con - 2 | 4 flesh, Con - 4    | 
+Based on the opposed die roll, the victor may deal additional damage to their opponent, to either their HP (flesh and blood) or to their CON (thier overall endurance)
 
-When you see "Con - 1" it means of the total damage dealt, 1 point harms the flesh and the remainder harms constitution.
+#### Damage Bonuses
+| Roll | Upright Opponent   | Downed Opponent   | 
+|------|--------------------|-------------------|
+|   1  |  nil               | nil               | 
+|   2  |  nil               | +1 Con damage     | 
+|   3  |  nil               | +1 Con Damage     | 
+|   4  |  +1 Con Damage     | +2 Con Damage     | 
+|   5  |  +2 Con Damage     | +1 HP, +1 Con Dmg | 
+|   6  |  +1 HP, +1 Con Dmg | +2 HP, +2 Con Dmg | 
 
-Damage to flesh / HP is always dealt first, and if the subject lives apply the rest to consitution.
+Damage to HP (flesh and blood) is always dealt first.
 
 ### Grappling and Wrestling
 #### One Sided Grapple Attempts
 If only one combatant attempts a grapple, there are two checks:
 - First dexterity, this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
-- Upon failure of this dexterity check, suffer half damage from the opposing side. 
-- Next, upon a successful opposed dexterity check, a standard opposed strength check to see who dominates.
+- Upon failure 
+  -If the opposing side performed a *thrust* or *slash*, take damage.
+- Upon success:
+  - opposed dexterity check, a standard opposed strength check to see who dominates.
 
 #### Grapple Strength Check
-However, if both sides are performing a grapple, then we move straight to the opposed strength check to see who dominates.
-
-Once opponents are in a grapple and one side has won the strength check, there are few options for following actions. Each of which is a standard 1d6 skill check to succeed. These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
+If both sides are performing a grapple, each side rolls 1d6 & add their strength, winner performs a wrestling maneuvre.
 - Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield. 
 - Throw the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
 - Sleeperhold: Attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself.
 
+These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
+
 ### Ranged Combat
 Ranged combat is a simplified process of the melee combat steps. You simple need to roll a standard 1d6 skill check to attack the target.
 
-Only upon a success (3-6), roll for damage using the above damage chart.
+Only upon a success (3-6), roll for damage using the standard damage chart.
 
 #### Unsuspecting Targets
-Bows in small combat are best utilized against unsuspecting targets, therefore the damage possibiliies lend themselves toward the attacker.
+Bows in small combat are best utilized against unsuspecting targets, therefore the damage possibilities lend themselves toward the attacker.
 
-The below chart indicates the results of the attack roll based on the current status of the target.
+A ranged attacker makes a 1d6 check to hit their target, akin to a stand skill check.  
 
-| Roll | Ranged Damage v. Unmoving & Unaware targets   | Ranged Damage v. Moving & Unaware Targets | 
-|------|-----------------------------------------------|-------------------------------------------|
-|   1  | Miss, target is now aware of attack           | Miss, target is now aware of the attack   |
-|   2  | 1 flesh, Con - 1                              | Miss, target still unaware                | 
-|   3  | 2 flesh, Con - 2                              | 1 flesh, Con - 1                          |
-|   4  | 3 flesh, Con - 3                              | 2 flesh, Con - 2                          |
-|   5  | 4 flesh, Con - 4                              | 3 flesh, Con - 3                          |
-|   6  | 5 flesh, Con - 5                              | 4 flesh, Con - 4                          |
+| Roll | Ranged Damage v. Unaware Targets | 
+|------|----------------------------------|
+|   1  |  Miss, target is aware of attack |
+|   2  |  Miss, target remains unaware    | 
+|   3  |  +1 Con Damage                   |
+|   4  |  +2 Con Damage                   |
+|   5  |  +1 HP, +1 Con Damage            |
+|   6  |  +2 HP, +2 Con Damage            |
 
 #### Firing into Melee
-It is not easy to fire on a target that is engaged in melee. Attack rolls suffer a -1 modifier.
-If you do not have a specialization for this particular skill "Firing into melee" you must take a -1 modifier to your attack roll. This means you cannot do better than a 5, and a 1 or 2 would result in a major failure.
+It is not easy to fire on a target that is engaged in melee. Attack rolls suffer a -1 modifier. This means you cannot do better than a 5, and a 1 or 2 would result in a major failure.
 
 ### Defensive Fighting
 In the case where a player or NPC is prone or surrounded by more than 1 opponent, they may wish to engage in defensive fighting to keep the attackers at bay. This is distinct from melee combat because they are *not* rolling on the combat attack roll chart. The goals for fighting defensively are:
