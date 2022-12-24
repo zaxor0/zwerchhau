@@ -81,12 +81,16 @@ This system assumes that a player's character should be however charismatic they
 
 What is a successful charismatic action then? This ultimately should be up to the DM, who should have some concept of what a given NPC might find convincing or not. If a check is needed, simply roll "behind the scenes" based on a standard check. If a player has relevant skills, diplomacy, lying, or is knowledgeable on the topic at hand, consider giving them advantage.  
 
-#### Earned Charisma
-Optionally, a DM could keep track of:
-- well done charismatic moments
-- Moments where a player character would have learned a lesson about social interactions in the game world. 
+### Wisdom
+All players start with 1 wisdom.
 
-In this way, if a tally is kept, a DM could hand out a total of number of Charisma points earned in a session. These points could be converted into a free advantage roll when the players receive a certain number depending on the campaign setting. 3 points for an advantage roll gives players incentive to attempt interactions with NPCs
+Wisdom is earned through gameplay, the DM should keep track of:
+- Moment where players succeed in an impressive fashion
+- Moments where players fail but learn something important about the world or game.
+
+Each of these would grant players involved a point of wisdom.
+
+Wisdom is a resource that can be spent...
 
 ### Hit points
 All players have 6 hit points, this does not increase with leveling. Often the rules refer to damage to flesh, this is damage to your hit points--as opposed to damage to your constitution. 
@@ -162,9 +166,8 @@ Players should develop a clear idea of what background, training, or expierence 
 ### Warriors
 Warriors start with 1 weapon specialization, players may freely pick any weapon that suits their intended character identity.
 This gives them the following abilities with their chosen weapon:
- - For combat with their chosen weapon, once per day, ignore 1 major failure
+ - For combat with their chosen weapon, they may riposte for full damage on a major success parry roll [6].
  - For combat with their chosen weapon, once per day, advantage roll for damage
- - For combat with their chosen weapon, for any attack, either +1 to their damage rolls or +1 attack rolls
 
 For every even level as a warrior (2,4,6,etc.) they may gain either:
 - 1 additional weapon specialization, they gain the above 3 abilities for this weapon.
@@ -177,22 +180,22 @@ For every even level as a warrior (2,4,6,etc.) they may gain either:
 Starting at level 2, warriors may gain henchmen who are willing to adventure with the party for a portion of the treasure. They are additional fighters with melee weapon and follow tactical orders given by the player character. Their basic stats are, 6HP, 10 Con, and they only deal 1d6 damage.
 
 #### Henchmen Progression
-| Level |  Max Count | Moral |
-|-------|------------|-------|
-|   1   |      0     |   -   |
-|   2   |      1     |   4   |
-|   3   |      2     |   4   |
-|   4   |      2     |   5   |
-|   5   |      3     |   5   |
-|   6   |      3     |   6   |
-|   7   |      3     |   6   |
-|   8   |      4     |   7   |
-|   9   |      4     |   7   |
-|   10  |      4     |   8   |
-|   11  |      5     |   8   |
-|   12  |      5     |   9   |
-|   13  |      5     |   9   |
-|   14  |      6     |   10  |
+| Level |  Max Count | Loyalty |
+|-------|------------|---------|
+|   1   |      0     |    -    |
+|   2   |      1     |    4    |
+|   3   |      2     |    5    |
+|   4   |      2     |    6    |
+|   5   |      3     |    7    |
+|   6   |      3     |    8    |
+|   7   |      3     |    9    |
+|   8   |      4     |    10   |
+|   9   |      4     |    11   |
+|   10  |      4     |    12   |
+|   11  |      5     |    13   |
+|   12  |      5     |    14   |
+|   13  |      5     |    15   |
+|   14  |      6     |    16   |
 
 ### Rogues
 Rogues starts with 3 skill specializations, they may pick any **specific** skill or task to have an advangtage doing. This is more narrow than the background traits. Generally this should follow a rogue-ish motif, but with a good character concept a player should not feel limited. Examples include:
