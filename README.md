@@ -9,6 +9,7 @@ A simple OSR inspired TTRPG with a focus on combat
 
 ## Serve the game
 DMs and players both have have a duty to serve the game, to make the overall experience of this game enjoyable. What enjoyable is, exactly, is not easy to define; however, there are a few items to consider:
+
 - Set expectations; what is the world like, what are the people like?
   - Some worlds are dangerous, some people are distrustful, some places are scary; a DM has a duty to their players to give them sign posts about these details.
 - Accept failures; trails, tribulations, can help gameplay as long as they give players opportunities to continue to develop their characters.
@@ -17,6 +18,7 @@ DMs and players both have have a duty to serve the game, to make the overall exp
 ## Dice and Checks
 
 The bulk of this system will use D6s for checks and spells; damage will be done with other dice depending on weapons used.
+
 | Roll | Result        | Example opening a locked door                                        |
 |------|---------------|----------------------------------------------------------------------|
 | 1    | Major Failure | your lock pick breaks, as does the lock                              |
@@ -33,11 +35,13 @@ If your character is skilled in the specific task at hand, you will roll with ad
 
 ### Relevant Ability Scores & Failure Checks
 If you have a relevant ability score of a 5 or 6, a roll of 1 is not necessarily a major failure. You will need to roll again to "confrim the failure" which occurs on a 1 or 2.
- - 1's become minor failures, with a check for major failure. 
-   - Roll a "failure confirmation," 1d6 where a 1 or 2 results in a major failure.
- - 2's becomes mixed results, but not entirely in your favor
+
+- 1's become minor failures, with a check for major failure. 
+  - Roll a "failure confirmation," 1d6 where a 1 or 2 results in a major failure.
+- 2's becomes mixed results, but not entirely in your favor
 
 Examples of relevant abilities for tasks are:
+
 - Dexterity for a climb check
 - Strength for a lift check
 - Intelligence for a research check
@@ -59,6 +63,7 @@ As a last note, while a DM should give the idea of possible successes, this shou
 Like traditional D&D, players should roll their ability scores. It is recommended to “roll down the line” where each rolls is not arranged according to preference. 
 
 For each of the 4 abilities, *roll 2d6* and keep the best number.
+
 - Strength
 - Dexterity
 - Will
@@ -85,6 +90,7 @@ What is a successful charismatic action then? This ultimately should be up to th
 All players start with 1 wisdom.
 
 Wisdom is earned through gameplay, the DM should keep track of:
+
 - Moment where players succeed in an impressive fashion
 - Moments where players fail but learn something important about the world or game.
 
@@ -96,8 +102,9 @@ Wisdom is a resource that can be spent...
 All players have 6 hit points, this does not increase with leveling. Often the rules refer to damage to flesh, this is damage to your hit points--as opposed to damage to your constitution. 
 
 ## Background or Heritage 
-The Dungeon Master has the last say in allowed heritage or backgrounds (races as is referred to older D&D editions). It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player. Within the limits defined by their DM, players may freely choose any fantasy heritage that they deem that best suits their intended identity.  Some backgrounds could be unbalanced*, the following table is just a suggestion.
-| Classic  | Expanded   | Modern*     |
+The Dungeon Master has the last say in allowed heritage or backgrounds (races as is referred to older D&D editions). It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player. Within the limits defined by their DM, players may freely choose any fantasy heritage that they deem that best suits their intended identity.  Some backgrounds could be unbalanced\*, the following table is just a suggestion.
+
+| Classic  | Expanded   | Modern\*    |
 |----------|------------|-------------|
 | Human    | Half Orc   | Half Giant  |
 | Elf      | Half Elf   | Dragonborn  |
@@ -108,6 +115,7 @@ The Dungeon Master has the last say in allowed heritage or backgrounds (races as
 Traits in this rule set are considered a _broad characteristic_, unlike skills which would apply to specific tasks.
 For whatever background a player picks, they should decide 2 traits that describe them (and their people generally) that would effect gameplay.
 Examples:
+
 - Dwarf : strong, resistant to poison, stout
 - Elf : wise, quick, magic-adept
 - Human : quick learned, open minded, strong, quick
@@ -132,6 +140,7 @@ Even then, with specialized skills being required, group efforts to resolve a pr
 
 ### Sample Combat Skills
 These skills are mentioned because they are specifically referenced in the combat rules and would be appropriate for any player interested in combat.
+
 - Grappling
 - Wrestling throws
 - Disarming
@@ -140,7 +149,6 @@ These skills are mentioned because they are specifically referenced in the comba
 - Firing into Melee
 
 ### Sample Non-Combat Skills
-| samples| samples| samples|
 |-------------|------------------|------------------------|
 | Carpentry   | Sailing          | Library Research       |
 | Bartering   | Lock Picking     | Specialized Knowledge  |
@@ -150,12 +158,14 @@ These skills are mentioned because they are specifically referenced in the comba
 
 ## Classes
 There are 4 classes based on classic D&D archtypes. While players may pick anything as a subclass as the focal identity of their character, they should try to stay within one of the classes. Classes guide leveling and character advancement.
+
 - Warriors : Someone with advanced combat training
 - Rogues : Someone with keen skills or intuition: slyness, discreteness, cleverness, back stabbing
 - Magic-Users : Someone with spellcasting abilities, gained from study, natural adeptness to magic, or supernatural influence
 - Priests : Someone with spellcasting-like abilities that are inspired by a holy deity or supernatural presence (personified or not)
 
 Players should pick a subclass or identity that falls under one of these types. This is completely open ended, players are free to come up with any kind of identity. Here are some examples:
+
 - Warrior : Streetfighter, Kung Fu Master, Gladiator, Paladin, Ranger, Knight, Swordsman, Samurai, Crossbowmen
 - Rogues : Thief, Bard, Assassin, Scout, Swashbuckler, Detective
 - Magic-Users : Mage, Wizard, Sorcerer, Warlock, Witch, Necromancer, Illusionist, Sage,
@@ -166,10 +176,12 @@ Players should develop a clear idea of what background, training, or expierence 
 ### Warriors
 Warriors start with 1 weapon specialization, players may freely pick any weapon that suits their intended character identity.
 This gives them the following abilities with their chosen weapon:
- - For combat with their chosen weapon, they may riposte for full damage on a major success parry roll [6].
- - For combat with their chosen weapon, once per day, advantage roll for damage
+
+- For combat with their chosen weapon, they may riposte for full damage on a major success parry roll [6].
+- For combat with their chosen weapon, once per day, advantage roll for damage
 
 For every even level as a warrior (2,4,6,etc.) they may gain either:
+
 - 1 additional weapon specialization, they gain the above 3 abilities for this weapon.
 - 1 combat weapon feat. This is like a skill but it pertains to just 1 weapon type. Players should be creative here and work with their DM. Examples include:
   - Swift attack, gain +1 attacks with weapon against a single target during combat (recommended limit of +2)
@@ -199,6 +211,7 @@ Starting at level 2, warriors may gain henchmen who are willing to adventure wit
 
 ### Rogues
 Rogues starts with 3 skill specializations, they may pick any **specific** skill or task to have an advangtage doing. This is more narrow than the background traits. Generally this should follow a rogue-ish motif, but with a good character concept a player should not feel limited. Examples include:
+
 - Sneaking: players are talented at moving around in a hidden fashion and hiding in shadows
 - Lock picking: players are exceptional at opening a variety of locks
 - Sleight of hand: players are talented at being physically misleading and trickery
@@ -207,10 +220,12 @@ Rogues starts with 3 skill specializations, they may pick any **specific** skill
 - Back stabbing: players have an advantage to successful stab an unwitting victim (flesh damage not constition, see Combat)
 
 Weapon Proficiency: may choose 1 weapon to be skilled in combat with. For combat with their chosen weapon, once per day, may either:
+
 - ignore 1 major failure
 - advantage roll for damage
 
 For every even level as a rogue (2,4,6,etc.) they may gain one of:
+
 - one additional skill, rogueish or relevant to their character's experience
 - one additional advantage die for a given skill, limit of +2. For instance, Backstabing +2 means roll 3 die pick the best roll.
 - one additional weapon proficiency
@@ -218,6 +233,7 @@ For every even level as a rogue (2,4,6,etc.) they may gain one of:
 
 ### Magic-Users
 Mages know 1 spell at level 1 and can cast up to 1 spell a day. Additionally, Mages gain 1 skill based on their subclass. This could be knowldged based, experience based, training based, etc. Some example include:
+
 - Knowledge of local history
 - speak an ancient language fluently
 - skilled in diplomatic policies
@@ -245,6 +261,7 @@ Mages know 1 spell at level 1 and can cast up to 1 spell a day. Additionally, Ma
 
 ### Priests
 Priests are distinguished from magic-users becuase they *believe* (with or without good justification) that their magical abilities are both:
+
 - attuned to a moral or natural order of the universe
 - only possible due to a supernatural influence
 
@@ -298,8 +315,8 @@ There are two types of priests, "holy warriors" who fight for their gods / belie
 | Great       | 1d12   | greatsword, great axe, heavy polearms                       |
 
 #### Great Weapons 
-These are heavy, oversized, two handed weapons. Therefore, without proper training and strength, they are slower to use.
-To use one without penalty, you must:
+These are heavy, oversized, two handed weapons. Therefore, without proper training and strength, they are slower to use. To use one without penalty, you must:
+
 - Have a specialization in with a specific great weapon
 - have a 6 in strength
 
@@ -326,6 +343,7 @@ It is a ritual well practiced by adventurers.
 
 ## Melee Combat Against Humanoids
 The combat loop is as follows:
+
 - Declare engagement posture
 - Determine Player's Attacking Combat Action
 - DM Rolls for NPC's action
@@ -341,7 +359,8 @@ In the thick of combat, the blows may turn to a grapple. Prior to attack players
 If their default posture is to disengage, they gain a +1 to win a grapple challenge but do not enter the grapple.
 
 ### Combat Actions
-Players Decide which type of attack based on the following.
+Players decide which type of attack based on the following:
+
 - Thrusts: Piercing actions
   - Additional damage (+1) for 1h spears
   - Additional damage (+2) for 2h spears
@@ -361,6 +380,7 @@ Players Decide which type of attack based on the following.
 
 #### NPC Combat Attack Roll
 One d6 die roll representing the following actions
+
 | Roll | Slashing | Thrust & Slash |  Thrusting   |
 |------|----------|----------------|--------------|
 |   1  |  DM Pick |    DM Pick     |  DM Pick     |  
@@ -384,6 +404,7 @@ The priorty table to determine result check:
 |   7     | Others              | No Result    | 
 
 A table view of the same information:
+
 |       |Cut  |Thrust|Parry|Dodge|Grapple|
 |-------|-----|------|-----|-----|-------|
 |Slash  | DvS | DvS  | DvS | Dex | D&S   |
@@ -424,6 +445,7 @@ Damage to HP (flesh and blood) is always dealt first.
 ### Grappling and Wrestling
 #### One Sided Grapple Attempts
 If only one combatant attempts a grapple, there are two checks:
+
 - First dexterity, this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
 - Upon failure 
   -If the opposing side performed a *thrust* or *slash*, take damage.
@@ -432,6 +454,7 @@ If only one combatant attempts a grapple, there are two checks:
 
 #### Grapple Strength Check
 If both sides are performing a grapple, each side rolls 1d6 & add their strength, winner performs a wrestling maneuvre.
+
 - Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield. 
 - Throw the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
 - Sleeperhold: Attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself.
@@ -462,6 +485,7 @@ It is not easy to fire on a target that is engaged in melee. Attack rolls suffer
 
 ### Defensive Fighting
 In the case where a player or NPC is prone or surrounded by more than 1 opponent, they may wish to engage in defensive fighting to keep the attackers at bay. This is distinct from melee combat because they are *not* rolling on the combat attack roll chart. The goals for fighting defensively are:
+
 - Keep enemies at bay
 - Parry incoming attacks
 - Avoid being encircled
@@ -471,6 +495,7 @@ In the case where a player or NPC is prone or surrounded by more than 1 opponent
 This mainly applies to half sized humanoids (halflings, gnomes, kobolds, etc.) fighting medium sized humanoids (humans, dwarves, elves, etc). 
 
 If you are of this "small" size fighting a medium sized opponent:
+
 - Any constitution damage you deal is halved. This *does not* apply to flesh damage to HP. 
 - You receive advantage during grappling if your posture is to disengage.
 
@@ -490,6 +515,7 @@ The basic rule of thumb is grappling, can you engage in a grappling struggle wit
 
 ### Combat Loop, Modified for Monsters and Beasts
 The combat loop against a monster is as follows:
+
 - Prepare, set your one's and engagement posture
   - Posture is different here, just defensive or offensive
 - roll combat attack dice
