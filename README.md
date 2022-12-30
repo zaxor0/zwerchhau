@@ -49,18 +49,20 @@ Examples of relevant abilities for tasks are:
 The relevance of an ability is determined by the DM, who should give this information to the player prior to a roll. For instance, if the player is strong and wants to lift 200 Lbs. then they have a relevant ability score; however, if this same player tries to lift 1000 Lbs. then they do not have a relevant ability bonus.
 
 ### Defining Success
-Before any rolls for checks are made, a DM must give the players an idea what a "success" would generally look like. This could be cracking a safe with ease, or sneaking past a sleeping guard dog unnoticed.
+When there are difficult checks to be made, and the ideal results may be beyond the bounds of a characters a skill, a DM should give the players an idea what a "success" would generally look like.
 
-However, some tasks some tasks would simply be outside the ability of a player, and as such a "success" may just be the best case scenario given their abilities. 
+Building tension is an excellent tool for engaging gameplay, but its important to temper player expectations on exceptionally difficult tasks. 
+
+Since some tasks would simply be outside the ability of a player, a "success" may just be the best case scenario given their abilities. 
 
 As an example, if a player has a high strength and wants to "kick down an iron door," but would not be physically capable due to the iron reinforcements, the DM should inform the player that "at best the player will damage the door, but they could not alone break it down."
 
 We do not necessarily need to give players negative modifiers to prevent them from performing a ridiculous task (solving a quantum equation in minutes), but *we do need* to give them an idea of what they are capable of in the *best possible case*.
 
-As a last note, while a DM should give the idea of possible successes, this should be around a 5 in terms of the die roll as a 6 might give unique or interesting bonuses that themselves should be a surpise.
+As a last note and recommendation, while a DM should give the idea of possible successes, this should be around a 5 in terms of the die roll as a 6 might give unique or interesting bonuses that themselves should be a surpise.
 
 ## Abilities
-Like traditional D&D, players should roll their ability scores. It is recommended to “roll down the line” where each rolls is not arranged according to preference. 
+Like traditional D&D, players should roll their ability scores. It is recommended to roll "down the line” where each rolls is not arranged according to preference. 
 
 For each of the 4 abilities, *roll 2d6* and keep the best number.
 
@@ -68,6 +70,7 @@ For each of the 4 abilities, *roll 2d6* and keep the best number.
 - Dexterity
 - Will
 - Intelligence
+- Charisma
 
 ### Constitution 
 Constituion is total sum of Strength, Dexterity, Will, and your current level. Used in combat, it represents your total ability to persevere and survive. The majority of damage in combat is against your constitution, not your flesh and blood. This means that you risk being exhausted and overwhelmed when you take constitution damage.
@@ -78,13 +81,25 @@ If your constitution reaches 0, you do not die. However, you collapse and are no
 This represents your ability to learn and both informal and formal education. Half this number and round up, this represents additional skills you receive advantage on. You may also choose to use one of these points on additional languages, instead of skills.
 
 ### Charisma
-There are no points assigned to charisma. As a role playing game, dialogue is considered a core feature; as such, reducing social interactions to points or rolls limits experience of play in regards to this "core" feature. 
+Charisma rolls are to be rarely used in this system; ideally they are reserved for critical moments or where serious harm could occur. However, these checks should be accompanied by role playing.
+
+As a role playing game, dialogue is considered a core feature; as such, reducing social interactions to points or rolls limits experience of play in regards to this "core" feature. 
+
+Examples of good charisma checks:
+- A fighter needs to rally her mercenary allies 
+- A rogue needs to con their way out of a likely torture or death
+
+Examples of bad charisma checks:
+- A bard wants to seduce a maiden
+- A wizard wants to convince a duke to betray his lover
 
 Not all players prefer to role play as their character, but in dialogue based interactions players should come up with details on how or what they do while interacting with NPCs. Simple saying "I want to convince the king to hire us" provides less flavor for everyone else at the table than saying "My character, points out his noble lineage of the House of Swarsington, provides examples of loyalty to the throne (including a list of battles), in order to sway the king to hire us."
 
 This system assumes that a player's character should be however charismatic they want them to be. That does not mean they can charm their way into anything, but any attempt to do so better serves gameplay with thoughtful and engaging dialogue. 
 
-What is a successful charismatic action then? This ultimately should be up to the DM, who should have some concept of what a given NPC might find convincing or not. If a check is needed, simply roll "behind the scenes" based on a standard check. If a player has relevant skills, diplomacy, lying, or is knowledgeable on the topic at hand, consider giving them advantage.  
+What is a successful charismatic action then? This ultimately should be up to the DM, who should have some concept of what a given NPC might find convincing or not. 
+
+If a check is needed, simply roll "behind the scenes." If a player has relevant skills, diplomacy, lying, or is knowledgeable on the topic at hand, consider giving them advantage.  
 
 ### Wisdom
 All players start with 1 wisdom.
@@ -98,8 +113,34 @@ Each of these would grant players involved a point of wisdom.
 
 Wisdom is a resource that can be spent...
 
-### Hit points
-All players have 6 hit points, this does not increase with leveling. Often the rules refer to damage to flesh, this is damage to your hit points--as opposed to damage to your constitution. 
+### Hit points and Death
+All player characters have 6 hit points, this does not increase with leveling. Often the rules refer to damage to flesh, this is damage to your hit points--as opposed to damage to your constitution. 
+
+If a player character has less than zero hit points, they are dead; this is the case whether or not they have any CON points left.
+
+#### The Will to Live
+If a player character takes damage that brings them to *exactly* zero hit points, they may not necessarily die. 
+
+1. Make a 1d12 *Will to Live* roll. If the player rolls equal to or under thier Will ability score, they are not dead.
+2. Next, they must roll on the *Scars, Broken Bones, and Mortal Wounds* table below.
+3. The must roll a 1d6, add the result to their maximum HP. 
+4. The player character is still at 0 HP but are unconscious.
+5. Without medical aid soon, they will die.
+
+#### Scars, Broken Bones, and Mortal Wounds
+Roll 1d6 
+- On a 1-2 you gain a scar
+- On a 3-5 you have a broken bone
+- On a 6 you have a mortal wound, you will die unless untreated. 
+
+Roll 1d4, see where you have been wounded.
+
+|1d4| Scars (1,2) | Broken Bones (3,4,5) |  Mortal Wounds (6) |
+|---|-------------|----------------------|--------------------|
+| 1 |   Facial    |     Skull            |    Lose an Eye     |
+| 2 |   Chest     |     Ribs             |    Punctured Organ |
+| 3 |   Arm       |     Arm              |    Lose an arm     |
+| 4 |   Leg       |     Leg              |    Lose a leg      |
 
 ## Background or Heritage 
 The Dungeon Master has the last say in allowed heritage or backgrounds (races as is referred to older D&D editions). It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player. Within the limits defined by their DM, players may freely choose any fantasy heritage that they deem that best suits their intended identity.  Some backgrounds could be unbalanced\*, the following table is just a suggestion.
@@ -342,8 +383,8 @@ Combat in Zwerhhau is meant to be swift, deadly, and decisive.
 
 It is a ritual well practiced by adventurers.
 
-## Melee Combat Against Humanoids
-The combat loop is as follows:
+## Melee Combat Loop
+Melee combat is exhausting, each round requires that the sides engaged lose 2 Constitution.
 
 - Declare engagement posture
 - Determine Player's Attacking Combat Action
@@ -363,12 +404,16 @@ If their default posture is to disengage, they gain a +1 to win a grapple challe
 Players decide which type of attack based on the following:
 
 - Thrusts: Piercing actions
-  - Additional damage (+1) for 1h spears
-  - Additional damage (+2) for 2h spears
+  - Additional damage (+1 Con) for 1h spears
+  - Additional damage (+2 Con) for 2h spears
+  - Additional damage (+1 HP) for 2h swords
 - Slashes / Cuts: Swinging & slicing actions
-  - Additional damage (+2) for sharp edged **great** weapons
+  - Additional damage (+2 Con) for any medium, long, two-handed, or great weapon
+  - Additional damage (+1 HP) for sharp-edged great weapons
+  - Additional damage (+1 Con) for blunt great weapons
 - Parries: blocking the blow of a weapon with your weapon
-  - An opposed roll of 6 allows for a riposte
+  - An opposed roll of natural 6 allows for a riposte
+  - Gain +1 to your roll if you have a shield
 - Ripostes: a free follow up attack after a parry opposed roll of 6, half damage
   - With weapon specialization, does normal damage
 - Dodges: evading an attack with quick movement
@@ -378,18 +423,19 @@ Players decide which type of attack based on the following:
   - Throw the opponent to the ground, greatly decreases opponent defenses, ideal action for a swift kill
   - Disarm the opponent, ideal to force an opponent to yield
   - Sleeperhold, attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself
+- Defensive Fighting: Focusing on parries without ripostes, regaining footing when downed. See the below section.
 
-#### NPC Combat Attack Roll
+### NPC Combat Attack Roll
 One d6 die roll representing the following actions
 
-| Roll | Slashing | Thrust & Slash |  Thrusting   |
-|------|----------|----------------|--------------|
-|   1  |  DM Pick |    DM Pick     |  DM Pick     |  
-|   2  |  Parry   |    Parry       |  Parry       |
-|   3  |  Slash   |    Thrust      |  Thrust      |
-|   4  |  Slash   |    Slash       |  Thrust      |
-|   5  |  Dodge   |    Dodge       |  Dodge       |
-|   6  |  Grapple |    Grapple     |  Grapple     |
+| Roll | Slashing | Thrusting or Slashing |  Thrusting   |
+|------|----------|-----------------------|--------------|
+|   1  |  DM Pick |       DM Pick         |  DM Pick     |  
+|   2  |  Parry   |       Parry           |  Parry       |
+|   3  |  Slash   |       Thrust          |  Thrust      |
+|   4  |  Slash   |       Slash           |  Thrust      |
+|   5  |  Dodge   |       Dodge           |  Dodge       |
+|   6  |  Grapple |       Grapple         |  Grapple     |
 
 ### Combat Attack Results
 The priorty table to determine result check:
@@ -414,24 +460,41 @@ A table view of the same information:
 |Dodge  | Dex | Dex  | nil | nil | D&S   |
 |Grapple| D&S | D&S  | D&S | D&S | Str   |
 
-### Opposed Checks & Damage
+### Opposed Checks
 Once you've determined which check will occur, whether strength or dex (or none at all), each side rolls 1d6 + their attribute.
 
 The higher value wins the check and deals damage. 
 
-The rolled value determines if the damage effects the oppents flesh or constitution.
-
 To succeed in a grapple check, you must first win a dex check to wrestle your opponent, and then a strength check to enter the grapple phase. If both sides attempt a grapple, you only need the strength check.
 
-#### Riposte
-If a player rolled a parry versus a slash or thrust, and they win the opposed check with a roll of 6, they may riposte!
+Opponents attacking someone performing "defensive fighting" still roll, but only "hit" on a 6. See below for more detail.
 
-A riposte is follow up to a successful parry that allows for a standard damage roll, but if the player does not have specailization with the weapon, it is half damage.
+### Damage Dealt
+Damage is dealth based on the die roll of the appropriate weapon; however, damage is split between flesh / HP and Constitution.
+- If the roll is even, it is split evenly
+- If the roll is odd, it favors Con
+- Damage to HP (flesh and blood) is always dealt first.
 
-### Damage
+| Roll | HP | CON |
+|------|----|-----|
+| 1    | 0  | 1   |
+| 2    | 1  | 1   |
+| 3    | 1  | 2   |
+| 4    | 2  | 2   |
+| 5    | 2  | 3   |
+| 6    | 3  | 3   |
+| 7    | 3  | 4   |
+| 8    | 4  | 4   |
+| 9    | 4  | 5   |
+| 10   | 5  | 5   |
+| 11   | 5  | 6   |
+| 12   | 6  | 6   |
+
+Once the roll occurs, and damage is split, apply appropriate damage bonuses
+
+### Damage Bonuses
+ 
 Based on the opposed die roll, the victor may deal additional damage to their opponent, to either their HP (flesh and blood) or to their CON (thier overall endurance)
-
-#### Damage Bonuses
 | Roll | Upright Opponent   | Downed Opponent   | 
 |------|--------------------|-------------------|
 |   1  |  nil               | nil               | 
@@ -441,7 +504,38 @@ Based on the opposed die roll, the victor may deal additional damage to their op
 |   5  |  +2 Con Damage     | +1 HP, +1 Con Dmg | 
 |   6  |  +1 HP, +1 Con Dmg | +2 HP, +2 Con Dmg | 
 
-Damage to HP (flesh and blood) is always dealt first.
+#### Attack type bonuses
+These are mentioned previously, but to restate:
+- Thrusts
+  - Additional damage (+1 Con) for 1h spears
+  - Additional damage (+2 Con) for 2h spears
+  - Additional damage (+1 HP) for 2h swords
+- Slashes
+  - Additional damage (+2 Con) for any medium, long, two-handed, or great weapon
+  - Additional damage (+1 HP) for sharp-edged great weapons
+  - Additional damage (+1 Con) for blunt great weapons
+
+### Defensive Fighting
+Defensive Fighting occurs in place of an opposed roll. Opponents land hits only on 6s and additional opponents gain bonuses to hit. Players should consider this choice when they need to perform the following:
+
+- Keep enemies at bay
+- Parry incoming attacks
+- Avoid being encircled
+- Regain footing after being knock down
+
+#### Actions for opponents
+- Hit the defensive fighter only on a 6
+- Do not gain damage bonuses if alone
+- For each additional opponent attacking, each attacker gains a +1 to their roll with a maximum of +3. 
+- If their are 3 or more opponents attacking the defensive fighter, they deal +1 CON damage each.
+
+### Dodge
+On a succesful dodge roll a player suffers no damage from a single attack. Ideally used in 1 on 1 scenarios, otherwise defensive fighting is recommended.
+
+- A player must declare who they are dodging, if there is more than 1 opponent. 
+- If they succeed on a 5 or 6, they may attempt to escape if there is a viable route to retreat. 
+- On a success and for each additional opponent, they must expend 1 CON to continue dodging with a maximum of 3 CON.
+- If there are multiple opponents, and the player does not expend Constitution, opponents land hits on 5s and 6s.
 
 ### Grappling and Wrestling
 #### One Sided Grapple Attempts
@@ -462,35 +556,12 @@ If both sides are performing a grapple, each side rolls 1d6 & add their strength
 
 These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
 
-### Ranged Combat
-Ranged combat is a simplified process of the melee combat steps. You simple need to roll a standard 1d6 skill check to attack the target.
+#### Riposte
+If a player rolled a parry versus a slash or thrust, and they win the opposed check with a natural roll of 6, may riposte.
 
-Only upon a success (3-6), roll for damage using the standard damage chart.
+A riposte is follow up to a successful parry that allows for a damage roll halved; with weapon specailization, normal damage is dealt.
 
-#### Unsuspecting Targets
-Bows in small combat are best utilized against unsuspecting targets, therefore the damage possibilities lend themselves toward the attacker.
-
-A ranged attacker makes a 1d6 check to hit their target, akin to a stand skill check.  
-
-| Roll | Ranged Damage v. Unaware Targets | 
-|------|----------------------------------|
-|   1  |  Miss, target is aware of attack |
-|   2  |  Miss, target remains unaware    | 
-|   3  |  +1 Con Damage                   |
-|   4  |  +2 Con Damage                   |
-|   5  |  +1 HP, +1 Con Damage            |
-|   6  |  +2 HP, +2 Con Damage            |
-
-#### Firing into Melee
-It is not easy to fire on a target that is engaged in melee. Attack rolls suffer a -1 modifier. This means you cannot do better than a 5, and a 1 or 2 would result in a major failure.
-
-### Defensive Fighting
-In the case where a player or NPC is prone or surrounded by more than 1 opponent, they may wish to engage in defensive fighting to keep the attackers at bay. This is distinct from melee combat because they are *not* rolling on the combat attack roll chart. The goals for fighting defensively are:
-
-- Keep enemies at bay
-- Parry incoming attacks
-- Avoid being encircled
-- Regain footing after being knock down
+A parry roll of 5 with a +1 for a shield does not allow for a riposte.
 
 ### Small Sized Combatants
 This mainly applies to half sized humanoids (halflings, gnomes, kobolds, etc.) fighting medium sized humanoids (humans, dwarves, elves, etc). 
@@ -504,6 +575,28 @@ For example, a halfling equipped with a two-handed long sword should be able to 
 
 These advantages do not scale beyond small versus medium opponents.
 
+## Ranged Combat
+Ranged combat is a simplified process of the melee combat steps. You simple need to roll a standard 1d6 skill check to attack the target.
+
+Only upon a success (3-6), roll for damage using the standard damage chart.
+
+### Unsuspecting Targets
+Bows in small combat are best utilized against unsuspecting targets, therefore the damage possibilities lend themselves toward the attacker.
+
+A ranged attacker makes a 1d6 check to hit their target, akin to a stand skill check.  
+
+| Roll | Ranged Damage v. Unaware Targets | 
+|------|----------------------------------|
+|   1  |  Miss, target is aware of attack |
+|   2  |  Miss, target remains unaware    | 
+|   3  |  +1 Con Damage                   |
+|   4  |  +2 Con Damage                   |
+|   5  |  +1 HP, +1 Con Damage            |
+|   6  |  +2 HP, +2 Con Damage            |
+
+### Firing into Melee
+It is not easy to fire on a target that is engaged in melee. Attack rolls suffer a -1 modifier. This means you cannot do better than a 5, and a 1 or 2 would result in a major failure.
+
 ## Combat against Monsters and Beasts
 Tactics used against against monsters and beasts are not the same as those used against a humanoid. 
 
@@ -513,15 +606,3 @@ Therefore, to keep combat simple, when fighting a target that is not your standa
 
 ### How do I know I am fighting a monster?
 The basic rule of thumb is grappling, can you engage in a grappling struggle with a target and not suffer greatly? For example, would you grapple with 800lb 10 foot tall polar bear? Probably not. Would you engage in a grapple with a 7 foot 300 lb Orc? Maybe. 
-
-### Combat Loop, Modified for Monsters and Beasts
-The combat loop against a monster is as follows:
-
-- Prepare, set your one's and engagement posture
-  - Posture is different here, just defensive or offensive
-- roll combat attack dice
-- react to results
-- winner deals damage
-
-
-
