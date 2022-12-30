@@ -272,6 +272,28 @@ For every even level as a rogue (2,4,6,etc.) they may gain one of:
 - one additional advantage die for a given skill, limit of +2. For instance, Backstabing +2 means roll 3 die pick the best roll.
 - one additional weapon proficiency
 
+#### Bards
+A Bard starts with 2 skill specializations instead of 3, may never have more than 1 weapon specialization, and gains additional skills every 3rd level. 
+
+
+| Level | Spells per day |
+|-------|----------------|
+|   1   |  1 - - - -     |
+|   2   |  2 - - - -     |
+|   3   |  3 - - - -     |
+|   4   |  3 1 - - -     |
+|   5   |  3 2 - - -     |
+|   6   |  3 3 - - -     |
+|   7   |  3 3 1 - -     |
+|   8   |  3 3 2 - -     |
+|   9   |  3 3 3 - -     |
+|   10  |  3 3 3 1 -     |
+|   11  |  3 3 3 2 -     |
+|   12  |  3 3 3 3 -     |
+|   13  |  3 3 3 3 1     |
+|   14  |  3 3 3 3 2     |
+
+
 
 ### Magic-Users
 Mages know 1 spell at level 1 and can cast up to 1 spell a day. Additionally, Mages gain 1 skill based on their subclass. This could be knowldged based, experience based, training based, etc. Some example include:
