@@ -49,7 +49,7 @@ Some natural traits would apply to a set of skills, and would therefore give a +
 If you have a relevant ability score of a 5 or 6, a roll of 1 is not necessarily a major failure. You will need to roll a **failure check** to "confrim the failure" which occurs on a 1 or 2.
 
 - 1's become minor failures, with a check for major failure. 
-  - Roll a 1d6 for a **Failure Check** where a 1 or 2 results in a major failure.
+  - Roll a 1d6 for a **Failure Check** where a 1 to 3 results in a major failure.
 - 2's becomes mixed results, but not entirely in your favor
 
 Examples of relevant abilities for tasks are:
