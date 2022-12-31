@@ -574,21 +574,21 @@ Defensive Fighting occurs in place of an opposed roll. Opponents land hits only 
 - Keep enemies at bay
 - Parry incoming attacks
 - Avoid being encircled
-- Regain footing after being knock down
+- Regain footing after being knock down, lose 1 CON
 
 #### Actions for opponents
 - Hit the defensive fighter only on a 6
 - Do not gain damage bonuses if alone
 - For each additional opponent attacking, each attacker gains a +1 to their roll with a maximum of +3. 
-- If their are 3 or more opponents attacking the defensive fighter, they deal +1 CON damage each.
+- If there are 3 or more opponents attacking the defensive fighter, they deal +1 CON damage each.
 
 ### Dodge
 On a succesful dodge roll a player suffers no damage from a single attack. Ideally used in 1 on 1 scenarios, otherwise defensive fighting is recommended.
 
-- A player must declare who they are dodging, if there is more than 1 opponent. 
+- If there is more than 1 opponent, a player must declare who they are dodging, if there is more than 1 opponent. 
 - If they succeed on a 5 or 6, they may attempt to escape if there is a viable route to retreat. 
 - On a success and for each additional opponent, they must expend 1 CON to continue dodging with a maximum of 3 CON.
-- If there are multiple opponents, and the player does not expend Constitution, opponents land hits on 5s and 6s.
+- If there are multiple opponents, and the player cannot expend Constitution, opponents land hits on 5s and 6s.
 
 ### Grappling and Wrestling
 #### One Sided Grapple Attempts
@@ -609,7 +609,7 @@ If both sides are performing a grapple, each side rolls 1d6 & add their strength
 
 These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
 
-#### Riposte
+### Riposte
 If a player rolled a parry versus a slash or thrust, and they win the opposed check with a natural roll of 6, may riposte.
 
 A riposte is follow up to a successful parry that allows for a damage roll halved; with weapon specailization, normal damage is dealt.
