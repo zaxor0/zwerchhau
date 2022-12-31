@@ -418,7 +418,7 @@ Melee combat is exhausting, each round requires that the sides engaged lose 2 Co
   - Check for death
   - Apply damage bonuses
 - Reduce Constituion Points, 2 per round of combat
-  - 
+  - If player is wearing heavy armor and unskilled, reduce CON by 1 further. 
 
 ### Engagement Posture
 In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. 
