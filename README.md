@@ -1,5 +1,6 @@
 # Zwerchhau
 ![Zwerchhau](https://github.com/zaxor0/zwerchhau/blob/main/zwerchhau.png)
+
 A simple OSR inspired TTRPG with a focus on combat
 
 - Simplicity, traits inspired by Oz Browning's OZR
@@ -118,30 +119,6 @@ All player characters have 6 hit points, this does not increase with leveling. O
 
 If a player character has less than zero hit points, they are dead; this is the case whether or not they have any CON points left.
 
-#### The Will to Live
-If a player character takes damage that brings them to *exactly* zero hit points, they may not necessarily die. 
-
-1. Make a 1d12 *Will to Live* roll. If the player rolls equal to or under thier Will ability score, they are not dead.
-2. Next, they must roll on the *Scars, Broken Bones, and Mortal Wounds* table below.
-3. The must roll a 1d6, add the result to their maximum HP. 
-4. The player character is still at 0 HP but are unconscious.
-5. Without medical aid soon, they will die.
-
-#### Scars, Broken Bones, and Mortal Wounds
-Roll 1d6 
-- On a 1-2 you gain a scar
-- On a 3-5 you have a broken bone
-- On a 6 you have a mortal wound, you will die unless untreated. 
-
-Roll 1d4, see where you have been wounded.
-
-|1d4| Scars (1,2) | Broken Bones (3,4,5) |  Mortal Wounds (6) |
-|---|-------------|----------------------|--------------------|
-| 1 |   Facial    |     Skull            |    Lose an Eye     |
-| 2 |   Chest     |     Ribs             |    Punctured Organ |
-| 3 |   Arm       |     Arm              |    Lose an arm     |
-| 4 |   Leg       |     Leg              |    Lose a leg      |
-
 ## Background or Heritage 
 The Dungeon Master has the last say in allowed heritage or backgrounds (races as is referred to older D&D editions). It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player. Within the limits defined by their DM, players may freely choose any fantasy heritage that they deem that best suits their intended identity.  Some backgrounds could be unbalanced\*, the following table is just a suggestion.
 
@@ -208,9 +185,9 @@ There are 4 classes based on classic D&D archtypes. While players may pick anyth
 
 Players should pick a subclass or identity that falls under one of these types. This is completely open ended, players are free to come up with any kind of identity. Here are some examples:
 
-- Warrior : Streetfighter, Kung Fu Master, Gladiator, Paladin, Ranger, Knight, Swordsman, Samurai, Crossbowmen
+- Warrior : Streetfighter, Kung Fu Master, Gladiator, Paladin, Ranger, Knight, Swordsman, Samurai, Crossbowmen, Archer
 - Rogues : Thief, Bard, Assassin, Scout, Swashbuckler, Detective
-- Magic-Users : Mage, Wizard, Sorcerer, Warlock, Witch, Necromancer, Illusionist, Sage,
+- Magic-Users : Mage, Wizard, Sorcerer, Warlock, Witch, Necromancer, Illusionist, Sage
 - Priest : Druid, Cleric, Monk, Preacher, Cultist
 
 Players should develop a clear idea of what background, training, or expierence they have.
@@ -221,10 +198,11 @@ This gives them the following abilities with their chosen weapon:
 
 - For combat with their chosen weapon, they may riposte for full damage on a major success parry roll [6].
 - For combat with their chosen weapon, once per day, advantage roll for damage
+- For bows, two ranged attacks per round ranged combat rules.
 
 For every even level as a warrior (2,4,6,etc.) they may gain either:
 
-- 1 additional weapon specialization, they gain the above 3 abilities for this weapon.
+- 1 additional weapon specialization, they gain the above abilities for this weapon.
 - 1 combat weapon feat. This is like a skill but it pertains to just 1 weapon type. Players should be creative here and work with their DM. Examples include:
   - Swift attack, gain +1 attacks with weapon against a single target during combat (recommended limit of +2)
   - Heavy attack, deal +1 constitution damage
@@ -252,29 +230,34 @@ Starting at level 2, warriors may gain henchmen who are willing to adventure wit
 |   14  |      6     |    16   |
 
 ### Rogues
-Rogues starts with 3 skill specializations, they may pick any **specific** skill or task to have an advangtage doing. This is more narrow than the background traits. Generally this should follow a rogue-ish motif, but with a good character concept a player should not feel limited. Examples include:
+Rogues starts with 3 skill specializations, they may pick any **specific** skill or task to have an advantage on performing. This is more narrow than the background traits. Generally this should follow a rogue-ish motif, but with a good character concept a player should not feel limited. Examples include:
 
 - Sneaking: players are talented at moving around in a hidden fashion and hiding in shadows
 - Lock picking: players are exceptional at opening a variety of locks
 - Sleight of hand: players are talented at being physically misleading and trickery
 - Lying / verbal deception: players are exceptional at spinning falsehoods to unknowing victims
 - Seduction: players exude charisma and physical attraction, NPCs have a disadvantage when trying to resist player suggestions
-- Back stabbing: players have an advantage to successful stab an unwitting victim (flesh damage not constition, see Combat)
 
-Weapon Proficiency: may choose 1 weapon to be skilled in combat with. For combat with their chosen weapon, once per day, may either:
+Back Stab: 
+- This is a special attacks only Rogues (but not Bards) may have.
+- Only applicable to weapons the player character is specailized in.
+- The weapon must be in hand, if the player is not hidden they must pass a sleight of hand check on a 5 ot 6. 
+- Before combat occurs, a rogue may perform 1 attack where the damage roll is fully applied to HP and not to CON.
 
-- ignore 1 major failure
-- advantage roll for damage
+Weapon Specialization:
+- For combat with their chosen weapon, they may riposte for full damage on a major success parry roll [6].
+- For combat with their chosen weapon, once per day, advantage roll for damage
+- For bows, two ranged attacks per round ranged combat rules.
 
 For every even level as a rogue (2,4,6,etc.) they may gain one of:
 
 - one additional skill, rogueish or relevant to their character's experience
-- one additional advantage die for a given skill, limit of +2. For instance, Backstabing +2 means roll 3 die pick the best roll.
-- one additional weapon proficiency
+- one additional advantage die for a given skill, limit of +2. For instance, sleight of hand +2 means roll 3 die pick the best roll.
+- one additional weapon specialization, limit of 2 total.
 
 #### Bards
 A Bard starts with 2 skill specializations instead of 3, may never have more than 1 weapon specialization, and gains additional skills every 3rd level. 
-
+- May never have back stab
 
 | Level | Spells per day |
 |-------|----------------|
@@ -292,8 +275,6 @@ A Bard starts with 2 skill specializations instead of 3, may never have more tha
 |   12  |  3 3 3 3 -     |
 |   13  |  3 3 3 3 1     |
 |   14  |  3 3 3 3 2     |
-
-
 
 ### Magic-Users
 Mages know 1 spell at level 1 and can cast up to 1 spell a day. Additionally, Mages gain 1 skill based on their subclass. This could be knowldged based, experience based, training based, etc. Some example include:
@@ -370,9 +351,10 @@ There are two types of priests, "holy warriors" who fight for their gods / belie
 
 ### Weapons
 
+#### Melee
 | Size        | Damage | Examples                                                    |
 |-------------|--------|-------------------------------------------------------------|
-| Small       | 1d4    | club, dagger, dart,                                         |
+| Small       | 1d4    | club, dagger, dart, improvised weapon                       |
 | Medium      | 1d6    | short sword, rapier, quarter staff, handaxe, mace, 1h spear |
 | Long, Heavy | 1d8    | 1h longsword, 1h battleaxe, greatclub, flail                |
 | Two Handed  | 2d6    | 2h longsword, 2h battleaxe, 2h spear                        |
@@ -387,18 +369,35 @@ These are heavy, oversized, two handed weapons. Therefore, without proper traini
 If you do not meet both of these requirements, then suffer a -1 on Dex related combat result checks.
 Lastly, you may *not use dex* for slash related combat checks.
 
+#### Ranged
+
+| Size        | Damage | Examples                |
+|-------------|--------|-------------------------|
+| Small       | 1d4    | hand crossbow           |
+| Medium      | 1d6    | crossbow, short bow     |
+| Long, Heavy | 1d8    | longbow, heavy crossbow |
+
+- Crossbows can only ever fire once per combat round
+- With weapon specialization, bows may fire twice per round.
+
+It is recommended to not allow longbows in standard combat; instead short bows should be used in most scenarios. This rules system has a prejudice against longbows, as historically they would from great distances in large scale battles and not the squad style combat seen in most table top RPGs. Ultimately, it is up to the discretion of the DM
+
 ### Armor
 
-Armor reduces the damage of successful attacks that deal damage to flesh, and a smaller reduction to damage against constitution. However, in combat, any type damage cannot reduced to 0; meaning, at least 1 point of damage must be dealt to either flesh or constitution.
+Armor reduces the damage of successful attacks that deal damage to HP only. However, in combat, any type damage cannot reduced to 0; meaning, at least 1 point of damage must be dealt to either flesh or constitution.
 
 | Size   | Defense | Examples                    |
 |--------|---------|-----------------------------|
-| Light  | -1 / 0  | leather, studded leather    |
-| Medium | -3 / -1 | chainmail, beastplate, hide |
-| Heavy  | -5 / -2 | platemail, scalemail        |
+| Light  |   -1    | leather, studded leather    |
+| Medium |   -2    | chainmail, beastplate, hide |
+| Heavy  |   -3    | platemail, scalemail        |
+
+- Without a skill in "combat with heavy armor," combatants burn an additional 1 CON for each round of melee.
 
 #### Shields
-Whether a buckler, heater, or tower shield, all shields provide a +1 bonus to parry.
+Whether a buckler, heater, or tower shield, all shields provide:
+- +1 bonus to parry
+- -1 Con Damage per turn of melee combat
 
 # Combat
 Combat in Zwerhhau is meant to be swift, deadly, and decisive. 
@@ -415,7 +414,11 @@ Melee combat is exhausting, each round requires that the sides engaged lose 2 Co
 - Opposed Roll - Add the relevant ability (dex, str)
   - Highest wins, note winner's value, reroll on equal values. 
 - Damage Roll - Winner rolls their weapon's damage dice
+  - Reduce HP damage based on armor
+  - Check for death
+  - Apply damage bonuses
 - Reduce Constituion Points, 2 per round of combat
+  - 
 
 ### Engagement Posture
 In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. 
@@ -431,8 +434,8 @@ Players decide which type of attack based on the following:
   - Additional damage (+1 HP) for 2h swords
 - Slashes / Cuts: Swinging & slicing actions
   - Additional damage (+2 Con) for any medium, long, two-handed, or great weapon
-  - Additional damage (+1 HP) for sharp-edged great weapons
   - Additional damage (+1 Con) for blunt great weapons
+  - Additional damage (+1 HP) for sharp-edged great weapons
 - Parries: blocking the blow of a weapon with your weapon
   - An opposed roll of natural 6 allows for a riposte
   - Gain +1 to your roll if you have a shield
@@ -493,30 +496,55 @@ Opponents attacking someone performing "defensive fighting" still roll, but only
 
 ### Damage Dealt
 Damage is dealth based on the die roll of the appropriate weapon; however, damage is split between flesh / HP and Constitution.
-- If the roll is even, it is split evenly
-- If the roll is odd, it favors Con
+
+| Roll | HP Damage | CON Damage |
+|------|-----------|------------|
+| 1    |     0     |     1      |
+| 2    |     1     |     1      |
+| 3    |     1     |     2      |
+| 4    |     1     |     3      |
+| 5    |     2     |     3      |
+| 6    |     2     |     4      |
+| 7    |     3     |     4      |
+| 8    |     3     |     5      |
+| 9    |     4     |     5      |
+| 10   |     4     |     6      |
+| 11   |     5     |     6      |
+| 12   |     6     |     6      |
+
 - Damage to HP (flesh and blood) is always dealt first.
+- If HP damage brings the player character below 0 hit points, they are dead.
+- If a player character takes damage that brings them to *exactly* zero hit points, they may not necessarily die. Perform the *Will to Live* roll 
+- If still alive, add damage bonuses.
 
-| Roll | HP | CON |
-|------|----|-----|
-| 1    | 0  | 1   |
-| 2    | 1  | 1   |
-| 3    | 1  | 2   |
-| 4    | 2  | 2   |
-| 5    | 2  | 3   |
-| 6    | 3  | 3   |
-| 7    | 3  | 4   |
-| 8    | 4  | 4   |
-| 9    | 4  | 5   |
-| 10   | 5  | 5   |
-| 11   | 5  | 6   |
-| 12   | 6  | 6   |
+### The Will to Live
 
-Once the roll occurs, and damage is split, apply appropriate damage bonuses
+1. Make a 1d12 *Will to Live* roll. If the player rolls equal to or under thier Will ability score, they are not dead.
+2. Next, they must roll on the *Scars, Broken Bones, and Mortal Wounds* table below.
+3. The must roll a 1d6, add the result to their maximum HP. 
+4. The player character is still at 0 HP but are unconscious.
+5. Ignore any damage bonuses, they are out of the fight.
+6. Without medical aid soon, they will die.
+
+#### Scars, Broken Bones, and Mortal Wounds
+
+Roll 1d6 
+- On a 1-2 you gain a scar
+- On a 3-5 you have a broken bone
+- On a 6 you have a mortal wound, you will die unless untreated. 
+
+Roll 1d4, see where you have been wounded.
+
+|1d4| Scars (1,2) | Broken Bones (3,4,5) |  Mortal Wounds (6) |
+|---|-------------|----------------------|--------------------|
+| 1 |   Facial    |     Skull            |    Lose an Eye     |
+| 2 |   Chest     |     Ribs             |    Punctured Organ |
+| 3 |   Arm       |     Arm              |    Lose an arm     |
+| 4 |   Leg       |     Leg              |    Lose a leg      |
 
 ### Damage Bonuses
- 
 Based on the opposed die roll, the victor may deal additional damage to their opponent, to either their HP (flesh and blood) or to their CON (thier overall endurance)
+
 | Roll | Upright Opponent   | Downed Opponent   | 
 |------|--------------------|-------------------|
 |   1  |  nil               | nil               | 
@@ -534,8 +562,8 @@ These are mentioned previously, but to restate:
   - Additional damage (+1 HP) for 2h swords
 - Slashes
   - Additional damage (+2 Con) for any medium, long, two-handed, or great weapon
-  - Additional damage (+1 HP) for sharp-edged great weapons
   - Additional damage (+1 Con) for blunt great weapons
+  - Additional damage (+1 HP) for sharp-edged great weapons
 
 ### Defensive Fighting
 Defensive Fighting occurs in place of an opposed roll. Opponents land hits only on 6s and additional opponents gain bonuses to hit. Players should consider this choice when they need to perform the following:
@@ -583,7 +611,7 @@ If a player rolled a parry versus a slash or thrust, and they win the opposed ch
 
 A riposte is follow up to a successful parry that allows for a damage roll halved; with weapon specailization, normal damage is dealt.
 
-A parry roll of 5 with a +1 for a shield does not allow for a riposte.
+A parry roll of 5 with a +1 for a shield does not allow for a riposte, the roll must be a natural 6.
 
 ### Small Sized Combatants
 This mainly applies to half sized humanoids (halflings, gnomes, kobolds, etc.) fighting medium sized humanoids (humans, dwarves, elves, etc). 
@@ -598,12 +626,38 @@ For example, a halfling equipped with a two-handed long sword should be able to 
 These advantages do not scale beyond small versus medium opponents.
 
 ## Ranged Combat
-Ranged combat is a simplified process of the melee combat steps. You simple need to roll a standard 1d6 skill check to attack the target.
+Ranged combat is a simplified process of the melee combat steps, it does not exhaust your CON unless you are forced into melee.
 
-Only upon a success (3-6), roll for damage using the standard damage chart.
+Those with specalization in bows may perform two attacks instead of one, execept in scenario 4 when forced into melee.
 
-### Unsuspecting Targets
+There are four ranged combat scenarios:
+1. Firing at a suspecting target not in melee
+  - Success on 3 to 6
+2. Firing into a target in melee
+  - Success on 4 to 6
+3. Firing at unsuspecting targets not in combat
+  - Success on 3 to 6, with special damage bonuses
+4. Firing at a target before being forced into melee
+  - Bow or crossbow must be drawn or armed already
+  - Success on 4 to 6, with special close range damage bonuses
+  - No additional ranged attacks
+
+### 1. Standard Ranged Combat
+In this scenario you are firing at a target that is aware they are in combat, but they are not currently engaged in melee.
+
+Roll a standrd 1d6 to attack, on a success of 3 to 6, roll for damage using the standard damage chart.
+
+Apply bonuses based on you roll and wether the opponent is upright or downed.
+
+### 2. Firing into Melee
+It is not easy to fire on a target that is engaged in melee. Attack rolls suffer a -1 modifier. This means you cannot do better than a 5.
+
+Roll a standard 1d6 with a -1 modifier, on a roll of 4 to 6, 
+
+### 3. Unsuspecting Targets
 Bows in small combat are best utilized against unsuspecting targets, therefore the damage possibilities lend themselves toward the attacker.
+
+These bonuses are only gained if the target is *not* currently engaged in combat.
 
 A ranged attacker makes a 1d6 check to hit their target, akin to a stand skill check.  
 
@@ -613,11 +667,34 @@ A ranged attacker makes a 1d6 check to hit their target, akin to a stand skill c
 |   2  |  Miss, target remains unaware    | 
 |   3  |  +1 Con Damage                   |
 |   4  |  +2 Con Damage                   |
-|   5  |  +1 HP, +1 Con Damage            |
+|   5  |  +1 HP, +2 Con Damage            |
 |   6  |  +2 HP, +2 Con Damage            |
 
-### Firing into Melee
-It is not easy to fire on a target that is engaged in melee. Attack rolls suffer a -1 modifier. This means you cannot do better than a 5, and a 1 or 2 would result in a major failure.
+Only on a roll of 2 does the target remain unaware of combat; otherwise future attack rolls fall under the other ranged combat scenarios.
+
+On a roll of 1, with a long or shortbow, and with weapon specialization, you may make 1 additional attack for this scenario (3) unsuspecting targets. 
+
+### 4. Forced into Melee
+When an opponent charges or attacks a player performing ranged combat, that player may make a single ranged attack.
+
+In this scenario, players must already have their bow drawn or a crossbow armed and aiming. 
+
+Immediatly roll a 1d6, with a success on 4 to 6. On a success roll your damage die and 1d4, determine the total damage per the standard damage chart.
+
+Apply additional damage based on the below chart.
+
+| Roll |   Close Ranged Damage   | 
+|------|-------------------------|
+|   1  |  Miss                   |
+|   2  |  Miss                   | 
+|   3  |  Miss                   |
+|   4  |  +1 Con Damage          |
+|   5  |  +1 HP, +1 Con Damage   |
+|   6  |  +2 HP, +1 Con Damage   |
+
+- If the opponent is still alive, the player is forced into melee combat with their ranged weapon as an improvised melee weapon that only deals 1d4 damage.
+- If the opponent is upright, they peform a 1d6 melee attack roll and deals damage on a success.
+- Players may choose to drop their ranged weapon and unsheath a melee weapon at a cost of 2 CON damage during the ensuing melee.
 
 ## Combat against Monsters and Beasts
 Tactics used against against monsters and beasts are not the same as those used against a humanoid. 
