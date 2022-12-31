@@ -153,7 +153,7 @@ Some backgrounds could be unbalanced\*, the following table is just a suggestion
 It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player.  
 
 ### Pick Two Traits
-Traits in this rule set are considered a _broad characteristic_, unlike skills which would apply to specific tasks. They should have a borad influence on skill based tasks or represent a single natural ability that itself is not overpowered for gameplay.
+Traits in this rule set are considered to be a _broad characteristic_, unlike skills which would apply to specific tasks. They should have a borad influence on skill based tasks or represent a single natural ability that itself is not overpowered for gameplay.
 For whatever background a player picks, they should decide 2 traits that describe them (and their people generally) that would effect gameplay.
 Examples:
 
@@ -179,7 +179,7 @@ A DM has the right to reject a skill for being too broad. An example of a badly 
 
 All characters have a number of skills based on their intelligence, (Int / 2, rounded up); additionally some classes provide more skills, as does leveling in a class.
 
-Besides during combat, most things *should not* require a skill check. Climbing up an old stonewall, negotiating prices in a market, dressing a wound, are not the sort of things that you would need to have a skill check in. Rather, if a check for a common / general task is *needed* a DM should defer to an ability check.
+Besides during combat, most things *should not* require a skill check. Climbing up an old stonewall, negotiating prices in a market, dressing a wound, are not the sort of things that you would need to have a skill check in. It is recommended to limit skill checks since combat in this system is quite nuanced.
 
 Skill checks are required when specialized experience or knowledge is required; specifically if failure of the task would lead to terrible consequences. Such as pick pocketing the kings purse, or forging a nobles signature, organizing the constuction of fortified defenses.
 
