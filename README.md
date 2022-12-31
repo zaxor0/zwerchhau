@@ -673,9 +673,11 @@ A ranged attacker makes a 1d6 check to hit their target, akin to a stand skill c
 |   5  |  +1 HP, +2 Con Damage            |
 |   6  |  +2 HP, +2 Con Damage            |
 
-Only on a roll of 2 does the target remain unaware of combat; otherwise future attack rolls fall under the other ranged combat scenarios.
+Only on a roll of 2 does the target remain unaware of combat
+- With a long or shortbow, and weapon specialization, you may make 1 additional attack for this scenario (3) unsuspecting targets. 
 
-On a roll of 1, with a long or shortbow, and with weapon specialization, you may make 1 additional attack for this scenario (3) unsuspecting targets. 
+On any other roll, future attack rolls fall under the other ranged combat scenarios.
+
 
 ### 4. Forced into Melee
 When an opponent charges or attacks a player performing ranged combat, that player may make a single ranged attack.
