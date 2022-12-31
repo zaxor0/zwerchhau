@@ -635,15 +635,15 @@ Those with specalization in bows may perform two attacks instead of one, execept
 
 There are four ranged combat scenarios:
 1. Firing at a suspecting target not in melee
-  - Success on 3 to 6
+   - Success on 3 to 6
 2. Firing into a target in melee
-  - Success on 4 to 6
+   - Success on 4 to 6
 3. Firing at unsuspecting targets not in combat
-  - Success on 3 to 6, with special damage bonuses
+   - Success on 3 to 6, with special damage bonuses
 4. Firing at a target before being forced into melee
-  - Bow or crossbow must be drawn or armed already
-  - Success on 4 to 6, with special close range damage bonuses
-  - No additional ranged attacks
+   - Bow or crossbow must be drawn or armed already
+   - Success on 4 to 6, with special close range damage bonuses
+   - No additional ranged attacks
 
 ### 1. Standard Ranged Combat
 In this scenario you are firing at a target that is aware they are in combat, but they are not currently engaged in melee.
