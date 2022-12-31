@@ -542,13 +542,13 @@ Damage is dealth based on the die roll of the appropriate weapon; however, damag
 | 1    |     0     |     1      |
 | 2    |     1     |     1      |
 | 3    |     1     |     2      |
-| 4    |     1     |     3      |
+| 4    |     2     |     2      |
 | 5    |     2     |     3      |
-| 6    |     2     |     4      |
+| 6    |     3     |     3      |
 | 7    |     3     |     4      |
-| 8    |     3     |     5      |
+| 8    |     4     |     4      |
 | 9    |     4     |     5      |
-| 10   |     4     |     6      |
+| 10   |     5     |     5      |
 | 11   |     5     |     6      |
 | 12   |     6     |     6      |
 
