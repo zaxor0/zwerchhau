@@ -31,14 +31,25 @@ The bulk of this system will use D6s for checks and spells; damage will be done 
 
 A 3 should skew to slightly less good results and 4 should skew to slightly better results, at the DM's discretion.
 
-### Advantage
+### Check Maniputalors
+There are three items that can effect a check, they take precedent in the follow order:
+1. Skills, as defined by the player's class: give advantage on specific skill checks
+2. Natural Traits, as defined by the player's identity: give +2 to general skill based checks, unless otherwise noted
+3. Relevant and high ability scores reduce the likelihood of a major failure
+
+Players only ever get one of these maniplations for a given check, they do not stack. Players must take use the one of higher precedent if able.
+
+#### 1. Skills and Advantage
 If your character is skilled in the specific task at hand, you will roll with advantage. Advantage means roll 2d6 and pick the better of the two.
 
-### Relevant Ability Scores & Failure Checks
-If you have a relevant ability score of a 5 or 6, a roll of 1 is not necessarily a major failure. You will need to roll again to "confrim the failure" which occurs on a 1 or 2.
+#### 2. Natural Traits
+Some natural traits would apply to a set of skills, and would therefore give a +2 bonus to any check related to this trait. However, some traits would be very specific, such as infravision and would not normally effect a die roll.
+
+#### 3. Relevant Ability Scores
+If you have a relevant ability score of a 5 or 6, a roll of 1 is not necessarily a major failure. You will need to roll a **failure check** to "confrim the failure" which occurs on a 1 or 2.
 
 - 1's become minor failures, with a check for major failure. 
-  - Roll a "failure confirmation," 1d6 where a 1 or 2 results in a major failure.
+  - Roll a 1d6 for a **Failure Check** where a 1 or 2 results in a major failure.
 - 2's becomes mixed results, but not entirely in your favor
 
 Examples of relevant abilities for tasks are:
@@ -61,6 +72,14 @@ As an example, if a player has a high strength and wants to "kick down an iron d
 We do not necessarily need to give players negative modifiers to prevent them from performing a ridiculous task (solving a quantum equation in minutes), but *we do need* to give them an idea of what they are capable of in the *best possible case*.
 
 As a last note and recommendation, while a DM should give the idea of possible successes, this should be around a 5 in terms of the die roll as a 6 might give unique or interesting bonuses that themselves should be a surpise.
+
+# Character Creation
+1. First roll your ability scores
+2. Choose your race, heritage, or background
+   - Pick two natural traits
+3. Choose your class
+   - Pick skills based on your intelligence, 1/2 rounded up 
+   - Pick skills based on your class
 
 ## Abilities
 Like traditional D&D, players should roll their ability scores. It is recommended to roll "down the line” where each rolls is not arranged according to preference. 
@@ -119,8 +138,10 @@ All player characters have 6 hit points, this does not increase with leveling. O
 
 If a player character has less than zero hit points, they are dead; this is the case whether or not they have any CON points left.
 
-## Background or Heritage 
-The Dungeon Master has the last say in allowed heritage or backgrounds (races as is referred to older D&D editions). It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player. Within the limits defined by their DM, players may freely choose any fantasy heritage that they deem that best suits their intended identity.  Some backgrounds could be unbalanced\*, the following table is just a suggestion.
+## Race, Background, or Heritage 
+The Dungeon Master has the last say in allowed races, heritage, or background. But players need not refer to their character's identity as a race if it doesn't suit their vision. 
+
+Some backgrounds could be unbalanced\*, the following table is just a suggestion.
 
 | Classic  | Expanded   | Modern\*    |
 |----------|------------|-------------|
@@ -129,19 +150,27 @@ The Dungeon Master has the last say in allowed heritage or backgrounds (races as
 | Dwarf    | Gnome      | Tiefling    |
 | Halfling |            | Fairy       |
 
+It is advisable to have limits on player physical size and capacity for flight and speed. In the unlikely event of a game breaking mechanic a DM reservers the right to reduce the power of a unique ability created by a player.  
+
 ### Pick Two Traits
-Traits in this rule set are considered a _broad characteristic_, unlike skills which would apply to specific tasks.
+Traits in this rule set are considered a _broad characteristic_, unlike skills which would apply to specific tasks. They should have a borad influence on skill based tasks or represent a single natural ability that itself is not overpowered for gameplay.
 For whatever background a player picks, they should decide 2 traits that describe them (and their people generally) that would effect gameplay.
 Examples:
 
-- Dwarf : strong, resistant to poison, stout
-- Elf : wise, quick, magic-adept
-- Human : quick learned, open minded, strong, quick
-- Halfling : sly, quick, stealthy, hungry
+- Dwarf : underground awareness, magic resistant
+- Elf : magic adept, poison resistant
+- Human : skillful, adaptable
+- Halfling : stealthy, infravision
 
-Player example: "My character is a tall burly human from the desert region, my people are known for being (1) well educated and (2) stealthy"
+Player example: "My character is a tall burly human from the desert region, my people are known for being (1) skillful  and (2) stealthy"
 
-Whenever a player has to perform a check that their background would be relevant for, they are able to roll advantage, meaning roll two dice and pick the one they want.
+Natural traits allow for a +2 on a roll relevant to the skill. For example, if a player chooses halfling and his heritage is of a stealthy people he would rol +2 on a sneak check, hide check, or any other stealthy skill.
+
+However, skills which are specific and trained take precedence; if a player is trained in sneaking but they are also stealthy, the roll advantage on sneak based checks instead of the +2 from being stealthy. They do not get both. 
+
+Some natural traits are more focused like magic adept; this could mean that a player starts with an additional spell if they are a wizard, or maybe they receive a bonus when studying for new spells.
+
+The details of natural traits should be worked out with the DM. A list of recommended traits and their description will be provided in the appendix.
 
 ## Skills
 Skills are specific abilities that a given player would have, they are more focused than traits and represent your personal experience and training. Except for DM discretion, there are generally no limits to what a skill could be. 
@@ -156,15 +185,16 @@ Skill checks are required when specialized experience or knowledge is required; 
 
 Even then, with specialized skills being required, group efforts to resolve a problem with coherent dialog between players should generally trump a skill check. As long as the plan is detailed, concievable, and somewhat reasonable, players should be able to execute complex tasks without pedantic skill checks.
 
-### Sample Combat Skills
+### Combat Skills
 These skills are mentioned because they are specifically referenced in the combat rules and would be appropriate for any player interested in combat.
 
-- Grappling
-- Wrestling throws
-- Disarming
-- Improvised weaponry
-- Defensive melee combat
-- Firing into Melee
+- Combat in heavy armor: Ignore unskilled CON damage in melee
+- Grappling: +1 to engagement on grappling checks 
+- Wrestling throws: +2 CON damage (instead of none)
+- Disarming: Advantage on disarm checks
+- Improvised weaponry: +1 to damage roll
+- Defensive melee combat: -1 to opponent's damage rolls 
+- Firing into Melee: +1 to combat roll (negates the -1)
 
 ### Sample Non-Combat Skills
 |Samples| | |
@@ -238,11 +268,12 @@ Rogues starts with 3 skill specializations, they may pick any **specific** skill
 - Lying / verbal deception: players are exceptional at spinning falsehoods to unknowing victims
 - Seduction: players exude charisma and physical attraction, NPCs have a disadvantage when trying to resist player suggestions
 
-Back Stab: 
+Backstab: 
 - This is a special attacks only Rogues (but not Bards) may have.
 - Only applicable to weapons the player character is specailized in.
 - The weapon must be in hand, if the player is not hidden they must pass a sleight of hand check on a 5 ot 6. 
-- Before combat occurs, a rogue may perform 1 attack where the damage roll is fully applied to HP and not to CON.
+- The backstab: performs a successful attack, player rolls the damage that is fully applied to HP and not to CON.
+- Starts combat round if the victim lives or if there are any additional combatants
 
 Weapon Specialization:
 - For combat with their chosen weapon, they may riposte for full damage on a major success parry roll [6].
@@ -404,6 +435,15 @@ Combat in Zwerhhau is meant to be swift, deadly, and decisive.
 
 It is a ritual well practiced by adventurers.
 
+## Initiave and Turn Order
+1. Players delcare actions and intentions.
+2. DM decribes NPC actions and intentions, where necessary.
+3. Each side rolls 1d6, highest goes first, roll again in a tie.
+4. Resolve actions for the winning side.
+5. The losing side gets actions per individual not involved in an opposed check or in defensive fighting.
+
+Those casting spells are considered performing "dodge" with a "disengage" posture unless otherwise declared. 
+
 ## Melee Combat Loop
 Melee combat is exhausting, each round requires that the sides engaged lose 2 Constitution.
 
@@ -423,7 +463,7 @@ Melee combat is exhausting, each round requires that the sides engaged lose 2 Co
 ### Engagement Posture
 In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. 
 
-If their default posture is to disengage, they gain a +1 to win a grapple challenge but do not enter the grapple.
+If their default posture is to disengage, they gain a +1 on grappling DEX checks, but do not enter the grapple if they win.
 
 ### Combat Actions
 Players decide which type of attack based on the following:
@@ -444,9 +484,9 @@ Players decide which type of attack based on the following:
 - Dodges: evading an attack with quick movement
   - Allow for bonus to escape
 - Grapples: clinging to your opponent to attempt a wrestling maneuvre, with or without your weapon
-  - Single sided grapple attempts take half damage on failed DEX checks
+  - Single-sided grapple attempts take half damage on failed DEX checks
   - Throw the opponent to the ground, greatly decreases opponent defenses, ideal action for a swift kill
-  - Disarm the opponent, ideal to force an opponent to yield
+  - Disarm the opponent, ideal to force an opponent to yield, 1d6 skill check
   - Sleeperhold, attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself
 - Defensive Fighting: Focusing on parries without ripostes, regaining footing when downed. See the below section.
 
@@ -590,24 +630,29 @@ On a succesful dodge roll a player suffers no damage from a single attack. Ideal
 - On a success and for each additional opponent, they must expend 1 CON to continue dodging with a maximum of 3 CON.
 - If there are multiple opponents, and the player cannot expend Constitution, opponents land hits on 5s and 6s.
 
+Those performing spellcasting are considering taking a dodge action in case they are attacked. If an opponent attacks them and the lose the opposed check (dex) the spell fails. 
+
 ### Grappling and Wrestling
 #### One Sided Grapple Attempts
 If only one combatant attempts a grapple, there are two checks:
 
 - First dexterity, this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
-- Upon failure 
-  -If the opposing side performed a *thrust* or *slash*, take damage.
-- Upon success:
-  - opposed dexterity check, a standard opposed strength check to see who dominates.
+- Upon failure: If the opposing side performed a *thrust* or *slash*, take damage.
+- Upon success: A standard opposed strength check to see who dominates.
 
 #### Grapple Strength Check
 If both sides are performing a grapple, each side rolls 1d6 & add their strength, winner performs a wrestling maneuvre.
 
-- Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield. 
+- Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield, requires a 1d6 skill check 
 - Throw the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
-- Sleeperhold: Attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself.
+- Sleeperhold: Attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself, requires a 1d6 skill check.
 
 These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
+
+#### Relevanti Grappling Skills
+- Grappling: +1 to engagement on grappling STR checks 
+- Wrestling throws: +2 CON damage (instead of none)
+- Disarming: Advantage on disarm checks
 
 ### Riposte
 If a player rolled a parry versus a slash or thrust, and they win the opposed check with a natural roll of 6, may riposte.
