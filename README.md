@@ -513,10 +513,12 @@ Damage is dealth based on the die roll of the appropriate weapon; however, damag
 | 12   |     6     |     6      |
 
 - Damage to HP (flesh and blood) is always dealt first.
-- If HP damage brings the player character below 0 hit points, they are dead.
-- If a player character takes damage that brings them to *exactly* zero hit points, no additional damage. Perform the *Will to Live* roll to see if they survive.
-- If still alive, add damage bonuses.
-- If after damage bonuses the player is at 0 or below HP, they are dead.
+- If HP damage brings the player character **below 0 hit points**, they are dead.
+- If a player character takes damage that brings them to **exactly zero hit points**:
+  - Perform the *Will to Live* roll to see if they survive.
+  - Do not process any additional damage
+- If a player is **above zero hit points**, add damage bonuses.
+- If after damage bonuses the player is **at or below zero HP**, they are dead.
 
 ### The Will to Live
 
