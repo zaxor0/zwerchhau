@@ -39,31 +39,43 @@ SIDE ... PERCENT
 6 ...... 42 %
 ```
 
-## Combat Testing
-Still need to add more nuance
-
+# 3d6 versus 4d6 drop lowest
+- The most expected range shifts from '9 to 12' to '11 to 15'
+- The chance of having an 18 quadruples
 ```
-(STR, DEX, WILL, INT, Endurance, HP)
-[4, 6, 6, 2, 17, 6] wielding a sword
-...versus...
-[3, 2, 3, 4, 9, 6] wielding a spear
-new round
-... thrust v. parry  >  dex
-player wins!
-endurance damage 2
-player HP 6 En 17   |   enemy HP 6 En 7
-...end combat round 1
-new round
-... parry v. cut  >  dex or str
-player wins!
-endurance damage 6
-player HP 6 En 17   |   enemy HP 6 En 1
-...end combat round 2
-new round
-... grapple v. parry  >  dex then str
-player wins!
-player wins!
-endurance damage 2
-player HP 6 En 17   |   enemy HP 6 En -1
-...end combat round 3
+rolled 3d6 10000 times
+3 ...... 0.39 %
+4 ...... 1.19 %
+5 ...... 2.78 %
+6 ...... 4.77 %
+7 ...... 7.25 %
+8 ...... 9.66 %
+9 ...... 11.77 %
+10 ...... 12.68 %
+11 ...... 12.35 %
+12 ...... 11.95 %
+13 ...... 9.27 %
+14 ...... 6.56 %
+15 ...... 4.48 %
+16 ...... 2.84 %
+17 ...... 1.61 %
+18 ...... 0.45 %
+
+rolled 4d6 and dropped the lowest 10000 times
+3 ...... 0.07 %
+4 ...... 0.15 %
+5 ...... 0.77 %
+6 ...... 1.59 %
+7 ...... 3.0 %
+8 ...... 5.02 %
+9 ...... 7.0 %
+10 ...... 8.9 %
+11 ...... 11.83 %
+12 ...... 12.53 %
+13 ...... 12.72 %
+14 ...... 12.97 %
+15 ...... 10.52 %
+16 ...... 7.19 %
+17 ...... 3.9 %
+18 ...... 1.84 %
 ```
