@@ -172,6 +172,21 @@ Some natural traits are more focused like magic adept; this could mean that a pl
 
 The details of natural traits should be worked out with the DM. A list of recommended traits and their description will be provided in the appendix.
 
+#### Example Traits 
+| Trait                 | Description                                   	                 |
+|-----------------------|------------------------------------------------------------------------|
+| Stout or Tough        | +2 Consitution                                            	         |
+| Magical resistance    | +1 spell on spell saves              		                         | 
+| Poison resistance     | +1 on poison saves            	  	           	         |
+| Toxic resistance      | +1 on toxic saves 		                 	                 |
+| Educated Society      | 2 additional knowledge inspired skills                                 |
+| Dark vision           | Can see black and white in the dark up to 60 feet     	         |
+| Languages of enemies  | Can speak two languages of common monster foes             	         |
+| Common Enemy          | Gain +1 to attack (melee or range) vs. 1 monster type       	         |
+| Giant Defense         | 2 Giant or large type monster take -1 on attack rolls vs you	         |
+| Hide in plainsight    | Not in metal armor, alone or in a group with this trait, +2 to hide    |
+| Underground awareness | +2 to determine approximate depth and various underground architecture |
+
 ## Skills
 Skills are specific abilities that a given player would have, they are more focused than traits and represent your personal experience and training. Except for DM discretion, there are generally no limits to what a skill could be. 
 
@@ -755,3 +770,19 @@ Therefore, to keep combat simple, when fighting a target that is not your standa
 
 ### How do I know I am fighting a monster?
 The basic rule of thumb is grappling, can you engage in a grappling struggle with a target and not suffer greatly? For example, would you grapple with 800lb 10 foot tall polar bear? Probably not. Would you engage in a grapple with a 7 foot 300 lb Orc? Maybe. 
+
+# Saving Throws and Ability Checks
+- Saves are rolled as a 1d6 and determined to be a success based on the standard 1d6 skill check. 
+- Those with a stat of 6 in a given ability score gain a +1 bonus to the save
+- Those with who, at the time of the roll, have a 15 or higher Constitution gain +1 to the save.
+- Some racial abilities give a +1 bonus, these do not stack. You only ever get +1.
+
+## Saves and Checks Table
+These are example to help categorize saves that need to be made during gameplay.
+
+| Strength                    | Dexterity     | Will   | Constitution         | 
+|-----------------------------|---------------|--------|----------------------|
+| Catch falling person        | Breath Weapon | Spells | Poison               |
+| Knock charging monster      | Dodge         | Wands  | Paralysis            |
+| Stand ground against charge | Avoid falling | Sleep  | Toxic Substances     |
+|                             |               | Charm  | Extreme cold or heat | 
