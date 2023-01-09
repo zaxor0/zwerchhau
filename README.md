@@ -179,6 +179,8 @@ The details of natural traits should be worked out with the DM. A list of recomm
 | Magical resistance    | +1 spell on spell saves              		                         | 
 | Poison resistance     | +1 on poison saves            	  	           	         |
 | Toxic resistance      | +1 on toxic saves 		                 	                 |
+| Sleep resistance      | +1 on sleep saves 		                 	                 |
+| Charm resistance      | +1 on charm saves 		                 	                 |
 | Educated Society      | 2 additional knowledge inspired skills                                 |
 | Dark vision           | Can see black and white in the dark up to 60 feet     	         |
 | Languages of enemies  | Can speak two languages of common monster foes             	         |
