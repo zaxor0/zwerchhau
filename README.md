@@ -7,18 +7,59 @@ It is a ritual well practiced by adventurers.
 
 The goal is this system is to change combat in old school RPG systems; ideally, it will provide a means for more tactical combat with more interesting choices for fighter types.
 
-Idea for a fully fleshed out RPG system are in the ![System](https://github.com/zaxor0/zwerchhau/blob/main/system.md)
+Ideas for a fully fleshed out RPG system are in the ![System](https://github.com/zaxor0/zwerchhau/blob/main/system.md) document.
+
+## Damage, HP, Endurance (optional, recommended)
+Instead of having one pool of hit points, that increase with level, this system seeks to separate bodily health from the ability to survive combat.
+
+There are two sets of HP, one set (flesh) represents you body and if it reaches 0 you will likely die. The other (endurance) represents your constitution and ability to defence yourself in combat; if this reaches 0 you start taking damage to your body.
+
+Damage from an attack will most likely lower endurance, but with good rolls does cause bodily damage. This means, a character may die while having positive endurance. Additionally, this makes surprise back stab attacks extremely lethal.
+
+- *Flesh* - These are the hit points of your physical body, if these are brought to 0 you may die.
+  - At first level, this is equivelant to your HP per your rules system.
+  - A second level and beyond, it is the maximum HP for your first level + 4. Additional points are rolled into *Endurance*.
+- *Endurance* these are your hit points that represent you ability to defend yourself in combat.
+  - If endurance is 0, you will collapse and be unable to defend yourself. Any future damage is dealt to *flesh*.
+  - At first level, this is equal to your constitution
+  - At later levels, any additional HP beyond your 1 level max + 4, are added to this number.
+
+It may be in the in the interest of high level games to limit additional HP gained with each level.
+
+The outcome is that level 1 characters are less likely to die right away, but given the right circumstance a higher level player may die fairly quickly.
+
+For more interesting gameplay, when a player reaches 0, instead of immediate death consider using a mutalation and dismemberment table, an example is given later on.
+
+### HP Examples
+- A level 1 fighter with a 10 constitution and 7 HP (1d8) has a flesh of 7 and a Endurance of 10
+- A level 2 fighter with a 10 constitution and 15 HP (2d8) has a flesh of 12 and a endurance of 13
+- A level 3 fighter with a 10 constitution and 21 HP (3d8) has a flesh of 12 and a endurance of 19
+
+## Armor and Weapons
+Zwerchhau implements opposed checks for successful combat attacks, therefore AC is actually damage reduction instead of providing a target number for players "to hit."
+
+Armor only reduces damage to flesh, damage is only reduced between 1 and 3:
+
+|Armor     | Descend | Ascend | Damage Reduction |
+|----------|---------|--------|------------------|
+|Leather   |    7    |   12   |       1          |
+|Chainmail |    5    |   14   |       2          |
+|Platemail |    3    |   16   |       3          |
+
+Shields only reduce damage to Endurance
+- Reduce damage to endurace by 1
+- Provide a +1 to parry actions
+
+
 ## Initiave and Turn Order
-1. Players delcare actions and intentions.
-2. DM decribes NPC actions and intentions, where necessary.
-3. Each side rolls 1d6, highest goes first, roll again in a tie.
-4. Resolve actions for the winning side.
-5. The losing side gets actions per individual not involved in an opposed check or in defensive fighting.
+This combat system is better suited to side versus side, than individual combat.
+
+The side that lost gets actions per individual not involved in an opposed check or in defensive fighting.
 
 Those casting spells are considered performing "dodge" with a "disengage" posture unless otherwise declared. 
 
 ## Melee Combat Loop
-Melee combat is exhausting, each round requires that the sides engaged lose 2 Constitution.
+Melee combat is exhausting, each round requires that those engaged lose 2 Endurance at the end of the round.
 
 - Declare engagement posture
 - Determine Player's Attacking Combat Action
