@@ -6,11 +6,9 @@ It is a ritual well practiced by adventurers.
 
 The goal is this system is to change combat in old school RPG systems; ideally, it will provide a means for more tactical combat with more interesting choices for fighter types.
 
-Ideas for a fully fleshed out RPG system are in the ![System Document](https://github.com/zaxor0/zwerchhau/blob/main/system.md).
+Ideas for a fully fleshed out RPG system are in the ![System](https://github.com/zaxor0/zwerchhau/blob/main/system.md) document.
 
-## Damage, HP, Endurance
-Technically, this can be optional and damage is never split, but it is recommended nonetheless.
-
+## Damage, HP, Endurance (optional, recommended)
 Instead of having one pool of hit points, that increase with level, this system seeks to separate bodily health from the ability to survive combat.
 
 There are two sets of HP, one set (**flesh**) represents you body and if it reaches 0 you will likely die. The other (**endurance**) represents your constitution and ability to defence yourself in combat; if this reaches 0 you start taking damage to your body.
@@ -32,6 +30,8 @@ It may be in the in the interest of high level games to limit additional HP gain
 The outcome is that level 1 characters are less likely to die right away, and therefore can move slightly further into a given dungeon before they need to retreat for the night.
 
 However, given the right circumstance a higher level player may die fairly quickly and would, therefore, still need to maintain caution while adventuring.
+
+For more interesting gameplay, when a player reaches 0, instead of immediate death consider using a mutalation and dismemberment table, an example is given later on.
 
 ### HP Examples
 - A level 1 fighter with a 10 constitution and 7 HP (1d8) has a flesh of 7 and a Endurance of 10
@@ -66,18 +66,14 @@ Melee combat is exhausting, each round requires that those engaged lose 2 **Endu
 
 - Declare engagement posture
 - Determine Player's Attacking Combat Action
-- DM determines NPC's Attacking Combat Action
+- DM rolls for NPC's action (or choses actions)
 - Determine the opposed check based on results (dex, str, or both)
-- Opposed Roll
-  - Ability check roll, winner is **under but highest**
-  - If both are under and equal, reroll
-  - If both are over / failures, reroll
+- Opposed Roll - Add the relevant ability (dex, str)
+  - Highest wins, note winner's value, reroll on equal values. 
 - Damage Roll - Winner rolls their weapon's damage dice
-  - Apply damage bonuses based on weapon type & action
-  - Apply damage bonuses based on opposed roll difference
-  - Reduce flesh damage based on armor
-  - Deal Damage to to flesh, then endurance
+  - Reduce HP damage based on armor
   - Check for death
+  - Apply damage bonuses
 - Reduce Constituion Points, 2 per round of combat
   - If player is wearing heavy armor and unskilled, reduce CON by 1 further. 
 
@@ -97,9 +93,11 @@ Players decide which type of attack based on the following:
   - Additional damage (+2 Con) for any medium, long, two-handed, or great weapon
   - Additional damage (+1 Con) for blunt great weapons
   - Additional damage (+1 HP) for sharp-edged great weapons
-- Defensive Fighting: Focusing on parries without ripostes, regaining footing when downed. See the below section.
+- Parries: blocking the blow of a weapon with your weapon
+  - An opposed roll of natural 6 allows for a riposte
   - Gain +1 to your roll if you have a shield
-  - A difference of 5 or greater allows for a **Riposte**, a free follow up attack for half damage
+- Ripostes: a free follow up attack after a parry opposed roll of 6, half damage
+  - With weapon specialization, does normal damage
 - Dodges: evading an attack with quick movement
   - Allow for bonus to escape
 - Grapples: clinging to your opponent to attempt a wrestling maneuvre, with or without your weapon
@@ -107,6 +105,19 @@ Players decide which type of attack based on the following:
   - Throw the opponent to the ground, greatly decreases opponent defenses, ideal action for a swift kill
   - Disarm the opponent, ideal to force an opponent to yield, 1d6 skill check
   - Sleeperhold, attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself
+- Defensive Fighting: Focusing on parries without ripostes, regaining footing when downed. See the below section.
+
+### NPC Combat Attack Roll
+One d6 die roll representing the following actions
+
+| Roll | Slashing | Thrusting or Slashing |  Thrusting   |
+|------|----------|-----------------------|--------------|
+|   1  |  DM Pick |       DM Pick         |  DM Pick     |  
+|   2  |  Parry   |       Parry           |  Parry       |
+|   3  |  Slash   |       Thrust          |  Thrust      |
+|   4  |  Slash   |       Slash           |  Thrust      |
+|   5  |  Dodge   |       Dodge           |  Dodge       |
+|   6  |  Grapple |       Grapple         |  Grapple     |
 
 ### Combat Attack Results
 The priorty table to determine result check:
@@ -121,14 +132,18 @@ The priorty table to determine result check:
 |   6     | Parry v. Thrusts    | Str          |
 |   7     | Others              | No Result    | 
 
-### Opposed Checks
-Once you've determined which check will occur, whether strength or dex (or both), each side rolls 1d20.
+A table view of the same information:
 
-A success is **under but highest**:
-- To succeed, roll equal to under your ability score
-- To win the check, roll higher than your opponent
-- If anyone rolls over their ability score, they fail
-- If both sides roll over their ability score no one wins.
+|       |Cut  |Thrust|Parry|Dodge|Grapple|
+|-------|-----|------|-----|-----|-------|
+|Slash  | DvS | DvS  | DvS | Dex | D&S   |
+|Thrust | DvS | Dex  | Str | Dex | D&S   |
+|Parry  | DvS | Str  | nil | nil | D&S   |
+|Dodge  | Dex | Dex  | nil | nil | D&S   |
+|Grapple| D&S | D&S  | D&S | D&S | Str   |
+
+### Opposed Checks
+Once you've determined which check will occur, whether strength or dex (or none at all), each side rolls 1d6 + their attribute.
 
 The higher value wins the check and deals damage. 
 
@@ -136,19 +151,68 @@ To succeed in a grapple check, you must first win a dex check to wrestle your op
 
 Opponents attacking someone performing "defensive fighting" still roll, but only "hit" on a 6. See below for more detail.
 
-### Damage Bonuses
-Based on the *difference* between the opposed dice rolls, the victor may deal additional damage to their opponent.
-
-Starting at a difference of 5, increase the damage by 1 for a upright opponent or 3 for a down opponent. 
-
-This bonus limited at a difference of 10, +5 to a upright opponent and +7 for a down opponent.
-
-Add this bonus to your damage die roll.
-
 ### Damage Dealt
-Damage is dealth based on the die roll of the appropriate weapon; however, damage is split between flesh and endurance. Damage to flesh is always dealt first; and therefore may cause a killing blow.
+Damage is dealth based on the die roll of the appropriate weapon; however, damage is split between flesh and endurance.
 
-Roll the appropriate die for you given weapon. Add any damage bonuses.
+| Roll | Flesh Damage | Endurance Damage |
+|------|--------------|------------------|
+| 1    |       0      |        1         |
+| 2    |       1      |        1         |
+| 3    |       1      |        2         |
+| 4    |       2      |        2         |
+| 5    |       2      |        3         |
+| 6    |       3      |        3         |
+| 7    |       3      |        4         |
+| 8    |       4      |        4         |
+| 9    |       4      |        5         |
+| 10   |       5      |        5         |
+| 11   |       5      |        6         |
+| 12   |       6      |        6         |
+
+- Damage to HP (flesh and blood) is always dealt first.
+- If HP damage brings the player character **below 0 hit points**, they are dead.
+- If a player character takes damage that brings them to **exactly zero hit points**:
+  - Perform the *Will to Live* roll to see if they survive.
+  - Do not process any additional damage
+- If a player is **above zero hit points**, add damage bonuses.
+- If after damage bonuses the player is **at or below zero HP**, they are dead.
+
+### The Will to Live
+
+1. Make a 1d12 *Will to Live* roll. If the player rolls equal to or under thier Will ability score, they are not dead.
+2. Next, they must roll on the *Scars, Broken Bones, and Mortal Wounds* table below.
+3. The must roll a 1d6, add the result to their maximum HP. 
+4. The player character is still at 0 HP but are unconscious.
+5. Ignore any damage bonuses, they are out of the fight.
+6. Without medical aid soon, they will die.
+
+#### Scars, Broken Bones, and Mortal Wounds
+
+Roll 1d6 
+- On a 1-2 you gain a scar
+- On a 3-5 you have a broken bone
+- On a 6 you have a mortal wound, you will die unless untreated. 
+
+Roll 1d4, see where you have been wounded.
+
+|1d4| Scars (1,2) | Broken Bones (3,4,5) |  Mortal Wounds (6) |
+|---|-------------|----------------------|--------------------|
+| 1 |   Facial    |     Skull            |    Lose an Eye     |
+| 2 |   Chest     |     Ribs             |    Punctured Organ |
+| 3 |   Arm       |     Arm              |    Lose an arm     |
+| 4 |   Leg       |     Leg              |    Lose a leg      |
+
+### Damage Bonuses
+Based on the opposed die roll, the victor may deal additional damage to their opponent, to either their HP (flesh and blood) or to their CON (thier overall endurance)
+
+| Roll | Upright Opponent   | Downed Opponent   | 
+|------|--------------------|-------------------|
+|   1  |  nil               | nil               | 
+|   2  |  nil               | +1 Con damage     | 
+|   3  |  nil               | +1 Con Damage     | 
+|   4  |  +1 Con Damage     | +2 Con Damage     | 
+|   5  |  +2 Con Damage     | +1 HP, +1 Con Dmg | 
+|   6  |  +1 HP, +1 Con Dmg | +2 HP, +2 Con Dmg | 
 
 #### Attack type bonuses
 These are mentioned previously, but to restate:
@@ -324,41 +388,3 @@ These are example to help categorize saves that need to be made during gameplay.
 | Knock charging monster      | Dodge         | Wands  | Paralysis            |
 | Stand ground against charge | Avoid falling | Sleep  | Toxic Substances     |
 |                             |               | Charm  | Extreme cold or heat | 
-
-## Charts
-
-Difference Bonus
-
-| Difference| Upright Opponent   | Downed Opponent   | 
-|-----------|--------------------|-------------------|
-|      5    |         1          |         2         |  
-|      6    |         2          |         3         |
-|      7    |         3          |         4         |
-|      8    |         4          |         5         |
-|      9    |         5          |         6         |
-|     10    |         6          |         7         |
-
-
-
-Damage Roll Split
-
-| Roll | Flesh Damage | Endurance Damage |
-|------|--------------|------------------|
-| 1    |       0      |        1         |
-| 2    |       1      |        1         |
-| 3    |       1      |        2         |
-| 4    |       2      |        2         |
-| 5    |       2      |        3         |
-| 6    |       3      |        3         |
-| 7    |       3      |        4         |
-| 8    |       4      |        4         |
-| 9    |       4      |        5         |
-| 10   |       5      |        5         |
-| 11   |       5      |        6         |
-| 12   |       6      |        6         |
-| 13   |       6      |        6         |
-| 14   |       6      |        6         |
-| 15   |       6      |        6         |
-| 16   |       6      |        6         |
-| 17   |       6      |        6         |
-| 18   |       6      |        6         |
