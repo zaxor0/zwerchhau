@@ -1,28 +1,22 @@
 # Zwerchhau Combat System
 
-Combat in Zwerhhau is meant to be swift, deadly, and decisive. 
-
-It is a ritual well practiced by adventurers.
-
-The goal is this system is to change combat in old school RPG systems; ideally, it will provide a means for more tactical combat with more interesting choices for fighter types.
+The goal of Zwerchau is to provide a new tactical combat system for old school RPG systems; ideally, it will give fighter types more interesting choices in combat. However, this does add more crunch.
 
 Ideas for a fully fleshed out RPG system are in the ![System Document](https://github.com/zaxor0/zwerchhau/blob/main/system.md).
 
 ## Damage, HP, Endurance
-Technically, this can be optional and damage is never split, but it is recommended nonetheless.
+Instead of having one pool of hit points that increase with level, this system seeks to separate bodily health from the ability to survive combat.
 
-Instead of having one pool of hit points, that increase with level, this system seeks to separate bodily health from the ability to survive combat.
+There are two sets of HP, one set (**flesh**) represents you body and if it reaches 0 you die. The other (**endurance**) represents your constitution and ability to defence yourself in combat; if this reaches 0 you start taking damage to your body.
 
-There are two sets of HP, one set (**flesh**) represents you body and if it reaches 0 you will likely die. The other (**endurance**) represents your constitution and ability to defence yourself in combat; if this reaches 0 you start taking damage to your body.
-
-Damage from an attack will most likely lower endurance, but with good rolls does cause bodily damage. This means, a character may die while having positive endurance. Additionally, this makes surprise back stab attacks extremely lethal.
+Damage from a successful attack skews towards endurance, but still may cause bodily damage. This means, a character may die while having positive endurance. 
 
 - **Flesh** - These are the hit points of your physical body, if these are brought to 0 you may die.
   - At first level, this is equivelant to your HP per your rules system.
-  - A second level and beyond, it is the maximum HP for your first level + 4. Additional points are rolled into *Endurance*.
+  - A second level and beyond, it is the maximum HP for your first level + 4. Additional points are rolled into **Endurance**.
   - Recovers per old school rules, 1 per day with overnight rest.
 - **Endurance** - these are your hit points that represent you ability to defend yourself in combat.
-  - If endurance is 0, you will collapse and be unable to defend yourself. Any future damage is dealt to *flesh*.
+  - If endurance is 0, you will collapse and be unable to defend yourself. Any future damage is dealt to **flesh**.
   - At first level, this is equal to your constitution
   - At later levels, any additional HP beyond your 1 level max + 4, are added to this number.
   - Recovers fully after a long (1h) rest, if you have less than half of your flesh it recovers only up to 3/4 rounded up.
@@ -41,18 +35,19 @@ However, given the right circumstance a higher level player may die fairly quick
 ## Armor and Shields
 Zwerchhau implements opposed checks for successful combat attacks, therefore AC is actually damage reduction instead of providing a target number for players "to hit."
 
-Armor only reduces damage to flesh, damage is only reduced between 1 and 3:
+#### Armor
+Armor only reduces damage to **Flesh**, damage is only reduced between 1 and 3:
 
-|Armor     | Descend | Ascend | Damage Reduction |
-|----------|---------|--------|------------------|
-|Leather   |    7    |   12   |       1          |
-|Chainmail |    5    |   14   |       2          |
-|Platemail |    3    |   16   |       3          |
+|       Armor        | Descend AC | Ascend AC | Damage Reduction |
+|--------------------|------------|-----------|------------------|
+| Light  (Leather)   |    7       |     12    |       1          |
+| Medium (Chainmail) |    5       |     14    |       2          |
+| Heavy  (Platemail) |    3       |     16    |       3          |
 
-Shields only reduce damage to Endurance
-- Reduce damage to endurace by 1
+#### Shields
+Shields only reduce damage to **Endurance**
+- Reduce damage to endurace by 1 for each opponent
 - Provide a +1 to defensive actions
-- Reduces negative modifiers from fighting multiple opponents by 1
 
 ## Initiave and Turn Order
 This combat system is better suited to side versus side, than individual combat.
@@ -62,64 +57,80 @@ The side that lost gets actions per individual not involved in an opposed check 
 Those casting spells are considered performing "dodge" with a "disengage" posture unless otherwise declared. 
 
 ## Melee Combat Loop
-Melee combat is exhausting, each round requires that those engaged lose 2 **Endurance** at the end of the round.
 
 - Declare engagement posture
+- Delcare primary opponent in case of more than 1
 - Determine Player's Attacking Combat Action
 - DM determines NPC's Attacking Combat Action
 - Determine the opposed check based on results (dex, str, or both)
 - Opposed Roll
   - Ability check roll, winner is **under but highest**
-  - If both are under and equal, reroll
+  - If both are under and equal, both deal half damage
   - If both are over / failures, reroll
 - Damage Roll - Winner rolls their weapon's damage dice
-  - Apply damage bonuses based on weapon type & action
-  - Apply damage bonuses based on opposed roll difference
+  - Apply damage bonuses based on Strength
+  - Apply damage bonuses based on opposed roll difference (5 or greater)
+  - (Optional) Apply damage bonuses based on weapon type & action
+  - Determine **Flesh** and **Endurance** split, divide by 2 & favor endurance.
   - Reduce flesh damage based on armor
-  - Deal Damage to to flesh, then endurance
-  - Check for death
-- Reduce Constituion Points, 2 per round of combat
-  - If player is wearing heavy armor and unskilled, reduce CON by 1 further. 
+  - Deal damage to to flesh, check for death
+  - Deal damage to endurance, check for exhaustion
+- For each opponent, reduce endurance by 1, increasing by 1 for each.
+  - 1 for the first opponent, 2 for the second, and so on.
+  - A shield negates 1 per opponent, meaning 0 for the first opponent, 1 for the second, and so on.
 
 ### Engagement Posture
 In the thick of combat, the blows may turn to a grapple. Prior to attack players may choose their default posture, to engage in grapple or to disengage. 
 
 If their default posture is to disengage, they gain a +1 on grappling DEX checks, but do not enter the grapple if they win.
 
+### Multiple Opponents
+If you are or could be attacked by more than 1 opponent, you need to delcare which opponent is primary focus. 
+
+Non-primary / additional opponents gain a +1 to their opposed checks, meaning they need to roll under their ability score + 1 for a success.
+
 ### Combat Actions
 Players decide which type of attack based on the following:
 
-- Thrusts: Piercing actions
-  - Additional damage (+1 Con) for 1h spears
-  - Additional damage (+2 Con) for 2h spears
-  - Additional damage (+1 HP) for 2h swords
-- Slashes / Cuts: Swinging & slicing actions
-  - Additional damage (+2 Con) for any medium, long, two-handed, or great weapon
-  - Additional damage (+1 Con) for blunt great weapons
-  - Additional damage (+1 HP) for sharp-edged great weapons
-- Defensive Fighting: Focusing on parries without ripostes, regaining footing when downed. See the below section.
-  - Gain +1 to your roll if you have a shield
-  - A difference of 5 or greater allows for a **Riposte**, a free follow up attack for half damage
+- Attack, add your to hit bonus to your ability, roll under for a success.
+  - Thrusts: Piercing actions
+  - Slashes / Cuts: Swinging & slicing actions
+- Defensive Fighting: Focusing on parries without ripostes, regaining footing when downed.
+  - Gain +1 to your roll if you have a shield, meaning roll under your ability score + 1
+  - If you are prone due to melee, you gain a + 1 to your opposed check. If you win the opposed check you can stand up.
+  - A difference of 5 or greater allows for a **Riposte**, a free follow up attack for half damage. Not applicable while prone due to melee.
 - Dodges: evading an attack with quick movement
-  - Allow for bonus to escape
+  - Gain +2 on opposed rolls, meaning roll under your ability score + 2
+  - You do not gain the possibility for a riposte
 - Grapples: clinging to your opponent to attempt a wrestling maneuvre, with or without your weapon
-  - Single-sided grapple attempts take half damage on failed DEX checks
+  - Single-sided grapple attempts take damage on failed opposed checks if the opponent performed a *slash* or *thrust*
   - Throw the opponent to the ground, greatly decreases opponent defenses, ideal action for a swift kill
   - Disarm the opponent, ideal to force an opponent to yield, 1d6 skill check
-  - Sleeperhold, attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself
+  - Choke your opponent, attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself
+
+#### To Hit Bonus
+In descending AC systems, you have a THAC0, to determine your "to hit bonus" simply do 20 - THAC0. The result is your bonus.
+
+Example:
+- You are performing a Dexterity opposed check
+- You have a dexterity of 15 and a THAC0 of 17
+- 20 - 17 = 3, 15 + 3 = 18
+- Roll under a 18 for success
+
+Do **NOT** add strength bonuses to this check. Strength bonuses are only for damage.
 
 ### Combat Attack Results
 The priorty table to determine result check:
 
-|Priority | Opposing Rolls      | Check        |
-|---------|---------------------|--------------|
-|   1     | Grapple v. Grapple  | Str          |
-|   2     | Grapple v. Any      | Dex then Str |
-|   3     | Dodge v. Any        | Dex          |
-|   4     | Slash v. Any        | Dex or Str   |
-|   5     | Thrust v. Thrusts   | Dex          |
-|   6     | Parry v. Thrusts    | Str          |
-|   7     | Others              | No Result    | 
+|Priority | Opposing Rolls         | Check        |
+|---------|------------------------|--------------|
+|   1     | Grapple v. Grapple     | Str          |
+|   2     | Grapple v. Any         | Dex then Str |
+|   3     | Dodge v. Any           | Dex          |
+|   4     | Slash v. Any           | Dex or Str   |
+|   5     | Thrust v. Thrusts      | Dex          |
+|   6     | Defensive v. Defensive | Dex          |
+|   7     | Others                 | No Result    | 
 
 ### Opposed Checks
 Once you've determined which check will occur, whether strength or dex (or both), each side rolls 1d20.
@@ -136,7 +147,20 @@ To succeed in a grapple check, you must first win a dex check to wrestle your op
 
 Opponents attacking someone performing "defensive fighting" still roll, but only "hit" on a 6. See below for more detail.
 
-### Damage Bonuses
+### Damage Dealt and Damage Bonuses
+Damage is dealt based on the die roll of the appropriate weapon; however, damage is split between flesh and endurance. Damage to flesh is always dealt first; and therefore may cause a killing blow.
+
+Roll the appropriate die for you given weapon. Add any damage bonuses.
+
+There are two bonuses you add to your damage roll:
+- one for strength
+- One for opposed roll difference
+- Optionally, one for weapon and attack types
+
+#### Strength Bonus
+Most OSR rule systems offer melee bonuses for a high Strength, add these to the total damage Roll.
+
+#### Opposed Roll Difference Bonus
 Based on the *difference* between the opposed dice rolls, the victor may deal additional damage to their opponent.
 
 Starting at a difference of 5, increase the damage by 1 for a upright opponent or 3 for a down opponent. 
@@ -145,12 +169,7 @@ This bonus limited at a difference of 10, +5 to a upright opponent and +7 for a 
 
 Add this bonus to your damage die roll.
 
-### Damage Dealt
-Damage is dealth based on the die roll of the appropriate weapon; however, damage is split between flesh and endurance. Damage to flesh is always dealt first; and therefore may cause a killing blow.
-
-Roll the appropriate die for you given weapon. Add any damage bonuses.
-
-#### Attack type bonuses
+#### Attack Type Bonus (Optional)
 These are mentioned previously, but to restate:
 - Thrusts
   - Additional damage (+1 Con) for 1h spears
@@ -162,26 +181,15 @@ These are mentioned previously, but to restate:
   - Additional damage (+1 HP) for sharp-edged great weapons
 
 ### Defensive Fighting
-Defensive Fighting occurs in place of an opposed roll. Opponents land hits only on 6s and additional opponents gain bonuses to hit. Players should consider this choice when they need to perform the following:
-
-- Keep enemies at bay
-- Parry incoming attacks
-- Avoid being encircled
-- Regain footing after being knock down, lose 1 CON
-
-#### Actions for opponents
-- Hit the defensive fighter only on a 6
-- Do not gain damage bonuses if alone
-- For each additional opponent attacking, each attacker gains a +1 to their roll with a maximum of +3. 
-- If there are 3 or more opponents attacking the defensive fighter, they deal +1 CON damage each.
+Defensive Fighting means focusing on parries without ripostes, and attempting to regaining footing when prone from melee.
+  - Gain +1 to your roll if you have a shield, meaning roll under your ability score + 1
+  - If you are prone due to melee, you gain a + 1 to your opposed check. If you win the opposed check you can stand up.
+  - A difference of 5 or greater allows for a **Riposte**, a free follow up attack for half damage. Not applicable while prone due to melee.
 
 ### Dodge
-On a succesful dodge roll a player suffers no damage from a single attack. Ideally used in 1 on 1 scenarios, otherwise defensive fighting is recommended.
+On a succesful dodge roll a player suffers no damage from a single attack. 
 
-- If there is more than 1 opponent, a player must declare who they are dodging, if there is more than 1 opponent. 
-- If they succeed on a 5 or 6, they may attempt to escape if there is a viable route to retreat. 
-- On a success and for each additional opponent, they must expend 1 CON to continue dodging with a maximum of 3 CON.
-- If there are multiple opponents, and the player cannot expend Constitution, opponents land hits on 5s and 6s.
+Dodging provides better defense than defensive fighting, with a +2; however, players do not gain the possibility to make a riposte.
 
 Those performing spellcasting are considering taking a dodge action in case they are attacked. If an opponent attacks them and the lose the opposed check (dex) the spell fails. 
 
@@ -190,41 +198,26 @@ Those performing spellcasting are considering taking a dodge action in case they
 If only one combatant attempts a grapple, there are two checks:
 
 - First dexterity, this represents the lunge or springing action an attacker would make to quickly close distance before a strike is made against them. Also, is represents the opponent swinging their weapon or moving away from the grappler. 
-- Upon failure: If the opposing side performed a *thrust* or *slash*, take damage.
+- Upon failure: If the opposing side performed a *thrust* or *slash*, they deal and roll for damage.
 - Upon success: A standard opposed strength check to see who dominates.
+  - The side that performed grapple gets a +1 on their check, meaning roll under their ability score + 1 for success.
 
 #### Grapple Strength Check
-If both sides are performing a grapple, each side rolls 1d6 & add their strength, winner performs a wrestling maneuvre.
+If both sides are performing a grapple, perform an opposed strength check, both sides roll 1d20, with the *under but hightest* being the winner.
 
-- Disarm the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield, requires a 1d6 skill check 
-- Throw the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
-- Sleeperhold: Attempt to force the opponent to passout; if successful, you are occupied for 3 turns and are unable to defend yourself, requires a 1d6 skill check.
+The winner performs a wrestling maneuvre:
 
-These maneurves are the sort of thing a warrior would want to have "skills" in, giving them an "advantage roll."
-
-#### Relevanti Grappling Skills
-- Grappling: +1 to engagement on grappling STR checks 
-- Wrestling throws: +2 CON damage (instead of none)
-- Disarming: Advantage on disarm checks
+- **Disarm** the opponent: Attempt to remove the opponent's weapon, this is ideal for forcing a yield
+- **Throw** the opponent to the ground: Drastically reduce an opponents defensive capabilities by forcing them into a prone position, this is ideal for a swift kill.
+- **Choke** the opponent: Attempt to strangle the opponent, lethal or non lethal. Requires 3 rounds of combat, you are unable to defend yourself during these rounds.
 
 ### Riposte
-If a player rolled a parry versus a slash or thrust, and they win the opposed check with a natural roll of 6, may riposte.
+A riposte is follow up to a successful parry that allows for a damage roll halved; with weapon specailization.
 
-A riposte is follow up to a successful parry that allows for a damage roll halved; with weapon specailization, normal damage is dealt.
+### Bonuses to AC
+If a player character has a "bonus to AC" such as a halfling bonus +2 versus giants, then instead treat this as a -2 on the opponent's opposed roll.
 
-A parry roll of 5 with a +1 for a shield does not allow for a riposte, the roll must be a natural 6.
-
-### Small Sized Combatants
-This mainly applies to half sized humanoids (halflings, gnomes, kobolds, etc.) fighting medium sized humanoids (humans, dwarves, elves, etc). 
-
-If you are of this "small" size fighting a medium sized opponent:
-
-- Any constitution damage you deal is halved. This *does not* apply to flesh damage to HP. 
-- You receive advantage during grappling if your posture is to disengage.
-
-For example, a halfling equipped with a two-handed long sword should be able to land a lethal blow on a human; however, due to their relative strength, they are unlikely to "wear down" the physical endurance of someone twice their size. Additionally, being small often tends to increase nimbleness and agility, therefore the "small" sized combatant is better suited to escape a grapple.
-
-These advantages do not scale beyond small versus medium opponents.
+That means, for this roll, the opponent's ability is considered 2 lower, and they must roll under the new lower number to succeed.
 
 ## Ranged Combat
 Ranged combat is a simplified process of the melee combat steps, it does not exhaust your CON unless you are forced into melee.
@@ -308,22 +301,6 @@ Therefore, to keep combat simple, when fighting a target that is not your standa
 
 ### How do I know I am fighting a monster?
 The basic rule of thumb is grappling, can you engage in a grappling struggle with a target and not suffer greatly? For example, would you grapple with 800lb 10 foot tall polar bear? Probably not. Would you engage in a grapple with a 7 foot 300 lb Orc? Maybe. 
-
-# Saving Throws and Ability Checks
-- Saves are rolled as a 1d6 and determined to be a success based on the standard 1d6 skill check. 
-- Those with a stat of 6 in a given ability score gain a +1 bonus to the save
-- Those with who, at the time of the roll, have a 15 or higher Constitution gain +1 to the save.
-- Some racial abilities give a +1 bonus, these do not stack. You only ever get +1.
-
-## Saves and Checks Table
-These are example to help categorize saves that need to be made during gameplay.
-
-| Strength                    | Dexterity     | Will   | Constitution         | 
-|-----------------------------|---------------|--------|----------------------|
-| Catch falling person        | Breath Weapon | Spells | Poison               |
-| Knock charging monster      | Dodge         | Wands  | Paralysis            |
-| Stand ground against charge | Avoid falling | Sleep  | Toxic Substances     |
-|                             |               | Charm  | Extreme cold or heat | 
 
 ## Charts
 
