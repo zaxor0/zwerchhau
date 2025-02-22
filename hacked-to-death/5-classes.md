@@ -116,6 +116,7 @@
 Experience Requirements
 
 | Level | XP Req  |
+|-------|---------|
 |   1   | 0       | 
 |   2   | 2,000   | 
 |   3   | 4,000   | 
