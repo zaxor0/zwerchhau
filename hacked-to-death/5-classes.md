@@ -131,6 +131,7 @@ Experience Requirements
 
 old ideas
 Thief Skills - d20, success is on equal to or under
+- Other classes may attempt these types of tasks but succeed on a 1 in 6, unless your DM rules otherwise.
 
 | Level | Locks & Traps | Pickpocket | Move Silently | Hide | Listen |
 |-------|---------------|------------|---------------|------|--------|
@@ -141,4 +142,3 @@ Thief Skills - d20, success is on equal to or under
 | 9-10  |      14       |     17     |       17      |  15  |   13   |
 | 11-12 |      16       |     20     |       20      |  18  |   17   |
 |  13+  |      18       |     20     |       20      |  19  |   20   |
-Note: other classes may attempt these types of tasks but succeed on a 1 in 6, unless your DM rules otherwise.
