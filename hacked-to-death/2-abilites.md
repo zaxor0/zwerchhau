@@ -14,10 +14,10 @@ Charisma - Force of personality and appearance
 | Strength | Attack Bonus | Damage Bonus |
 |----------|--------------|--------------|
 |  3 - 4   |      -2      |      -1      |
-|  5 - 6   |      -1      |              |
-|  7 - 9   |              |              |
-| 10 - 12  |              |              |
-| 13 - 15  |      +1      |              |
+|  5 - 6   |      -1      |      ..      |
+|  7 - 9   |      ..      |      ..      |
+| 10 - 12  |      ..      |      ..      |
+| 13 - 15  |      +1      |      ..      |
 |    16    |      +1      |      +1      |
 |    17    |      +2      |      +2      |
 |    18    |      +2      |      +3      |
@@ -28,27 +28,27 @@ Charisma - Force of personality and appearance
 | Dexterity | Attack Bonus | Damage Bonus |
 |-----------|--------------|--------------|
 |   3 - 4   |      -2      |      -1      |
-|   5 - 6   |      -1      |              |
-|   7 - 9   |              |              |
-|  10 - 12  |              |              |
-|  13 - 15  |      +1      |              |
-|     16    |      +1      |              |
-|     17    |      +2      |              |
+|   5 - 6   |      -1      |      ..      |
+|   7 - 9   |      ..      |      ..      |
+|  10 - 12  |      ..      |      ..      |
+|  13 - 15  |      +1      |      ..      |
+|     16    |      +1      |      ..      |
+|     17    |      +2      |      ..      |
 |     18    |      +2      |      +1      |
 
 ## Insight
 - useful for spells
 
-| Insight | Spell Chance | Spells / Level |
-|---------|--------------|----------------|
-|  3 - 4  |      20%     |        3       |
-|  5 - 7  |      30%     |        4       |
-|  8 - 9  |      40%     |        5       |
-| 10 - 12 |      50%     |        6       |
-| 13 - 14 |      65%     |        8       |
-| 15 - 16 |      75%     |       10       |
-|    17   |      85%     |       All      |
-|    18   |      95%     |       All      | 
+| Insight | Casting Modifier | Max Spells / Level |
+|---------|------------------|--------------------|
+|  3 - 4  |        -2        |          3         |
+|  5 - 7  |        -1        |          4         |
+|  8 - 9  |        ..        |          5         |
+| 10 - 12 |        ..        |          6         |
+| 13 - 14 |        ..        |          8         |
+| 15 - 16 |        ..        |         10         |
+|    17   |        +1        |         All        |
+|    18   |        +2        |         All        | 
 
 ## Charisma
 
@@ -56,15 +56,15 @@ Charisma - Force of personality and appearance
 |----------|-------------------|--------------|
 |  3 - 4   |         1         |      -2      |
 |  5 - 6   |         2         |      -1      |
-|  7 - 9   |         3         |              |
-| 10 - 12  |         4         |              |
+|  7 - 9   |         3         |      ..      |
+| 10 - 12  |         4         |      ..      |
 | 13 - 15  |         5         |      +1      |
 | 16 - 17  |         6         |      +2      |
 |    18    |        12         |      +4      |
 
 
 ## Saving Throws & Ability Checks
-- When you need to roll a save, roll against your ability score or your spell save.
+- Saving throws are roll against your ability score or your spell save, DM discretion.
 - A success is when you roll 1d20 equal or under the appropriate score.
 - Spell saves are tied to your class and increase with experience.
 - What you roll is determined by your DM.

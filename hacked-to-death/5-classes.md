@@ -4,7 +4,7 @@
 
 ## Hitpoints
 - First level, you acquire maximum hit points (4, 6, or 8)
-- Every following, roll your class' hit die and add the result to your HP.
+- Every following level, roll your class' hit die and add the result to your HP.
 - Each class has a specific maximum hit die allowed.
 - Add for you CON modifer to all levels gained.
 
