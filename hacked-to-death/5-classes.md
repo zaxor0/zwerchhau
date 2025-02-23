@@ -26,10 +26,11 @@
 \newpage{}
 ## The Crusader & The Marauder
  - Hit Die per level : d8, max at 9th
+ - May wear any armor and use any weapons
  - Crusaders: +1 on their first attack in an encounter, or +2 if they charge into battle.
  - Marauders: Once per encounter, gain a free attack in the same round after killing a foe.
 
-| Level | Atk Bonus | Attacks | Spell Save |
+| Level | Attackk Bonus | Attacks per turn | Spell Save |
 |-------|-----------|---------|------------|
 |  1-3  |    +0     |    1    |      4     |
 |  4-6  |    +2     |    2    |      6     |
@@ -40,6 +41,8 @@
 \newpage{}
 ## The Devout & The Forlorn (wayward?) 
  - Hit Die per level: d6, max 8th
+ - May wear any armor or shields.
+ - The Devout may only use blunt weapons, the forlorn may only use sharp weapons.
  - The Devout: Once per day, with a prayer, 2 in 6 chance to recover one spell slot.
  - The Forlorn: May raise one corpse from the dead, 1HP, for 1d4 rounds; Can deal 1 damage on a hit
 
