@@ -31,12 +31,28 @@
  - Marauders: Once per encounter, gain a free attack in the same round after killing a foe.
 
 | Level | Attackk Bonus | Attacks per turn | Spell Save |
-|-------|-----------|---------|------------|
-|  1-3  |    +0     |    1    |      4     |
-|  4-6  |    +2     |    2    |      6     |
-|  7-9  |    +5     |    3    |      8     |
-| 10-12 |    +7     |    4    |     10     |
-|  13+  |    +8     |    5    |     12     |
+|-------|---------------|------------------|------------|
+|  1-3  |      +0       |       1          |      4     |
+|  4-6  |      +2       |       2          |      6     |
+|  7-9  |      +5       |       3          |      8     |
+| 10-12 |      +7       |       4          |     10     |
+|  13+  |      +8       |       5          |     12     |
+
+## The Hunter & The Barbarian
+ - Hit Die per level : d8, max at 8th
+ - May not wear plate armor.
+ - Hunters may stalk, track, or sneak successfully on a 3 in 6 chance; at 5th level this becomes a 5 in 6 chance.
+ - Barbarians, when at half or lower health, gain an additional attack each combat round. At 5th level this is 2 extra attacks.
+
+| Level | Attackk Bonus | Attacks per turn | Spell Save |
+|-------|---------------|------------------|------------|
+|  1-3  |      +0       |    1             |      5     |
+|  4-6  |      +1       |    1             |      7     |
+|  7-9  |      +2       |    2             |      9     |
+| 10-12 |      +3       |    3             |     11     |
+|  13+  |      +5       |    4             |     13     |
+
+
 
 \newpage{}
 ## The Devout & The Forlorn (wayward?) 
@@ -127,8 +143,6 @@
 |  13+  |      10       |     10     |       10      |  10  |    8   |
 
 
-\newpage{}
-## The Hunter & The Barbarian
 
 \newpage{}
 ## The Noble & The Outcast
