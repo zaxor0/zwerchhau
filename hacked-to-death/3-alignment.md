@@ -26,3 +26,6 @@ you can select a new alignment on your next level
 - Consists of gestures, signs, or words of power
 - Understood between members of the same alignment
 - Those of one alignment recognize, but do not comprehend, the language of the other
+
+\newpage{}
+

@@ -176,3 +176,6 @@ true 2h are 1d10, they are slow, roll after other weapons
 - You may optionally attack a monsters means of attack, such as a bear's claw
 - Using the monsters HD stat, if players target say the "bear's claw" and make *that many* successful attacks, it drops its damage die by 1 size.
 
+
+\newpage{}
+

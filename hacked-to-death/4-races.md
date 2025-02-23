@@ -34,3 +34,5 @@
 - Dark vision: black and white thermal vision
 - Upon 4th, 8th, and 12th levels, gain +1 to strength ability score.
 
+\newpage{}
+

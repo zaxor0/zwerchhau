@@ -8,7 +8,23 @@
 - Each class has a specific maximum hit die allowed.
 - Add for you CON modifer to all levels gained.
 
- ## The Crusader & The Marauder
+## Experience Requirements
+
+| Level | XP Req  |
+|-------|---------|
+|   1   | 0       | 
+|   2   | 2,000   | 
+|   3   | 4,000   | 
+|   4   | 8,000   | 
+|   5   | 16,000  |
+|   6   | 32,000  | 
+|   7   | 64,000  | 
+|   8   | 120,000 | 
+|   9   | 240,000 |
+
+
+\newpage{}
+## The Crusader & The Marauder
  - Hit Die per level : d8, max at 9th
  - Crusaders: +1 on their first attack in an encounter, or +2 if they charge into battle.
  - Marauders: Once per encounter, gain a free attack in the same round after killing a foe.
@@ -21,6 +37,7 @@
 | 10-12 |    +7     |    4    |     10     |
 |  13+  |    +8     |    5    |     12     |
 
+\newpage{}
 ## The Devout & The Forlorn (wayward?) 
  - Hit Die per level: d6, max 8th
  - The Devout: Once per day, with a prayer, 2 in 6 chance to recover one spell slot.
@@ -43,6 +60,7 @@
 |  7-8  | 2 | 2 | 2 | 1 |   |
 | 9-10  | 3 | 3 | 3 | 2 | 1 |
 
+\newpage{}
 ## The Wizard & The Warlock
  - Hit Die per Level: d4, max at 11th
 
@@ -77,6 +95,7 @@
 |    3 - 4     | May communicate via telepathy    | May communicate via telepathy        | 
 |    5 - 6     | 1/day, may be a source of clairaudience **or** clairvoyance             |
 
+\newpage{}
 ## The Vagabond & The Brigand 
  - Hit Die per level: d4, max at 10th
  - Back stab: when silent and behind an enemy, +4 to attack and damage is modifed by a multiplier.
@@ -105,40 +124,15 @@
 |  13+  |      10       |     10     |       10      |  10  |    8   |
 
 
+\newpage{}
 ## The Hunter & The Barbarian
 
+\newpage{}
 ## The Noble & The Outcast
 
 
+\newpage{}
 ## The Soothsayer & The Mysitc
 
-## All Classes
-Experience Requirements
+\newpage{}
 
-| Level | XP Req  |
-|-------|---------|
-|   1   | 0       | 
-|   2   | 2,000   | 
-|   3   | 4,000   | 
-|   4   | 8,000   | 
-|   5   | 16,000  |
-|   6   | 32,000  | 
-|   7   | 64,000  | 
-|   8   | 120,000 | 
-|   9   | 240,000 |
-
-
-
-old ideas
-Thief Skills - d20, success is on equal to or under
-- Other classes may attempt these types of tasks but succeed on a 1 in 6, unless your DM rules otherwise.
-
-| Level | Locks & Traps | Pickpocket | Move Silently | Hide | Listen |
-|-------|---------------|------------|---------------|------|--------|
-|  1-2  |       4       |      5     |        5      |   4  |   6    |
-|  3-4  |       6       |      7     |        7      |   5  |   10   |
-|  5-6  |       8       |     11     |       11      |   9  |   10   |
-|  7-8  |      12       |     13     |       13      |  11  |   13   |
-| 9-10  |      14       |     17     |       17      |  15  |   13   |
-| 11-12 |      16       |     20     |       20      |  18  |   17   |
-|  13+  |      18       |     20     |       20      |  19  |   20   |

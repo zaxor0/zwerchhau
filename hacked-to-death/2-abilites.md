@@ -76,3 +76,8 @@ Charisma - Force of personality and appearance
 | Insight      | 
 | Charisma     |
 | Spell        | Sa
+
+
+
+\newpage{}
+
