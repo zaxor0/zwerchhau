@@ -23,6 +23,7 @@ Roll a d12 three times or choose what type of entrance this location will have.
 
 ## Layout and Rooms
 The goal here is to develop a diagram of the dungeon, you can develop the floorplan later.
+
 1. First, roll 1d6 to determine the number of overlays, these will be paths and corridoors.
 2. Second, for each overlay roll 1d6 to determine its shape.
 3. On a scratch paper, draw each of these shapes overlapping one another.
