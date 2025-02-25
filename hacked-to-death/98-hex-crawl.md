@@ -1,14 +1,12 @@
 # Hex Crawl Procedures
-Inspired by Dolmenwood
 
 ## Travel
 - A Point system is the easiest way to keep track of movement through hexes.
 - A party has 6 movement points per day; to be spent on travel or searching.
-- Searching a Hex uses 3 points and uncovers all hidden features.
-- Searching a Hex requires nearly the whole party, 1 character is allowed to hunt or forage instead.
+- Searching a Hex uses 3 points and uncovers all hidden features. It requires nearly the whole party; 1 character is allowed to hunt or forage instead.
 - Sundown occurs once the party uses 6 points, assuming they start at dawn.
 - For every point over 6, the party loses 2 hours of time & takes -1 on camping.
-- With horses, travel is easier; depending on the terrain you may be walking along side them.
+- On horseback may mean riding or walking along them, per the terrain.
 
 | Terrain         | On Foot | On Horseback |
 |-----------------|---------|--------------|
@@ -18,16 +16,16 @@ Inspired by Dolmenwood
 | Mountains       |    5    |       4      |
 | Swamps          |    6    |       6      |
 
-## Horses
-- You ease the burden of travel, and have improved sleep.
-- A horse may either carry:
-  - One person, their gear, and an additional 250 pounds of gear
-  - Two People, one person's set of gear
-- Feed for a single horse requires 1g per 5 days of travel. 
+## Horseback Travel
+- On Horseback travel bonuses require the entire party to have horses.
+- Feed for a single horse costs 1g per 5 days of travel. 
+- A horse may carry one person & their personal gear, plus 250 lbs. of items.
+- Optionally, a horse may carry two people and their personal gear.
 
 ## Weather
 - Poor weather will reduce the party's travel points per day.
 - Wet and snowy weather effects camping negatively.
+- Wet and snowy weather effects gathering firewood negatively.
 
 | Weather       | Travel     | Camping    | Firewood  |
 |---------------|------------|------------|-----------|
@@ -37,30 +35,31 @@ Inspired by Dolmenwood
 | Heavy Rain    | -2 Points  | -2 Points  | -2 Points |
 | Snowing       | -1 Point   | -3 Points  | No Effect |
 | Heavy Snow    | -2 Points  | -3 Points  | -1 Point  |
-
+\newpage{}
 ## Camping
 - A good camp and nights rest will recover hit points
 - Total the points based on the below table, gain that HP overnight
 - **Campfire** requires dry firewood
-- **Firewood** can be gathered with firewood points, effected by terrain and weather
+- **Firewood** can be gathered, effected by terrain and weather
 - **Story telling** requires a successful charisma check
 
-| Action or Event | Effect on Camping      |
-|-----------------|------------------------|
-| Bedroll         | +1 Camp                |
-| Tent            | +1 Camp                |
-| Prepared Meal   | +1 Camp                |
-| Campfire        | +1 Camp                |
-| Story           | +1 Camp                |
-| Rain            | -1 Camp, -1 Firewood   |
-| Heavy Rain      | -2 Camp, -2 Firewood   |
-| Snow            | -3 Camp                |
-| Heavy Snow      | -3 Camp, -1 Firewood   |
+| Action or Items | Effects | Weather    | Effects              |
+|-----------------|---------|------------|----------------------|
+| Bedroll         | +1 Camp | Rain       | -1 Camp, -1 Firewood |
+| Tent            | +1 Camp | Heavy Rain | -2 Camp, -2 Firewood |
+| Prepared Meal   | +1 Camp | Snow       | -3 Camp              |
+| Campfire        | +1 Camp | Heavy Snow | -3 Camp, -1 Firewood |
+| Story           | +1 Camp |
+
+
+
+
 
 ## Firewood
-- You need 8 firewood points to have wood for overnight
+- To gain +1 to camping, the party requires 8 firewood points (8 hours).
 - A fire overnight improves sleep & reduces chances for random encounters
 - For each character that searches for firewood, gain 2d4 firewood points
+- Searching for firewood takes 1 hour of time, can be done at camp.
 
 | Terrain & Weather  | Firewood Points | 
 |--------------------|-----------------|
@@ -78,3 +77,4 @@ Inspired by Dolmenwood
 - Gathering has two options, one whle while traveling, and the other focused.
 - Gathering while traveling yields 1d4 rations worth of food.
 - Focused gathering, like hunting, uses 3 travel points, but returns 4d4 rations.
+\newpage{}
