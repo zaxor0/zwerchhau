@@ -1,6 +1,6 @@
 # Designing the Mythic Underworld
 - The mythic underworld is the dungeon ecosystem that exists beneath civilizations existing, ancient, or dead.
-- There are many entrances to the mythic underworld, this following is a guide to building out a dungeon.
+- There are many entrances to the mythic underworld, the following is a guide to building out a dungeon.
 - Don't design every level at once, just the first level or two. 
 
 ## Location & Entrance
