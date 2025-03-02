@@ -1,3 +1,12 @@
+# HACKED TO DEATH
+
+It breaks their backs
+
+It breaks their bones
+
+It breaks the binds of unearthed tomes
+
+
 # Maxims
 
 These are the ideas around which the game is to be played.
@@ -7,8 +16,8 @@ These are the ideas around which the game is to be played.
 3. Time is precious and combat is brutal
 4. Worry not about balance, seek interesting solutions to difficult problems
 
-it breaks their backs
-it breaks their bones
-it breaks the binds of unearthed tomes
+## For DMs
+- **Embrace the chaos** when random chance is contrary to your expectations. 
+- **Embrace the law** and order of your world. Let the larger powers make their influence known, and their long term plans play out. 
 
 \newpage{}

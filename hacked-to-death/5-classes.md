@@ -8,6 +8,18 @@
 - Each class has a specific maximum hit die allowed.
 - Add for you CON modifer to all levels gained.
 
+## Classed Alignment
+
+| Type       | Law        | Chaos     |
+|------------|------------|-----------|
+| Fighter    | Crusader   | Marauder  |
+| Warden     | Hunter     | Barbarian |
+| Cleric     | Devout     | Forlorn   |
+| Priest     | Soothsayer | Mystic    |
+| Magic User | Wizard     | Warlock   |
+| Thief      | Vagabond   | Brigand   |
+| Aristocrat | Noble      | Outcast   |
+
 ## Experience Requirements
 
 | Level | XP Req  |
@@ -25,10 +37,10 @@
 
 \newpage{}
 ## The Crusader & The Marauder
- - Hit Die per level : d8, max at 9th
- - May wear any armor and use any weapons
- - Crusaders: +1 on their first attack in an encounter, or +2 if they charge into battle.
- - Marauders: Once per encounter, gain a free attack in the same round after killing a foe.
+- Hit Die per level : d8, max at 9th
+- May wear any armor and use any weapons
+- Crusaders: +1 on their first attack in an encounter, or +2 if they charge into battle.
+- Marauders: Once per encounter, gain a free attack in the same round after killing a foe.
 
 | Level | Attackk Bonus | Attacks per turn | Spell Save |
 |-------|---------------|------------------|------------|
@@ -39,10 +51,10 @@
 |  13+  |      +8       |       5          |     12     |
 
 ## The Hunter & The Barbarian
- - Hit Die per level : d8, max at 8th
- - May not wear plate armor.
- - Hunters may stalk, track, or sneak successfully on a 3 in 6 chance; at 5th level this becomes a 5 in 6 chance.
- - Barbarians, when at half or lower health, gain an additional attack each combat round. At 5th level this is 2 extra attacks.
+- Hit Die per level : d8, max at 8th
+- May not wear plate armor.
+- Hunters may stalk, track, or sneak successfully on a 3 in 6 chance; at 5th level this becomes a 5 in 6 chance.
+- Barbarians, when at half or lower health, gain an additional attack each combat round. At 5th level this is 2 extra attacks.
 
 | Level | Attackk Bonus | Attacks per turn | Spell Save |
 |-------|---------------|------------------|------------|
@@ -56,11 +68,11 @@
 
 \newpage{}
 ## The Devout & The Forlorn (wayward?) 
- - Hit Die per level: d6, max 8th
- - May wear any armor or shields.
- - The Devout may only use blunt weapons, the forlorn may only use sharp weapons.
- - The Devout: Once per day, with a prayer, 2 in 6 chance to recover one spell slot.
- - The Forlorn: May raise one corpse from the dead, 1HP, for 1d4 rounds; Can deal 1 damage on a hit
+- Hit Die per level: d6, max 8th
+- May wear any armor or shields.
+- The Devout may only use blunt weapons, the forlorn may only use sharp weapons.
+- The Devout: Once per day, with a prayer, 2 in 6 chance to recover one spell slot.
+- The Forlorn: May raise one corpse from the dead, 1HP, for 1d4 rounds; Can deal 1 damage on a hit
 
 | Level | Atk Bonus | Attacks | Spell Save |
 |-------|-----------|---------|------------|
@@ -79,9 +91,33 @@
 |  7-8  | 2 | 2 | 2 | 1 |   |
 | 9-10  | 3 | 3 | 3 | 2 | 1 |
 
+
+\newpage{}
+## The Soothsayer & The Mysitc
+- Hit Die per level: d6, max 7th
+- May not wear armor.
+- May cast spells, except of the highest available level, as rituals. Rituals take 1 hour to perform and do not expend a spell slot.
+
+| Level | Atk Bonus | Attacks | Spell Save |
+|-------|-----------|---------|------------|
+|  1-4  |    +0     |    1    |      5     |
+|  5-8  |    +2     |    1    |      8     |
+|  9-12 |    +5     |    2    |     11     |
+|  13+  |    +7     |    2    |     13     |
+
+### Holy Spells
+
+| Level | 1 | 2 | 3 | 4 | 5 |
+|-------|---|---|---|---|---|
+|  1-2  | 2 |   |   |   |   |
+|  3-4  | 2 | 1 |   |   |   |
+|  5-6  | 2 | 2 | 1 |   |   |
+|  7-8  | 2 | 2 | 2 | 1 |   |
+| 9-10  | 3 | 3 | 3 | 2 | 1 |
+
 \newpage{}
 ## The Wizard & The Warlock
- - Hit Die per Level: d4, max at 11th
+- Hit Die per Level: d4, max at 11th
 
 | Level | Atk Bonus | Attacks | Spell Save |
 |-------|-----------|---------|------------|
@@ -116,8 +152,8 @@
 
 \newpage{}
 ## The Vagabond & The Brigand 
- - Hit Die per level: d4, max at 10th
- - Back stab: when silent and behind an enemy, +4 to attack and damage is modifed by a multiplier.
+- Hit Die per level: d4, max at 10th
+- Back stab: when silent and behind an enemy, +4 to attack and damage is modifed by a multiplier.
 
 | Level | Atk Bonus | Attacks | Spell Save | Back Stab Damage |
 |-------|-----------|---------|------------|------------------|
@@ -142,14 +178,11 @@
 | 11-12 |       9       |      9     |       10      |   9  |    8   |
 |  13+  |      10       |     10     |       10      |  10  |    8   |
 
-
-
 \newpage{}
 ## The Noble & The Outcast
-
-
-\newpage{}
-## The Soothsayer & The Mysitc
+- Hit Die per level: d4, max at 8th
+- Start with 5d10 gold
+- In any urban environment, know 1d3 influential figures.
 
 \newpage{}
 
