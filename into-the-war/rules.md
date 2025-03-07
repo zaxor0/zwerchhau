@@ -210,12 +210,17 @@ Other skill may be created by consulting with the Referee.
 - Lone combatants must pass this Save when they are reduced to 0hp, this applies to opponents and allies but not Player characters.
 - Fleeing to safety under pursuit requires a DEX Save and somewhere to withdraw to. 
 
-### Luck Rolls
+### Light and Vision
+- During the day, combat visibility is limited up to **Distant** ranges.
+- Scopes and Binoculars easily let someone see **Extreme** range, during the day.
+- At night, combat visibility is decreased to **Near** range.
+
+## Luck Rolls
 - Sometimes you’ll want an element of randomness without rolling a Save, particularly in situations dictated by luck or those that fall outside of the three Ability Scores. 
 - For these type of situations roll a d6. A high roll favours the Players, and a low roll means bad luck for the Players. 
 - The Referee decides what a specific result means for the situation at hand. 
 
-### Ranks
+## Ranks
 - Whenever you successfully perform 2 missions you rank up.
 - Whenever you rank you can gain 1 more skill.
 - Gained skills require 1 month of time in training.
