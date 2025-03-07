@@ -10,11 +10,11 @@ placeholder title
 You are in the war, you are the good guys. The Fascists are the bad guys.
 
 ### Character Creation Steps
-1. Roll Ability Scores
+1. Roll ability scores
 2. Roll HP
-3. Pick a Class
+3. Pick a class
 4. Select a name and description.
-4. Acquire Equipment 
+4. Acquire equipment 
 
 ### 1. Determine Ability Scores
 Roll 3d6 for each of the following ability scores
@@ -26,7 +26,7 @@ Roll 3d6 for each of the following ability scores
 ### 2. Determine hitpoints
 - Roll 1d6, add 4, this is your HP, between 5 and 10.
 - If this goes to zero due to combat, your stats start to take damage.
-- You can recover HP with a short rest, stats with a week of rest.
+- You can recover HP with a short rest and stats with a week of rest.
 
 \newpage{}
 
