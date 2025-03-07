@@ -212,8 +212,9 @@ Other skill may be created by consulting with the Referee.
 
 ### Light and Vision
 - During the day, combat visibility is limited up to **Distant** ranges.
-- Scopes and Binoculars easily let someone see **Extreme** range, during the day.
+- At day, Scopes and Binoculars easily let someone see **Extreme** range.
 - At night, combat visibility is decreased to **Near** range.
+- At night, Scopes and Binoculars easily let someone see **Distant** range.
 
 ## Luck Rolls
 - Sometimes you’ll want an element of randomness without rolling a Save, particularly in situations dictated by luck or those that fall outside of the three Ability Scores. 
