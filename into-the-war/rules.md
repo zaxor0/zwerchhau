@@ -25,10 +25,9 @@ Roll 3d6 for each of the following ability scores, also called stats.
 
 ## Hitpoints
 - Roll 1d6, add 4, this is your HP, between 5 and 10.
-- You do not increase maximum HP after character creation.
 - If this goes to zero due to combat, your stats start to take damage.
 - You can recover HP with a short rest and stats with a week of rest.
-
+- Hit points only increase with high rolls on the Scars Table.
 
 \newpage{}
 
@@ -118,7 +117,7 @@ Other skill may be created by consulting with the Referee.
 | Machine gun      | 3     | Radio, short range | 1
 | Bazooka          | 3     | Crowbar            | 1
 | Grenades, any    | 3 per | Rope, 50ft         | 3
-| Explosives       | 2 per | Ammo, 4 reloads    | 1 
+| Explosives       | 2 per | Ammo, 6 reloads    | 1 
 | Detonator & wire | 1     | MG Ammo, 2 reloads | 1 
 
 \newpage{}
@@ -189,9 +188,10 @@ Other skill may be created by consulting with the Referee.
 - Combat ends whenever one side is eliminated or one side flees successfully.
 - You have two acts you can perform on your turn; these can be a combination of movement, attacks, reloads.
 - Other actions may be permitted at the discretion of the Referee.
-- You may perform certain actions twice on your turn: double move or double attack.
+- You may perform certain actions twice on your turn: double move or double attack. Bazookas cannot double attack, but you can attack and reload.
 - Grenades and Bazookas cause **Blast** damage, which has a radius of 20 feet.
 - Grenades and Bazookas can pierce armor, **AP**, and ignore half DR when dealing damage.
+- For bazooka or grenade versus a tank, on an attack roll of 6, players may forgo damage to HP and instead disable the tank's movement. 
 - Optionally, use Shots and Bursts to track when a reload action is needed.
 - If you are tracking shots and bursts, reloading is a standard action. You may move and reload, or reload and act (such as attack).
 
@@ -209,6 +209,7 @@ Other skill may be created by consulting with the Referee.
 ### Damage to Players
 - **Damage**: When an individual takes Damage they lose that many hp. If they have no hp left, they are wounded, and any remaining Damage is removed from their STR score. They must then pass a STR Save to avoid Critical Damage. 
 - **Critical Damage**: A character that takes Critical Damage is unable to take further action until they are tended to by an ally and have a Short Rest. If they are left for an hour without being tended to, they die. 
+- **Scars Table**: If you take critical damage, roll 1d6 on the **Scars Table**.
 - **Ability Score Loss**: If a character has their STR score reduced to zero they are dead. If their DEX or WIL are reduced to zero the character is paralysed or mentally broken respectively, and cannot act until they have a Full Rest. 
 - **Death**: When a character dies the Player creates a new character and the Referee finds a way to have them join the group as soon as possible. Here, quickness is required over realism. Alternatively the Player may control a Hireling or Member of their Company.
 
@@ -220,6 +221,17 @@ Other skill may be created by consulting with the Referee.
 
 
 \newpage{}
+
+## Scars Table
+
+| Roll | Scar, Effect                                          |
+|------|-------------------------------------------------------|
+|  1   | For whom the bell tolls, lose -1 max HP               |
+|  2   | Long term injury, reduce max slots by 2, for 4 weeks  |
+|  3   | Shell Shocked, make a moral check on your next combat |
+|  4   | Minor brush with death, gain +1 max HP                |
+|  5   | Purple Heart, gain 1d4 additional max HP              |
+|  6   | The grim reaper, gain 1d6 additional max HP           |
 
 ## Healing & Resting
 - Outside of combat, players may rest to heal.
@@ -253,6 +265,7 @@ Other skill may be created by consulting with the Referee.
 - If a vehicle is brought to 0 it is no longer functioning and non-repairable.
 - Tanks, amored cars, and some Jeeps have machine guns, a **MG**.
 - **MG**, machine guns, deal 3d8 damage; on tanks represent a second attack.
+- For bazooka or grenade versus a tank, on an attack roll of 6, players may forgo damage to HP and instead disable the tank's movement. 
 
 | Enemy             | HP | Damage   | Notes                                 |
 |-------------------|----|----------|---------------------------------------|
