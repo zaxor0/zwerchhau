@@ -64,7 +64,7 @@ Pick a class. Each class has a set of bonuses or abilities.
 
 \newpage{}
 
-## Training
+## Skills & Training
 All characters have training in the following:
 
 - Rifles, pistols, grenades
@@ -85,7 +85,7 @@ With higher ranks, characters may learn to use the following:
 - Electronics operation, can use all radios
 - Artillery operation (requires 2 people to perform)
 
-Other skill may be created by consulting with the Referee.
+Other skills may be created by consulting with the Referee.
 
 ## Carry Capacity & Movement
 - All players can carry 10 slots of items, some items can be stacked into 1 slot
@@ -126,15 +126,15 @@ Other skill may be created by consulting with the Referee.
 ## Weapons
 - Only soliders and marines can use machine guns.
 - Only soliders can use bazookas
-- Blast damage damages all targets in a 20 foot radius, roll damage for each.
-- DR, damage reduction, reduces the total damage received.
-- AP, armor piercing, attacks ignore half of the target's DR, rounded up.
-- AP weapons permanently reduce a target's DR by 2 on succesful hits.
-- Smoke grenades provide cover in a 20 foot radius, until they dissipate. 
-- Knives can be freely unsheeted if you drop your current weapon.
-- Bayonets can be equipped to Rifles, Shotguns, or Automatic rifles.
-- All weapons can be used as improvised melee weapons, for 1d4 damage.
-- Shots and Bursts are optionally used to track when a reload action is needed, no effects to damage.
+- **Blast damage** effects all targets in a 20 foot radius, roll damage for each.
+- **DR**, damage reduction, reduces the total damage received.
+- **AP**, armor piercing, attacks ignore half of the target's DR, rounded up.
+- **AP** weapons permanently reduce a target's DR by 2 on succesful hits.
+- **Smoke grenades** provide cover in a 20 foot radius, until they dissipate. 
+- **Knives** can be freely unsheeted if you drop your current weapon.
+- **Bayonets** can be equipped to Rifles, Shotguns, or Automatic rifles.
+- All weapons can be used as **improvised melee** weapons, for 1d4 damage.
+- **Shots and Bursts** are optionally used to track when a reload action is needed, no effects to damage.
 
 |  Weapons             | Damage  | Range   | Notes            |
 |----------------------|---------|---------|------------------|
