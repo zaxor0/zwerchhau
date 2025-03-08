@@ -74,6 +74,8 @@ All characters have training in the following:
 
 With higher ranks, characters may learn to use the following:
 
+- Machine guns
+- Bazookas
 - Tank driving / Tracked vehicle driving
 - Tank gunnery
 - Airplane piloting
