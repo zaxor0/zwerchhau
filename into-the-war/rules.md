@@ -202,7 +202,7 @@ Other skill may be created by consulting with the Referee.
 3. **Combat Turns**: may move and act (such as attack or reload), double move, or double attack.
 4. **Range**: Determine if target is within your weapons range.
 5. **Attack Roll**: Roll 1d6, on a 1-2 you miss your target. Otherwise roll damage.
-6. **Expend Ammo**: Keep a tally of shots or bursts next to each weapon (optional).
+6. **Expend Ammo**: Tally of shots or bursts fired per weapon (optional).
 7. **Damage Roll**: Roll your weapons damage dice; reduce total due to any DR, deal damage to enemy's HP.
 8. **Pierce Armor**: On a successful attack, if using an AP weapon, permanently reduce the targets DR by 2.
 
