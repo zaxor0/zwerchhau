@@ -16,21 +16,23 @@ You are in the war, you are the good guys. The Fascists are the bad guys.
 4. Select a name and description.
 4. Acquire equipment 
 
-### 1. Determine Ability Scores
-Roll 3d6 for each of the following ability scores
+## Ability Scores
+Roll 3d6 for each of the following ability scores, also called stats.
 
 - Strength - Fighting, fortitude, and toughness
 - Dexterity - Stealth, athlethics, and reflexes
 - Willpower - Confidence, discipline, and charisma
 
-### 2. Determine hitpoints
+## Hitpoints
 - Roll 1d6, add 4, this is your HP, between 5 and 10.
+- You do not increase maximum HP after character creation.
 - If this goes to zero due to combat, your stats start to take damage.
 - You can recover HP with a short rest and stats with a week of rest.
 
+
 \newpage{}
 
-### 3. Classes
+## Classes
 Pick a class. Each class has a set of bonuses or abilities.
 
 #### Soldier
@@ -46,7 +48,7 @@ Pick a class. Each class has a set of bonuses or abilities.
 - Hauler, can carry 15 slots of items without being slowed.
 
 #### Engineer 
-- Electronics, can use any electronic gear; incl. enemy radios.
+- Electronics, can use any electronic gear, including enemy radios.
 - Repair, can repair common mechanical equipment and electronics.
 
 #### Spy
@@ -89,9 +91,9 @@ Other skill may be created by consulting with the Referee.
 - Anyone, except paratroopers, carrying over 10 items are slowed (cannot run or sprint).
 - No one can carry more than 20 lots of items.
 - One slot is about 10 pounds of items.
-- Combat movement is normally 50 feet in 1 round (10 seconds), with an action, 100 feet without acting.
-- Overland movement, in 1 turn (10 minutes), is normally 1500 feet, 3000 feet if running with gear, 6000 feet with no gear.
-- The Slowed (carry more than 10 items, or 15 for paratroopers) status effects all movement, cutting it in half. 
+- Combat movement is 50 feet in 1 round (10 seconds) with an action, or 100 feet without acting (double movement).
+- Overland movement, in 1 turn (10 minutes), is normally 1500 feet, 3000 feet if running with gear, 6000 feet running with no gear.
+- Slowed status, carry more than 10 items or 15 for paratroopers, effects all movement by reducing it in half. 
 
 \newpage{}
 
@@ -122,10 +124,10 @@ Other skill may be created by consulting with the Referee.
 - Only soliders and marines can use heavy machine guns.
 - Only soliders can use bazookas
 - Shots and Bursts are used to track when a reload action is needed, they don't effect damage.
-- Blast damage damages all targets in a 20 foot radius, roll damage for each target.
-- DR is damage reduction, its reduces the total damage rolled by so many points defined.
-- AP is armor piercing, for a each attack ignore half of the targets DR, rounded up.
-- Every successful attack with an AP weapon permanently reduces the target's DR by 2.
+- Blast damage damages all targets in a 20 foot radius, roll damage for each.
+- DR, damage reduction, reduces the total damage received.
+- AP, armor piercing, attacks ignore half of the target's DR, rounded up.
+- Each successful attack with an AP weapon permanently reduces the target's DR by 2.
 
 |  Weapons             | Damage | Range   | Notes            |
 |----------------------|--------|---------|------------------|
@@ -174,10 +176,12 @@ Other skill may be created by consulting with the Referee.
 - For example, an attempt to trip an opponent might force them to pass a STR Save to stay on their feet, while an attempt to trick an opponent into surrender may force them to pass a WIL Save or lower their arms. 
 
 ## Combat
-- Shots and Bursts are used to track when a reload action is needed
-- Blast damage ignores DR from armored targets
+- Grenades and Bazookas cause **Blast** damage, which has a radius of 20 feet.
+- Grenades and Bazookas can pierce armor, **AP**, and ignore half DR when dealing damage.
 - Combat is side versus side; check for initiative winner performs all actions, then the loser acts.
 - Combat ends whenever one side is eliminated or one side flees successfully.
+- Optionally, use Shots and Bursts to track when a reload action is needed.
+- If you are tracking shots and bursts, reloading is a standard action. You may move and reload, or reload and act (such as attack).
 
 \newpage{}
 ### Order of Combat
@@ -226,3 +230,29 @@ Other skill may be created by consulting with the Referee.
 - Whenever you rank you can gain 1 more skill.
 - Gained skills require 1 month of time in training.
 - Optionally, if you performed a similar activity to the skill while on a mission, you can train in 2 week instead.
+
+\newpage{}
+## Enemies & NPCs
+- The following table applies to all NPCs, whether ally or enemy.
+- Enemies are less well trained than players, they hit on 4-6 on a 1d6.
+- Enemies normal range of fire is **far** unless otherwise noted.
+- Damage dealt to enemies reduces HP, death occurs at 0 HP for them.
+- If a vehicle is brought to 0 it is no longer functioning and non-repairable.
+- Tanks, amored cars, and some Jeeps have machine guns notes as **MG**.
+- **MG**, machine guns, deal 3d8 damage; on tanks represent a second attacks.
+
+| Enemy             | HP | Damage   | Notes                                 |
+|-------------------|----|----------|---------------------------------------|
+| Solider           | 7  | 1d8 + 1  | Normal Movement, 1 attack             |
+| Sniper            | 8  | 2d8      | Extreme range                         |
+| Sergeant          | 9  | 2d8 + 1  | Nearby (150ft) soliders +1 on attacks |
+| Machine Gunner    | 10 | 3d8 + 1  | Only moves if forced out of position  |
+| Jeep, with MG     | 12 | 3d8      | Gunner eliminated at 6/12 HP          |
+| Armored Car       | 18 | 2d8 + 2  | DR of 3, explodes at 0 HP             |
+| Small Tank        | 30 | 5d8, 3d8 | 2 attacks, DR of 5, explodes at 0 HP  |
+| Medium Tank       | 45 | 7d8, 3d8 | 2 attacks, DR of 6, explodes at 0 HP  |
+| Heavy Tank        | 60 | 8d8, 3d8 | 2 attacks, DR of 7, explodes at 0 HP  |
+
+
+\newpage{}
+
