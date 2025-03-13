@@ -321,6 +321,8 @@ Other skills may be created by consulting with the Referee.
 \newpage{}
 # Glossary
 
+**Ammo**:
+
 **Automatic Rifle**:
 
 **Bayonet**:
@@ -331,13 +333,21 @@ Other skills may be created by consulting with the Referee.
 
 **Binoculars**:
 
+**Canteen**:
+
 **Carbine**:
+
+**Crowbar**:
 
 **Cyanide Pills**:
 
 **Detonator**:
 
 **Explosives**:
+
+**First Aid Kit**:
+
+**Flares**:
 
 **Flash Light**:
 
@@ -347,15 +357,25 @@ Other skills may be created by consulting with the Referee.
 
 **Knife**:
 
+**Lockpicks**:
+
 **Machine Gun**:
+
+**Medic's Kit**:
+
+**Mess Kit**:
 
 **Mines**:
 
 **Pistol**:
 
+**Rations**:
+
 **Revolver**:
 
 **Rifle**:
+
+**Rope**:
 
 **Ruck Sack**:
 
