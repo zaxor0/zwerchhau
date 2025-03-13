@@ -1,73 +1,85 @@
-# Into the War
-placeholder title
+```{=latex}
+\begin{center}
+```
+![](cover2.png){ height=100% } 
 
-## Intro
+```{=latex}
+\end{center}
+```
+
+Chris McDowall is the original creator of Into the Odd. For more on Into the Odd, see www.bastionland.com.
+\newpage{}
+
+# Intro
 - This is a World War 2 table top RPG using the Into the Odd mechanics
-- Chris McDowall is the original creator of Into the Odd
-- For more on Into the Odd, see www.bastionland.com 
 
-## Characters
+# Characters
 You are in the war, you are the good guys. The Fascists are the bad guys.
 
-### Character Creation Steps
+## Character Creation Steps
 1. Roll ability scores
 2. Roll HP
 3. Pick a class
 4. Select a name and description.
 4. Acquire equipment 
 
-## Ability Scores
+# Ability Scores
 Roll 3d6 for each of the following ability scores, also called stats.
 
 - Strength - Fighting, fortitude, and toughness
 - Dexterity - Stealth, athlethics, and reflexes
 - Willpower - Confidence, discipline, and charisma
 
-## Hitpoints
+# Hitpoints
 - Roll 1d6, add 4, this is your HP, between 5 and 10.
-- If this goes to zero due to combat, your stats start to take damage.
+- If this goes to zero due to combat, your abilities will take any new damage.
 - You can recover HP with a short rest and stats with a week of rest.
 - Hit points only increase with high rolls on the Scars Table.
 
 \newpage{}
 
-## Classes
+# Classes
 Pick a class. Each class has a set of bonuses or abilities.
 
-#### Soldier
+## Soldier
 - Tough, always have a DR of 2.
 - Trained, can use any weaponry.
 
-#### Marine
+## Marine
 - Sharpshooter: When using any rifle, only miss on attack rolls of 1
 - Lethal, add +1 damage to all successful attacks.
 
-#### Paratrooper
+## Paratrooper
 - Nightsight, +30 feet of vision in darkness
 - Hauler, can carry 15 slots of items without being slowed.
 
-#### Engineer 
+## Engineer 
 - Electronics, can use any electronic gear, including enemy radios.
 - Repair, can repair common mechanical equipment and electronics.
 
-#### Spy
+## Medic
+- Healing, can use Medic's Kit, restores all STR damage for 1 player per use.
+- Lucky, can reroll attack rolls twice per day.
+
+## Spy
 - Charisma, charms personel on a 4 in 6
 - Discrete, can palm anything, can sneak small items past guards
 
-#### Officer
+## Officer
 - Tactics, nearby allies (with 150 feet) gain +2 damage on successful attacks.
 - Organzation, three times per day, self or ally may reroll failed saves.
 
-#### Pilot
+## Pilot
 - Air Pilot, Can fly any type of airplane.
 - Repair, can repair common mechanical equipment and any airplane.
 
 \newpage{}
 
-## Skills & Training
+# Skills & Training
 All characters have training in the following:
 
 - Rifles, pistols, grenades
+- Hand signals for tactical communciation
 - Parachute Drops & Map usage
 - Motor vehicles and motorcycles, but not tanks or tracked ones.
 - Radio operation, but not enemy radios.
@@ -87,43 +99,56 @@ With higher ranks, characters may learn to use the following:
 
 Other skills may be created by consulting with the Referee.
 
-## Carry Capacity & Movement
-- All players can carry 10 slots of items, some items can be stacked into 1 slot
-- Anyone, except paratroopers, carrying over 10 items are slowed (cannot run or sprint).
-- No one can carry more than 20 lots of items.
+# Carry Capacity & Movement
+- All players can carry up to 20 slots of items
+- Some smaller items can be stacked into 1 slot, but they must be alike.
+- Having any slots filled, means you have gear equiped.
+- **Slowed**: more than 10 items (15 for paratroopers), movement is halved. 
 - One slot is about 10 pounds of items.
-- Combat movement is 50 feet in 1 round (10 seconds) with an action, or 100 feet without acting (double movement).
-- Overland movement, in 1 turn (10 minutes), is normally 1500 feet, 3000 feet if running with gear, 6000 feet running with no gear.
-- Slowed status, carry more than 10 items or 15 for paratroopers, effects all movement by reducing it in half. 
+- If you do not have weapon equiped, you may fireman carry 1 person while carry your normal slot limit (10 or 15); you are **slowed**.
+- Combat movement, in 1 round (10 seconds)
+    - 50 feet with an action
+    - 100 feet without acting (double movement).
+- Overland movement, in 1 turn (10 minutes):
+    - 1500 feet or 500 yards with gear (any slots filled).
+    - If running with gear, 3000 feet or 1000 yards.
+    - If running with no gear (no slots filled) 6000 feet or 2000 yards.
 
 \newpage{}
 
-## Equipment
+# Equipment
 - Everyone starts with a rucksack and it can hold 10 items, 15 for paratroopers.
 - You do not have to pay for equipment; unlisted items take 1 week to arrive.
 - If an item says "per" it is stackable; 2 per means you can stack 2 per 1 slot.
 - You cannot mix stackable items, slots are limited to item type.
 - Pistols and revolvers, if holstered on a hip, do not take a slot.
+- Mines disable tracked vehicles, or deal 4d8 damage to non tracked ones.
+- Medic's Kits can only be used by Medics, they have 6 uses per mission.
+- First Aid kits can be used by anyone, one usage, heals 2 STR for 1 person.
 
-| Weapons          | Slots | Gear               | Slots 
-|------------------|-------|--------------------|-------
-| Knife or Bayonet | 0     | Rucksack           | 0     
-| Pistol           | 1     | Flashlight         | 2 per
-| Revolver         | 1     | Tent, 2 person     | 1     
-| Sub Machine gun  | 2     | Bed Roll           | 1
-| Carbine          | 1     | Winter Gear        | 1     
-| Rifle            | 1     | Binoculars         | 1     
-| Automatic Rifle  | 2     | Rations, 1 week    | 1     
-| Shotgun          | 3     | Messkit & Canteen  | 1     
-| Sniper Rifle     | 3     | Flares             | 3 per
-| Machine gun      | 3     | Radio, short range | 1
-| Bazooka          | 3     | Crowbar            | 1
-| Grenades, any    | 3 per | Rope, 50ft         | 3
-| Explosives       | 2 per | Ammo, 6 reloads    | 1 
-| Detonator & wire | 1     | MG Ammo, 2 reloads | 1 
+| Weapons            | Slots | Gear                 | Slots 
+|--------------------|-------|----------------------|-------
+| Knife or Bayonet   | 0     | Rucksack             | 0     
+| Pistol             | 1     | Flashlight           | 2 per
+| Revolver           | 1     | Tent, 2 person       | 1     
+| Sub Machine gun    | 2     | Bed Roll             | 1
+| Carbine            | 1     | Winter Gear          | 1     
+| Rifle              | 1     | Binoculars           | 1     
+| Automatic Rifle    | 2     | Rations, 1 week      | 1     
+| Shotgun            | 3     | Mess Kit & Canteen   | 1     
+| Sniper Rifle       | 3     | Flares               | 3 per
+| Machine gun        | 3     | Radio, short range   | 1
+| Bazooka            | 3     | Crowbar              | 1
+| Grenades, any      | 3 per | Rope, 50ft           | 3
+| Explosives         | 2 per | Ammo, 6 reloads      | 1 
+| Detonator & wire   | 1     | MG Ammo, 2 reloads   | 1 
+| Mines              | 2 Per | Medic's Kit          | 3
+| Cyanide Pills 6ct. | 3 Per | First Aid Kit, 1 use | 1
+| Poison, 1 use      | 3 per | Lockpicks            | 1
+| Gasmask            | 1     |  ...                 | 0
 
 \newpage{}
-## Weapons
+# Weapons
 - Only soliders and marines can use machine guns.
 - Only soliders can use bazookas
 - **Blast damage** effects all targets in a 20 foot radius, roll damage for each.
@@ -152,7 +177,7 @@ Other skills may be created by consulting with the Referee.
 |  Grenade, explosive  | 2d8     | Near    | Blast Damage, AP |
 |  Grenade, smoke      | 0       | Near    | Lasts 2d4 rounds |
 
-### Weapon Ranges
+## Weapon Ranges
 - There are 5 bands of ranges normally used in combat; referee can make decisions for distances beyond the below.
 - Melee weapons can only be used in close range, unless thrown.
 - You may use weapons outside thier normal ranges.
@@ -166,56 +191,56 @@ Other skills may be created by consulting with the Referee.
 
 \newpage{}
 
-## Playing the Game
+# Playing the Game
 - **Saves**: A Save is a 1d20 roll to avoid danger from a risky action or situation. 
 - Save successes are always on under or equal to an appropriate Ability Score.
 - For all saves, 1 is always a success and 20 always a failure.
 
-### Turns
+## Turns
 - Generally the Players take their turn before any enemies.
 - If there is a risk of being surprised, characters must each roll a DEX Save or be unable to act on the first turn.
 - On their turn, Players can act in any order they wish.
 - In combat, turns are 10 seconds, sometimes called rounds.
 - Outside of combat, if you need to track turns, they are 10 minutes of time.
 
-### Actions
+## Actions
 - On your turn a character can move and perform an action. An action can be anything from negotiating, to attacking, to fleeing. 
 - Depending on the action, you may need a relevant skill, per Referee decision.
 - Attacks are detailed below in the **Combat** section.
 - For other actions the Referee calls for the character at risk to roll a Save. 
 - For example, an attempt to trip an opponent might force them to pass a STR Save to stay on their feet, while an attempt to trick an opponent into surrender may force them to pass a WIL Save or lower their arms. 
 
-## Combat
-- Combat is side versus side; check for initiative winner performs all actions, then the loser acts.
-- Combat ends whenever one side is eliminated or one side flees successfully.
-- You have two acts you can perform on your turn; these can be a combination of movement, attacks, reloads.
-- Other actions may be permitted at the discretion of the Referee.
-- You may perform certain actions twice on your turn: double move or double attack. Bazookas cannot double attack, but you can attack and reload.
-- Grenades and Bazookas cause **Blast** damage, which has a radius of 20 feet.
-- Grenades and Bazookas can pierce armor, **AP**, and ignore half DR when dealing damage.
-- For bazooka or grenade versus a tank, on an attack roll of 6, players may forgo damage to HP and instead disable the tank's movement. 
-- Optionally, use Shots and Bursts to track when a reload action is needed.
-- If you are tracking shots and bursts, reloading is a standard action. You may move and reload, or reload and act (such as attack).
-
 \newpage{}
-### Order of Combat
+# Combat
 1. **Initiative**: Players Roll 1d6, on 1-3 referee acts first, 4-6 players act first.
+    - Combat is side versus side; check for initiative winner performs all actions, then the loser acts.
 2. **Morale**: For NPCs, required if they lose half their numbers.
 3. **Combat Turns**: may move and act (such as attack or reload), double move, or double attack.
+    - You have two acts you can perform on your turn; these can be a combination of movement, attacks, reloads.
+    - You may perform certain actions twice on your turn: double move or double attack. Bazookas cannot double attack, but you can attack and reload.
+    - Instead of moving, you may either become prone or get up from prone, as an action. Prone offers +1 on attack rolls, and +1 DR.
+    - Machine guns must be fired while prone, for every 5 continuous attacks they must halt for 1 round to cool down.
 4. **Range**: Determine if target is within your weapons range.
 5. **Attack Roll**: Roll 1d6, on a 1-2 you miss your target. Otherwise roll damage.
 6. **Expend Ammo**: Tally of shots or bursts fired per weapon (optional).
+    - Optionally, use Shots and Bursts to track when a reload action is needed.
+    - If you are tracking shots and bursts, reloading is a standard action. You may move and reload, or reload and act (such as attack).
 7. **Damage Roll**: Roll your weapons damage dice; reduce total due to any DR, deal damage to enemy's HP.
+    - Grenades and Bazookas cause **Blast** damage, which has a radius of 20 feet.
+    - Grenades and Bazookas can pierce armor, **AP**, and ignore half DR when dealing damage.
+    - For bazooka or grenade versus a tank, on an attack roll of 6, players may forgo damage to HP and instead disable the tank's movement. 
 8. **Pierce Armor**: On a successful attack, if using an AP weapon, permanently reduce the targets DR by 2.
+    - Combat ends whenever one side is eliminated or one side flees successfully.
 
-### Damage to Players
+\newpage{}
+## Damage to Players
 - **Damage**: When an individual takes Damage they lose that many hp. If they have no hp left, they are wounded, and any remaining Damage is removed from their STR score. They must then pass a STR Save to avoid Critical Damage. 
 - **Critical Damage**: A character that takes Critical Damage is unable to take further action until they are tended to by an ally and have a Short Rest. If they are left for an hour without being tended to, they die. 
 - **Scars Table**: If you take critical damage, roll 1d6 on the **Scars Table**.
 - **Ability Score Loss**: If a character has their STR score reduced to zero they are dead. If their DEX or WIL are reduced to zero the character is paralysed or mentally broken respectively, and cannot act until they have a Full Rest. 
 - **Death**: When a character dies the Player creates a new character and the Referee finds a way to have them join the group as soon as possible. Here, quickness is required over realism. Alternatively the Player may control a Hireling or Member of their Company.
 
-### Moral
+## Moral
 - Groups require a WIL Save to avoid being routed when they lose half of their total numbers.
 - Groups with a leader may use the leader's WIL score in place of their own.
 - Lone combatants must pass this Save when they are reduced to 0hp, this applies to opponents and allies but not Player characters.
@@ -241,30 +266,31 @@ Other skills may be created by consulting with the Referee.
 - **Full Rest**: 1 week of downtime, restores all HP and ability scores.
 - **Deprived**: Somebody deprived of a crucial need (e.g. food, water, or warmth) cannot benefit from Rests.
 
-## Light and Vision
+# Light and Vision
 - During the day, combat visibility is limited up to **Distant** ranges.
 - At day, Scopes and Binoculars easily let someone see **Extreme** range.
 - At night, combat visibility is decreased to **Near** range.
 - At night, Scopes and Binoculars easily let someone see **Distant** range.
 
-## Luck Rolls
+# Luck Rolls
 - Sometimes you’ll want an element of randomness without rolling a Save, particularly in situations dictated by luck or those that fall outside of the three Ability Scores. 
 - For these type of situations roll a d6. A high roll favours the Players, and a low roll means bad luck for the Players. 
 - The Referee decides what a specific result means for the situation at hand. 
 
-## Ranks
+# Ranks
 - Whenever you successfully perform 2 missions you rank up.
 - Whenever you rank you can gain 1 more skill.
 - Gained skills require 1 month of time in training.
 - Optionally, if you performed a similar activity to the skill while on a mission, you can train in 2 weeks instead.
 
 \newpage{}
-## Enemies & NPCs
+# Enemies & NPCs
 - The following table applies to all NPCs, whether ally or enemy.
 - Enemies are less well trained than players, they hit on 4-6 on a 1d6.
 - Enemies normal range of fire is **far** unless otherwise noted.
 - Damage dealt to enemies reduces HP, death occurs at 0 HP for them.
 - If a vehicle is brought to 0 it is no longer functioning and non-repairable.
+- Tank attacks from the main gun cause bast damage, but not their MG attack of 3d8.
 - Tanks, amored cars, and some Jeeps have machine guns, a **MG**.
 - **MG**, machine guns, deal 3d8 damage; on tanks represent a second attack.
 - For bazooka or grenade versus a tank, on an attack roll of 6, players may forgo damage to HP and instead disable the tank's movement. 
@@ -272,15 +298,69 @@ Other skills may be created by consulting with the Referee.
 | Enemy             | HP | Damage   | Notes                                 |
 |-------------------|----|----------|---------------------------------------|
 | Solider           | 7  | 1d8 + 1  | Normal Movement, 1 attack             |
+| Sergeant          | 9  | 1d8 + 2  | Nearby (150ft) soliders +1 on attacks |
 | Sniper            | 8  | 2d8      | Extreme range                         |
-| Sergeant          | 9  | 2d8 + 1  | Nearby (150ft) soliders +1 on attacks |
-| Machine Gunner    | 10 | 3d8 + 1  | Only moves if forced out of position  |
+| Machine Gunner    | 10 | 3d8      | Only moves if forced out of position  |
 | Jeep, with MG     | 12 | 3d8      | Gunner eliminated at 6/12 HP          |
-| Armored Car       | 18 | 2d8 + 2  | DR of 3, explodes at 0 HP             |
-| Small Tank        | 30 | 5d8, 3d8 | 2 attacks, DR of 5, explodes at 0 HP  |
-| Medium Tank       | 45 | 7d8, 3d8 | 2 attacks, DR of 6, explodes at 0 HP  |
-| Heavy Tank        | 60 | 8d8, 3d8 | 2 attacks, DR of 7, explodes at 0 HP  |
+| Armored Car       | 18 | 3d8      | DR of 3,                              |
+| Armored Carrier   | 18 | 3d8      | DR of 3, Tracked, can hold 6 personel |
+| Small Tank        | 30 | 5d8, 3d8 | 2 attacks: 5d8 blast & .50 cal, DR of 5    |
+| Medium Tank       | 45 | 7d8, 3d8 | 2 attacks: 7d8 blast & .50 cal, DR of 6    |
+| Heavy Tank        | 60 | 8d8, 3d8 | 2 attacks: 8d8 blast & .50 cal, DR of 7    |
 
+# Area Effect Attacks
+- Some attacks, from artillery, planes, or mortars, may harm player characters, the following rules attempt to account for those events.
+- All of these attacks require a DEX save for half damage.
+
+- **Artillery**: 
+- **Mortar fire**:
+- **Dive Bombers**:
+- **Airplane Straffing Runs**:
+- **Naval Bombardment**:
 
 \newpage{}
+# Glossary
 
+**Automatic Rifle**:
+
+**Bayonet**:
+
+**Bazooka**:
+
+**Bed Roll**:
+
+**Binoculars**:
+
+**Carbine**:
+
+**Cyanide Pills**:
+
+**Detonator**:
+
+**Explosives**:
+
+**Flash Light**:
+
+**Gas Mask**:
+
+**Grenade**:
+
+**Knife**:
+
+**Machine Gun**:
+
+**Mines**:
+
+**Pistol**:
+
+**Revolver**:
+
+**Rifle**:
+
+**Ruck Sack**:
+
+**Shotgun**:
+
+**Sniper Rifle**:
+
+**Sub Machine Gun**:
