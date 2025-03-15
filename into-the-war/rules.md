@@ -128,7 +128,7 @@ Other skills may be created by consulting with the Referee.
 - Medic's Kits can only be used by Medics, they have 6 uses per mission.
 - First Aid kits can be used by anyone, one usage, heals 2 STR for 1 person.
 - Handheld radios work within 1 mile ranges; backpack ones within 3 miles.
-- Detonators are either a timer (up to 30 minutes) or wire detonator (up to 300 ft).
+- Detonators can be a timer (up to 30 min.) or wire detonator (up to 300 ft).
 - Grenade launcher can be attached to Rifles only, used with **rifle grenades**.
 
 | Weapons            | Slots | Gear                   | Slots 
