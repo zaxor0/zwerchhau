@@ -15,9 +15,8 @@ Chris McDowall is the original creator of Into the Odd. For more on Into the Odd
 - Players comprise a squad of elite troops from a variety of services.
 
 # Characters
-You are in the war, you are the good guys. The Fascists are the bad guys.
+You are in the war, you are the good guys. The Fascists are the bad guys. To create a character follow these steps:
 
-## Character Creation Steps
 1. Roll ability scores
 2. Roll HP
 3. Pick a class
