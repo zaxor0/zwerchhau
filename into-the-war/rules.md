@@ -84,7 +84,8 @@ To be skilled in something means you can perform it in combat. All characters ha
 
 - Rifles, pistols, grenades
 - Hand signals for tactical communciation
-- Parachute Drops & Map usage
+- Parachute Drops 
+- Map & Compass land navigation
 - Motor vehicles and motorcycles, but not tanks or tracked ones.
 - Radio operation, but not enemy radios.
 
