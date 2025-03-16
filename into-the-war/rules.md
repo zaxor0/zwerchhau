@@ -38,6 +38,7 @@ Roll 3d6 for each of the following ability scores, also called stats.
 - Damage to strength can be recovered with a week of rest.
 - If your strength reaches zero, you die.
 - Hit points can only increase with high rolls on the Scars Table.
+- The maximum hit points any one player can have is 20.
 
 \newpage{}
 
@@ -130,6 +131,7 @@ Other skills may be created by consulting with the Referee.
 - Handheld radios work within 1 mile ranges; backpack ones within 3 miles.
 - Detonators can be a timer (up to 30 min.) or wire detonator (up to 300 ft).
 - Grenade launcher can be attached to Rifles only, used with **rifle grenades**.
+- You must specify grenade types: hand or rifle, normal or smoke.
 
 | Weapons            | Slots | Gear                   | Slots 
 |--------------------|-------|------------------------|-------
@@ -180,7 +182,7 @@ Other skills may be created by consulting with the Referee.
 |  Sniper Rifle        | 6d4     | Extreme | 5 attacks        |
 |  Machine gun         | 4d6     | Far     | 50 attacks       |
 |  Bazooka             | 5d8     | Far     | Blast Damage, AP |
-|  Grenade, explosive  | 2d8     | Near    | Blast Damage, AP |
+|  Grenade, hand       | 2d8     | Near    | Blast Damage, AP |
 |  Grenade, rifle      | 2d8     | Far     | Blast Damage, AP |
 |  Grenade, smoke      | 0       | Near    | Lasts 2d4 rounds |
 
@@ -188,7 +190,7 @@ Other skills may be created by consulting with the Referee.
 - There are 5 bands of ranges normally used in combat.
 - Melee weapons can only be used in close range, unless thrown.
 - You may use weapons outside thier normal ranges.
-- For attacks outside your weapon's range, take -1 per higher distance band.
+- Firing weapons outside their normal range, gives -1 to attack per band.
 - **Close**: Roughly within 5 feet.
 - **Near**: Between 5 and 100 feet.
 - **Far**: Between 101 and 300 feet.
