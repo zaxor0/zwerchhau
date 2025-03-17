@@ -439,7 +439,7 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 **Rope**: A useful item, takes up 1 slot per 50 feet of length. 
 
-**Ruck Sack**: Standard issue for all players, holds up to 10 slots worth of items. Paratroopers are able to stash 15 slots worth of items in theirs. 
+**Ruck Sack**: Standard issue for all players, holds up to 20 slots worth of items. Players with more than 10 items are slowed, or 15 for paratroopers.
 
 **Shotgun**:  A 2 handed range weapon, deals 4d6 damage with a range of **near**. Can perform 8 attacks before requiring a reload.
 
