@@ -149,7 +149,7 @@ Other skills may be created by consulting with the Referee.
 | Machine gun        | 3     | Radio, Handheld, 1 mi. | 1 
 | Bazooka            | 3     | Radio, Backpack, 3 mi. | 3
 | Grenades, any      | 3 per | Crowbar                | 1
-| Grenade Launcher   | 1     |     ...                | 0 
+| Grenade Launcher   | 1     | Trench tool            | 1
 | Explosives         | 2 per | Rope, 50ft per slot    | 1
 | Detonator & wire   | 1     | Ammo, 6 reloads        | 1 
 | Mines              | 2 Per | MG Ammo, 2 reloads     | 1 
@@ -452,3 +452,5 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 **Surprise**: Combatants often want to gain surprise, good planning will ensure surprise. Players or NPCs may become surprised simply due to carelessness.
 
 **Tanks**: Large tracked vehicles, that come in 3 sizes. Each size has increasing HP and damage (due to a larger main gun). They also each have 1 machine gun for a secondary attack that can deal 3d8 damage. 
+
+**Trench Tool**: A small foldable shovel
