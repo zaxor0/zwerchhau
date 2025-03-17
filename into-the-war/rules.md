@@ -191,15 +191,14 @@ Other skills may be created by consulting with the Referee.
 
 # Distance and Weapon Ranges
 - There are 5 bands of ranges normally used in combat.
+    - **Close**: Roughly within 5 feet.
+    - **Near**: Between 5 and 100 feet.
+    - **Far**: Between 101 and 300 feet.
+    - **Distant**: Between 301 and 1500 feet.
+    - **Extreme**: Between 1501 and 3000 feet.
 - Melee weapons can only be used in close range, unless thrown.
 - You may use weapons outside thier normal ranges.
 - Firing weapons outside their normal range, gives -1 to attack per band.
-- **Close**: Roughly within 5 feet.
-- **Near**: Between 5 and 100 feet.
-- **Far**: Between 101 and 300 feet.
-- **Distant**: Between 301 and 1500 feet.
-- **Extreme**: Between 1501 and 3000 feet.
-
 
 \newpage{}
 
