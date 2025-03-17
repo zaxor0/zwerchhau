@@ -70,7 +70,7 @@ Pick a class. Each class has a set of bonuses or abilities.
 - **Discrete**, can palm anything, can sneak small items past guards.
 
 ## Officer
-- **Tactics**, allies within 150 feet gain +2 damage on successful attacks.
+- **Tactics**, +1 to initiative rolls, and **near** allies gain +2 to damage rolls.
 - **Organzation**, three times per day, self or ally may reroll failed saves.
 
 ## Pilot
@@ -107,12 +107,13 @@ Other skills may be created by consulting with the Referee.
 # Carry Capacity & Movement
 - Players can carry up to 10 slots of items and still move normally.
 - Each player has a maximum of 20 slots, one slot is about 10 pounds of gear.
-- **Slowed**: Half movement speeds when carrying more than 10 items (15 for paratroopers). 
+- **Slowed**: Half movement speeds when carrying more than 10 slots (15 for paratroopers). 
 - Some smaller items can be stacked into 1 slot, but they must be alike.
-- If you do not have weapon in hand, you may fireman carry 1 person while carry your normal slot limit (10 or 15); you are **slowed**.
+- If you do not have weapon in hand, you may fireman carry 1 person while carrying your normal slot limit (10 or 15); you are **slowed**.
 - Combat movement, in 1 round (10 seconds)
     - 50 feet with an action, such as firing or reloading.
     - 100 feet without acting, this is a double movement.
+    - **Retreat** up to 200 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
 - Overland movement, in 1 turn (10 minutes):
     - **Walking**: 1500 feet or 500 yards, when carrying any equipment.
     - **Running**: 3000 feet or 1000 yards, when carrying any equipment
@@ -137,7 +138,7 @@ Other skills may be created by consulting with the Referee.
 | Weapons            | Slots | Gear                   | Slots 
 |--------------------|-------|------------------------|-------
 | Knife or Bayonet   | 0     | Rucksack               | 0     
-| Pistol             | 1     | Flashlight             | 2 per
+| Pistol, any        | 1     | Flashlight             | 2 per
 | Revolver           | 1     | Tent, 2 person         | 1     
 | Sub Machine gun    | 2     | Bed Roll               | 1
 | Carbine            | 1     | Winter Gear            | 1     
@@ -167,12 +168,13 @@ Other skills may be created by consulting with the Referee.
 - **Smoke grenades** provide cover in a 20 foot radius, until they dissipate. 
 - **Knives** can be freely unsheeted if you drop your current weapon.
 - **Bayonets** can be equipped to Rifles, Shotguns, or Automatic rifles.
-- All weapons can be used as **improvised melee** weapons, for 1d4 damage.
+- All weapons can be used as **improvised melee** ones, with 1d4 + 1 damage.
 - Ranged weapons have limited attacks before they must be reloaded.
 
 |  Weapons             | Damage  | Range   | Notes            |
 |----------------------|---------|---------|------------------|
 |  Knife or Bayonet    | 1d4 + 4 | Close   |                  |
+|  Pistol, Silenced .22| 1d4 + 1 | Near    | 10 attacks       |
 |  Pistol              | 1d6     | Near    | 8 attacks        |
 |  Revolver            | 1d6 + 1 | Near    | 6 attacks        |
 |  Sub Machine gun     | 2d6     | Near    | 20 attacks       |
@@ -212,11 +214,11 @@ Other skills may be created by consulting with the Referee.
 - Mission objectives are intended to aid the allies on the war fronts.
 
 ## Turns
-- Generally the Players take their turn before any enemies.
+- Generally, outside of combat, the Players take their turn before any enemies.
+- Outside of combat, if you need to track turns, they are 10 minutes of time.
 - If there is a risk of being surprised, characters must each roll a DEX Save or be unable to act on the first turn.
 - On their turn, Players can act in any order they wish.
 - In combat, turns are 10 seconds, sometimes called rounds.
-- Outside of combat, if you need to track turns, they are 10 minutes of time.
 
 ## Actions
 - On your turn a character can move and perform an action. An action can be anything from negotiating, to attacking, to fleeing. 
@@ -227,32 +229,36 @@ Other skills may be created by consulting with the Referee.
 
 ## Ranks
 - Whenever you successfully perform 2 missions you rank up.
-- Whenever you rank you can gain 1 more skill.
+- Whenever you rank you can gain 1 more skill, with training.
 - Gained skills require 1 month of time in training.
-- Optionally, if you performed a similar activity to the skill while on a mission, you can train in 2 weeks instead.
+- Optionally, if you performed an activity similar to the desired skill while on recent a mission, you can train in 2 weeks instead.
 
 \newpage{}
 # Combat
 1. **Surprise**: If one side catches the other offguard, they may gain 1 free round of actions before combat begins.
+    - If an enemy is completely unaware of your presence and you are in **close** range with a deadly weapon, roll 1d6 to instantly kill. On a 1 the kill attempt fails and initiative begins.
 2. **Initiative**: Players Roll 1d6, on 1-3 referee acts first, 4-6 players act first.
-    - Combat is side versus side; check for initiative winner performs all actions, then the loser acts.
-3. **Morale**: For NPCs, required if they lose half their numbers.
-4. **Combat Turns**: may move and act (such as attack or reload), double move, or double attack.
-    - You have two acts you can perform on your turn; these can be a combination of movement, attacks, reloads.
-    - You may perform certain actions twice on your turn: double move or double attack. Bazookas cannot double attack, but you can attack and reload.
-    - Instead of moving, you may either become prone or get up from prone, as an action. Prone offers +1 on attack rolls, and +1 DR.
-    - Machine guns must be fired while prone, for every 5 continuous attacks they must halt for 1 round to cool down.
-5. **Range**: Determine if target is within your weapons range.
-6. **Attack Roll**: Roll 1d6, on a 1-2 you miss your target. Otherwise roll damage.
-7. **Expend Ammo**: Tally of shots or bursts fired per weapon (optional).
-    - Optionally, use Shots and Bursts to track when a reload action is needed.
-    - If you are tracking shots and bursts, reloading is a standard action. You may move and reload, or reload and act (such as attack).
-8. **Damage Roll**: Roll your weapons damage dice; reduce total due to any DR, deal damage to enemy's HP.
-    - Grenades and Bazookas cause **Blast** damage, which has a radius of 20 feet.
-    - Grenades and Bazookas can pierce armor, **AP**, and ignore half DR when dealing damage.
+    - Combat is side versus side; initiative winner performs the below first.
+3. **Morale**: Only when required, a WIL Save to avoid being routed.
+    - Required for NPCs if they lose half their numbers.
+4. **Combat Turns**: For your side, each player may take 2 actions: any combination of movement, attack, or reload.
+    - Other actions may be taken at referee discretion, such as use a radio.
+    - You may forgoe actions and instead retreat up to 200 feet.
+5. **Movement**: A movement action covers up to 50 feet of ground. 
+    - As a movement, you may either become **prone** or get up from prone. Prone gives +1 on attack rolls, and +1 DR.
+   - **Retreat** or **routed**, move up to 200 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
+6. **Range**: Determine if target is within your weapons range.
+7. **Attack Roll**: Roll 1d6, a 1 or 2 is a miss. 3 to 6 is a hit.
+    - If 3 attacks target the same 10 foot area, enemies in that space are **pinned down** and take -2 on their next attack.
+    - Machine guns must be fired while prone or mounted on a surface. For every 5 continuous attacks they must halt for 1 round to cool down.
+8. **Expend Ammo**: Tally attacks fired per ranged weapon.
+9. **Damage Roll**: Roll your weapons damage dice; reduce total due to any DR, deal damage to enemy's HP.
+    - **Hand to hand** combat without a weapon deals 1d4 damage.
+    - For weapons that cause **Blast** damage, roll for each person in a 20 ft.
+    - For weapons with **AP** (armor piercing) ignore half DR rounded up.
     - For bazooka or grenade versus a tank, on an attack roll of 6, players may forgo damage to HP and instead disable the tank's movement. 
-9. **Pierce Armor**: On a successful attack, if using an AP weapon, permanently reduce the targets DR by 2.
-10. Combat ends whenever one side is eliminated or one side flees successfully, else return to step 2 and repeat.
+10. **Pierce Armor**: On a successful attack, if using an **AP** weapon, permanently reduce the targets DR by 2.
+11. Combat ends whenever one side is eliminated or one side flees successfully, else return to step 2 and repeat.
 
 \newpage{}
 
@@ -293,9 +299,9 @@ Other skills may be created by consulting with the Referee.
 - Players are skilled in hand signal communication, ideal for combat or stealth. 
 - Hand signals are only dimished by visibility, see **Light and Vision**.
 - At referee's discretion, communications in combat may require a WIL save.
-- Vocal and radio communcations are often overwhelmed by gunfire and explosions. 
-- Radios cannot be used while handling a weapon; using one in combat gives the enemy +1 on hits against you.
-- Handheld radios are usable within a 1 mile radius of one another, backpacks radios 3 miles.
+- Vocal and radio comms are easily obfuscated by gunfire and explosions. 
+- Radios cannot be used while handling a weapon; using one in combat gives the enemy +1 on hits against you, if you are visible.
+- Handheld radios are usable within a 1 mile radius of other allied radios; backpacks radios have a radius of 3 miles.
 
 # Light and Vision
 - **Combat visibility**: Ability see enemy targets or an ally's hand signals.
@@ -316,6 +322,7 @@ Other skills may be created by consulting with the Referee.
 - Enemies are less well trained than players, they hit on 4-6 on a 1d6.
 - Enemies normal range of fire is **far** unless otherwise noted.
 - Damage dealt to enemies reduces HP, death occurs at 0 HP for them.
+- Enemies are unlikely to run out of ammo, they only do at Referee discretion.
 - If a vehicle is brought to 0 HP it no longer functions and is non-repairable.
 - Tank attacks with their main gun deals bast damage, but their MG attack only deals 3d8 of normal damage.
 - Tanks, amored cars, and some Jeeps have machine guns, a **MG**.
@@ -351,9 +358,11 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 **Ammo**: Players can carry extra ammo for their weapons. To reload in combat is a standard action, like movement or attacking.
 
+**Armor Piercing (AP)**: a per weapon characteristic, where attacks ignore half of the target’s DR, rounded up. Successful attacks permanently reduce a target’s Damage Reduction (DR) by 2. 
+
 **Artillery**: Remote ballistic guns that can precisely hit a target. Attakcs by artillery require a DEX save for half damage. They deal 3d8 damage.
 
-**Automatic Rifle**: A rapid fire weapon, requires 2 hands to use, can make 15 attacks before a reload is needed. Deals 3d6 damage and has a normal range of 500 feet without penalty.
+**Automatic Rifle**: A automatic rapid fire weapon, requires 2 hands to use, can make 15 attacks before a reload is needed. Deals 3d6 damage and has a normal range of 500 feet without penalty.
 
 **Bayonet**: A melee bladed weapon that can be attached to any rifle or weilded in hand. Deals 1d4 + 4 damage on a hit, can be used in melee range which is **close**.
 
@@ -362,6 +371,8 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 **Bed Roll**: Required for multiday overland travel, sleeps 1 person. Multiple nights without a bedroll may require a WIL save to prevent negatives to combat.
 
 **Binoculars**: A single slot item that increases combat visibility by 1 range band, in both day and night scenarios.
+
+**Blast**: A per weapon characteristic where damage can be inflicted on more than 1 target on a successful attack. The radius of the damage is 20ft, all targets in that radius must have their damaged rolled individually.
 
 **Canteen**: A useful 1 slot item to store liquids; required if tracking resources in an overland campaign.
 
@@ -391,6 +402,8 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 **Hand Signals**: Used to communicate in a firefight or in stealth operations. General commands can be given, but specific details are very limited. Examples include: moveout, halt, attack, change targets, covering fire, a specific number targets ahead, range in yards or feet, and so on.
 
+**Hand to hand**: melee combat without a weapon, successful attacks deals 1d4 damage.
+
 **Jeeps**: 4 wheeled on/off road vehicles that sometimes have a MG attached. With MG can deal 3d8 damage; if an enemy unit, the MG is elimnated after recieving 6 damage.
 
 **Knife**: Held held melee weapon, capable of dealing 1d4+4 damage at close range. In combat, it can be unsheathed as a free action *only if* you have no other weapon in hand or you drop your weapon. Can be thrown with a -2 to attack, within 20 feet, for 1d4 damage.
@@ -407,7 +420,11 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 **Parachutes**: Used during mission deployments, all players have training to jump and use these successfully. Normally abandoned once at a mission site, but could be dismembered with a knife or bayonet for improvised materials.
 
+**Pinned Down**: When 3 attacks target the same 10 foot area, regardless if they miss, the enemies in that area are considered to be pinned down. Being pinned down causes a -2 to attacks on their next turn. 
+
 **Pistol**: A one handed range weapon capable of 8 attacks before a reload is required. Deals 1d6 damage and has a normal range of **near**. 
+
+**Prone**: A standard action in combat, gives +1 on attack rolls and provide +1DR when attacked by enemies.
 
 **Radio, handheld**: Hand held radios are still quite large and cannot be used while wielding a weapon. They have a 1 mile radius for communications. The audio quality is fuzzy and is easily overwhelm by the noise of a firefight.
 
@@ -415,9 +432,11 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 **Rations**: Required for multiday overland travel, requires a mess kit to be prepared. Multiple days without food may require a WIL save to prevent negatives to combat.
 
+**Retreat** or **routed**, move up to 200 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
+
 **Revolver**: A one handed range weapon capable of 6 attacks before a reload is required. Deals 1d6 + 1 damage and has a normal range of **near**. 
 
-**Rifle**: The standard range weapon of the infantry, requires 2 hands to fire. Capable of having a bayonet or a grenade launcher attached, but not both. Deals 2d6 + 2 damage and has a normal range of **far**. It can perform 10 attacks before having to be reloaded. 
+**Rifle**: The standard semi automatic range weapon of the infantry, requires 2 hands to fire. Capable of having a bayonet or a grenade launcher attached, but not both. Deals 2d6 + 2 damage and has a normal range of **far**. It can perform 10 attacks before having to be reloaded. 
 
 **Rope**: A useful item, takes up 1 slot per 50 feet of length. 
 
@@ -425,8 +444,12 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 **Shotgun**:  A 2 handed range weapon, deals 4d6 damage with a range of **near**. Can perform 8 attacks before requiring a reload.
 
+**Silenced .22 Pistol**: A silent weapon, has a range of **near** and can deal 1d4 + 1 damage, +6 damage if used in **close range** with **surpise**. Best used as a surpise weapon to eliminate an enemy and avoiding combat. 
+
 **Sniper Rifle**: A long range 2 handed weapon, capable of dealing 6d4 damage with an **extreme** range, can attack 5 times before requiring a reload.
 
 **Sub Machine Gun**:  A 2 handed range weapon with a large magazine, deals 2d6 damage with a range of **near**. Can perform 20 attacks before requiring a reload.
+
+**Surprise**: Combatants often want to gain surprise, good planning will ensure surprise. Players or NPCs may become surprised simply due to carelessness.
 
 **Tanks**: Large tracked vehicles, that come in 3 sizes. Each size has increasing HP and damage (due to a larger main gun). They also each have 1 machine gun for a secondary attack that can deal 3d8 damage. 
