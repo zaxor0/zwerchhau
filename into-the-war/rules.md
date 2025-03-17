@@ -122,18 +122,18 @@ Other skills may be created by consulting with the Referee.
 \newpage{}
 
 # Equipment
-- Everyone starts with a rucksack and it can hold 10 items, 15 for paratroopers.
+- Everyone starts with a **rucksack** and it can hold 10 items, 15 for paratroopers.
 - You do not have to pay for equipment; unlisted items take 1 week to arrive.
-- If an item says "per" it is stackable; 2 per means you can stack 2 per 1 slot.
-- You cannot mix stackable items, slots are limited to item type.
-- Pistols and revolvers, if holstered on a hip, do not take a slot.
-- Mines disable all vehicles, and deals 4d8 damage to non tracked ones.
-- Medic's Kits can only be used by Medics, they have 6 uses per mission.
-- First Aid kits can be used by anyone, one usage, heals 2 STR for 1 person.
-- Handheld radios work within 1 mile ranges; backpack ones within 3 miles.
-- Detonators can be a timer (up to 30 min.) or wire detonator (up to 300 ft).
-- Grenade launcher can be attached to Rifles only, used with **rifle grenades**.
-- You must specify grenade types: hand or rifle, normal or smoke.
+- If an item says **per** it is stackable; 2 per means you can stack 2 per 1 slot.
+- You cannot mix stackable items, slots are limited to **item type**.
+- **Pistols** and **revolvers**, if holstered on a hip, do not take a slot.
+- **Mines** disable all vehicles, and deals 4d8 damage to non tracked ones.
+- **Medic's Kits** can only be used by Medics, they have 6 uses per mission.
+- **First Aid kits** can be used by anyone, one usage, heals 2 STR for 1 person.
+- **Handheld radios** work within 1 mile ranges; **backpack radios**, 3 miles.
+- **Detonators** can be a timer (up to 30 min.) or wire detonator (up to 300 ft).
+- **Grenade launcher** can be attached to Rifles only, used with **rifle grenades**.
+- You must **specify** grenade types: hand or rifle, normal or smoke.
 
 | Weapons            | Slots | Gear                   | Slots 
 |--------------------|-------|------------------------|-------
