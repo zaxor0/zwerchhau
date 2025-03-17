@@ -141,11 +141,11 @@ Other skills may be created by consulting with the Referee.
 | Pistol, any        | 1     | Flashlight             | 2 per
 | Revolver           | 1     | Tent, 2 person         | 1     
 | Sub Machine gun    | 2     | Bed Roll               | 1
-| Carbine            | 1     | Winter Gear            | 1     
-| Rifle              | 1     | Binoculars             | 1     
+| Carbine            | 2     | Winter Gear            | 1     
+| Rifle              | 2     | Binoculars             | 1     
 | Automatic Rifle    | 2     | Rations, 1 week        | 1     
-| Shotgun            | 3     | Mess Kit & Canteen     | 1     
-| Sniper Rifle       | 3     | Flares                 | 3 per
+| Shotgun            | 2     | Mess Kit & Canteen     | 1     
+| Sniper Rifle       | 2     | Flares                 | 3 per
 | Machine gun        | 3     | Radio, Handheld, 1 mi. | 1 
 | Bazooka            | 3     | Radio, Backpack, 3 mi. | 3
 | Grenades, any      | 3 per | Crowbar                | 1
