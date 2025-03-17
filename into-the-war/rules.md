@@ -132,7 +132,7 @@ Other skills may be created by consulting with the Referee.
 - **First Aid kits** can be used by anyone, one usage, heals 2 STR for 1 person.
 - **Handheld radios** work within 1 mile ranges; **backpack radios**, 3 miles.
 - **Detonators** can be a timer (up to 30 min.) or wire detonator (300 ft).
-- **Grenade launcher** can be attached to Rifles only, used with **rifle grenades**.
+- **Grenade launchers** are used with **rifle grenades** and attached to rifles.
 - You must **specify** grenade types: hand or rifle, normal or smoke.
 
 | Weapons            | Slots | Gear                   | Slots 
