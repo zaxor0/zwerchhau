@@ -122,7 +122,7 @@ Other skills may be created by consulting with the Referee.
 \newpage{}
 
 # Equipment
-- Everyone starts with a **rucksack** and it can hold 10 items, 15 for paratroopers.
+- Everyone starts with a **rucksack** that can hold up to 20 slots of items.
 - You do not have to pay for equipment; unlisted items take 1 week to arrive.
 - If an item says **per** it is stackable; 2 per means you can stack 2 per 1 slot.
 - You cannot mix stackable items, slots are limited to **item type**.
