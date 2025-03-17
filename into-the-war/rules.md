@@ -190,7 +190,7 @@ Other skills may be created by consulting with the Referee.
 |  Grenade, smoke      | 0       | Near    | Lasts 2d4 rounds |
 
 # Distance and Weapon Ranges
-- There are 5 bands of ranges normally used in combat.
+- There are 5 bands of ranges normally used in combat:
     - **Close**: Roughly within 5 feet.
     - **Near**: Between 5 and 100 feet.
     - **Far**: Between 101 and 300 feet.
