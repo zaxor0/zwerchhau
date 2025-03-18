@@ -113,7 +113,7 @@ Other skills may be created by consulting with the Referee.
 - Combat movement, in 1 round (10 seconds)
     - 50 feet with an action, such as firing or reloading.
     - 100 feet without acting, this is a double movement.
-    - **Retreat** up to 200 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
+    - **Retreat** up to 150 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
 - Overland movement, in 1 turn (10 minutes):
     - **Walking**: 1500 feet or 500 yards, when carrying any equipment.
     - **Running**: 3000 feet or 1000 yards, when carrying any equipment
@@ -242,7 +242,7 @@ Other skills may be created by consulting with the Referee.
     - Required for NPCs if they lose half their numbers.
 4. **Combat Turns**: For your side, each player may take 2 actions: any combination of movement, attack, or reload.
     - Other actions may be taken at referee discretion, such as use a radio.
-    - You may forgoe actions and instead retreat up to 200 feet.
+    - You may forgoe actions and instead retreat up to 150 feet.
 5. **Movement**: A movement action covers up to 50 feet of ground. 
     - As a movement, you may either become **prone** or get up from prone. Prone gives +1 on attack rolls, and +1 DR.
    - **Retreat** or **routed**, move up to 200 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
@@ -261,7 +261,7 @@ Other skills may be created by consulting with the Referee.
 
 \newpage{}
 
-## Moral
+## Morale
 - Groups require a WIL Save to avoid being routed when they lose half of their total numbers.
 - Groups with a leader may use the leader's WIL score in place of their own.
 - Lone combatants must pass this Save when they are reduced to 0hp, this applies to opponents and allies but not Player characters.
@@ -322,6 +322,7 @@ Other skills may be created by consulting with the Referee.
 - Enemies normal range of fire is **far** unless otherwise noted.
 - Damage dealt to enemies reduces HP, death occurs at 0 HP for them.
 - Enemies are unlikely to run out of ammo, they only do at Referee discretion.
+- Vehicles can move up to 200 feet in 1 movement action.
 - If a vehicle is brought to 0 HP it no longer functions and is non-repairable.
 - Tank attacks with their main gun deals bast damage, but their MG attack only deals 3d8 of normal damage.
 - Tanks, amored cars, and some Jeeps have machine guns, a **MG**.
