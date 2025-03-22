@@ -75,7 +75,7 @@ Pick a class. Each class has a set of bonuses or abilities.
 
 ## Pilot
 - **Air Pilot**, Can fly any type of airplane.
-- **Repair**, can repair common mechanical equipment and any airplane.
+- **Repair**, can repair common mechanical equipment and electronics.
 
 \newpage{}
 
@@ -135,32 +135,31 @@ Other skills may be created by consulting with the Referee.
 - **Grenade launchers** are used with **rifle grenades** and attached to rifles.
 - You must **specify** grenade types: hand or rifle, normal or smoke.
 
-| Weapons            | Slots | Gear                   | Slots 
+| Weapons            | Slots | Gear                   | Slots
 |--------------------|-------|------------------------|-------
-| Knife or Bayonet   | 0     | Rucksack               | 0     
-| Pistol, any        | 1     | Flashlight             | 2 per
-| Revolver           | 1     | Tent, 2 person         | 1     
-| Sub Machine gun    | 2     | Bed Roll               | 1
-| Carbine            | 2     | Winter Gear            | 1     
-| Rifle              | 2     | Binoculars             | 1     
-| Automatic Rifle    | 2     | Rations, 1 week        | 1     
-| Shotgun            | 2     | Mess Kit & Canteen     | 1     
-| Sniper Rifle       | 2     | Flares                 | 3 per
-| Machine gun        | 3     | Radio, Handheld, 1 mi. | 1 
-| Bazooka            | 3     | Radio, Backpack, 3 mi. | 3
-| Grenades, any      | 3 per | Crowbar                | 1
-| Grenade Launcher   | 1     | Trench tool            | 1
-| Explosives         | 2 per | Rope, 50ft per slot    | 1
-| Detonator & wire   | 1     | Ammo, 6 reloads        | 1 
-| Mines              | 2 Per | MG Ammo, 2 reloads     | 1 
-| Cyanide Pills 6ct. | 3 Per | Medic's Kit            | 3
-| Poison, 1 use      | 3 per | First Aid Kit, 1 use   | 1
-| Gasmask            | 1     | Lockpicks              | 1  
+| Automatic Rifle    | 2     | Ammo, 6 reloads        | 1 
+| Bazooka            | 3     | Ammo MG, 2 reloads     | 1
+| Carbine            | 2     | Bed Roll               | 1
+| Cyanide Pills 6ct. | 3 Per | Binoculars             | 1
+| Detonator & wire   | 1     | Crowbar                | 1
+| Explosives         | 2 per | First Aid Kit, 1 use   | 1
+| Gasmask            | 1     | Flares                 | 3 per
+| Grenade Launcher   | 1     | Flashlight             | 2 per
+| Grenades, any      | 3 per | Lockpicks              | 1
+| Knife or Bayonet   | 0     | Medic's Kit            | 3
+| Machine gun        | 3     | Mess Kit & Canteen     | 1
+| Mines              | 2 Per | Radio, Backpack, 3 mi. | 3
+| Pistol, any        | 1     | Radio, Handheld, 1 mi. | 1
+| Poison, 1 use      | 3 per | Rations, 1 week        | 1
+| Revolver           | 1     | Rope, 50ft per slot    | 1
+| Rifle              | 2     | Rucksack               | 0
+| Shotgun            | 2     | Tent, 2 person         | 1
+| Sniper Rifle       | 2     | Trench tool            | 1
+| Sub Machine gun    | 2     | Winter Gear            | 1
 
 \newpage{}
 # Weapons
-- Only soliders and marines can use machine guns.
-- Only soliders can use bazookas
+- Only soliders & marines can use machine guns, only soliders can use bazookas
 - **Blast damage** effects all targets in a 20 foot radius, roll damage for each.
 - **DR**, damage reduction, reduces the total damage received.
 - **AP**, armor piercing, attacks ignore half of the target's DR, rounded up.
