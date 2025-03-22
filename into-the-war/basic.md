@@ -1,7 +1,7 @@
 ```{=latex}
 \begin{center}
 ```
-![](cover3.png){ height=100% } 
+![](cover2.png){ height=100% } 
 
 ```{=latex}
 \end{center}
@@ -18,10 +18,11 @@ Chris McDowall is the original creator of Into the Odd. For more on Into the Odd
 To create a character follow these steps:
 
 1. Roll ability scores
-2. Roll HP
-3. Pick two attribues
-4. Give yourself a name and physical description.
-5. Acquire equipment 
+2. Select languages
+3. Roll HP
+4. Pick two attribues
+5. Give yourself a name and physical description.
+6. Acquire equipment 
 
 # Ability Scores
 Roll 3d6 for each of the following ability scores, also called stats.
@@ -29,6 +30,10 @@ Roll 3d6 for each of the following ability scores, also called stats.
 - Strength (STR) - Fighting, fortitude, and toughness
 - Dexterity (DEX) - Stealth, athlethics, and reflexes
 - Willpower (WIL) - Confidence, discipline, and charisma
+
+# Languages
+- You are fluent in your native language.
+- Roll 1d4, gain that many additional languages. You are proficient in these.
 
 # Hitpoints & Health
 - Roll 1d6, add 4, this is your HP, between 5 and 10.
@@ -43,17 +48,17 @@ Roll 3d6 for each of the following ability scores, also called stats.
 Pick two
 
 - **Charisma**, charms personel on a 4 in 6, they'll follow simple suggestions.
-- **Discrete**, can palm anything, can sneak small items past guards.
+- **Discrete**, can palm anything, can easily sneak small items undetected.
 - **Electronics**, can use any electronic gear, including enemy radios.
-- **Hauler**, can carry 15 slots of items without being slowed.
+- **Hauler**, can carry up to 15 slots of items without being slowed.
 - **Healing**, can use Medic's Kit to restore one player's STR score per use.
 - **Lethal**, add +1 damage to all successful attacks.
 - **Lucky**, can reroll 2 dice rolls per day.
-- **Nightsight**, Clearer and better vision at night. 
-- **Organzation**, three times per day, self or ally may reroll failed saves.
-- **Pilot**, Can fly any type of airplane.
-- **Repair**, can fix mechanical equipment and electronics.
-- **Sharpshooter**, when using any rifle, only miss on attack rolls of 1
+- **Nightsight**, clearer and better vision at night. 
+- **Organzation**, three times per day, self or ally may reroll *failed saves*.
+- **Pilot**, can fly any type of airplane.
+- **Repair**, can fix or rig mechanical equipment and electronics.
+- **Saboteur**, can set any physical object to fail on its next use.
 - **Tough**, always have a DR of 2.
 - **Trained**, can use any weaponry.
 - **Tactics**, +1 to initiative rolls, nearby allies gain +2 to damage rolls.
@@ -70,14 +75,15 @@ Pick two
 # Equipment
 - Everyone starts with a **rucksack** that can hold up to 20 slots of items.
 - You do not have to pay for equipment; unlisted items take 1 week to arrive.
-- If an item says **per** it is stackable; 2 per means you can stack 2 per 1 slot.
+- If an item says **per** it is stackable; e.g. 2 per means 2 items stack per 1 slot.
 - You cannot mix stackable items, slots are limited to **item type**.
-- **Mines** disable all vehicles, and deals 4d8 damage to non tracked ones.
+- **Pistols** and **revolvers**, if holstered on a hip, do not take a slot.
+- **Mines** disable all vehicles, and deal 4d8 damage to non-tracked ones.
 - **Medic's Kits** can only be used by Medics, they have 6 uses per mission.
 - **First Aid kits** can be used by anyone, one usage, heals 2 STR for 1 person.
 - **Handheld radios** work within 1 mile ranges; **backpack radios**, 3 miles.
 - **Detonators** can be a timer (up to 30 min.) or wire detonator (300 ft).
-- **Grenade launchers** are used with **rifle grenades** and attached to rifles.
+- **Grenade launchers** are used with **rifle grenades** and attach to rifles.
 - You must **specify** grenade types: hand or rifle, normal or smoke.
 
 | Weapons            | Slots | Gear                   | Slots 
@@ -123,11 +129,11 @@ Pick two
 |  Rifle               | 2d6 + 2 |                  |
 |  Automatic Rifle     | 3d6     |                  |
 |  Shotgun             | 4d6     |                  |
-|  Sniper Rifle        | 6d4     |                  |
-|  Machine gun         | 4d6     |                  |
+|  Sniper Rifle        | 6d4     | Has a scope |
+|  Machine gun         | 4d6     | Prone or mounted only |
 |  Bazooka             | 5d8     | Blast Damage, AP |
-|  Grenade, hand       | 2d8     | Blast Damage, AP |
 |  Grenade, rifle      | 2d8     | Blast Damage, AP |
+|  Grenade, hand       | 2d8     | Blast Damage, AP |
 |  Grenade, smoke      | 0       | Lasts 2d4 rounds |
 
 \newpage{}
@@ -144,6 +150,7 @@ Pick two
 
 ## Actions
 - On your turn a character can move and perform an action. An action can be anything from negotiating, to attacking, to fleeing. 
+- Going prone or getting up from prone is equivalent to a movement.
 - For other actions the Referee calls for the character at risk to roll a Save. 
 - For example, an attempt to trip an opponent might force them to pass a STR Save to stay on their feet, while an attempt to trick an opponent into surrender may force them to pass a WIL Save or lower their arms. 
 
@@ -185,8 +192,8 @@ Pick two
 ## Light and Vision
 - Scopes and Binoculars easily let someone see **twice** as far as normal.
 - At night, you can see **half** as far as normal.
-- At night, Scopes and Binoculars easily let someone see a normal distance..
-- Someone creating a light at night (lighting a cigarette or torch) is an easy target.
+- At night, Scopes and Binoculars easily let someone see a normal distance.
+- Someone creating a light at night (e.g. lighting a cigarette) is an easy target.
 
 ## Luck Rolls
 - Sometimes you’ll want an element of randomness without rolling a Save, particularly in situations dictated by luck or those that fall outside of the three Ability Scores. 

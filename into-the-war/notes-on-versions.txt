@@ -1,0 +1,17 @@
+advanced has:
+- player advancement:
+    - ranks & skills
+    - scars table for more HP (or less!)
+- Detailed combat and overland movement.
+- defined distances
+    - effects weapons and vision
+- detailed combat
+    - initiative rolls each round
+    - roll 1d6 to attack
+    - weapons attacks must be tracked, and reloads are required
+- enemies have more features and rules
+- detailed glossary
+
+Basic:
+- sharpshooter removed, replaced with saboteur trait.
+- nightsight had more general verbage, due to lack of vision rules

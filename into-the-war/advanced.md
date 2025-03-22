@@ -18,10 +18,11 @@ Chris McDowall is the original creator of Into the Odd. For more on Into the Odd
 To create a character follow these steps:
 
 1. Roll ability scores
-2. Roll HP
-3. Pick a class
-4. Give yourself a name and physical description.
-5. Acquire equipment 
+2. Select Languages
+3. Roll HP
+4. Pick a class
+5. Give yourself a name and physical description.
+6. Acquire equipment 
 
 # Ability Scores
 Roll 3d6 for each of the following ability scores, also called stats.
@@ -29,6 +30,10 @@ Roll 3d6 for each of the following ability scores, also called stats.
 - Strength (STR) - Fighting, fortitude, and toughness
 - Dexterity (DEX) - Stealth, athlethics, and reflexes
 - Willpower (WIL) - Confidence, discipline, and charisma
+
+# Languages
+- You are fluent in your native language.
+- Roll 1d4, gain that many additional languages. You are proficient in these.
 
 # Hitpoints & Health
 - Roll 1d6, add 4, this is your HP, between 5 and 10.
@@ -54,11 +59,11 @@ Pick a class. Each class has a set of bonuses or abilities.
 
 ## Paratrooper
 - **Nightsight**, +50 feet of vision at night. 
-- **Hauler**, can carry 15 slots of items without being slowed.
+- **Hauler**, can carry up to 15 slots of items without being slowed.
 
 ## Engineer 
 - **Electronics**, can use any electronic gear, including enemy radios.
-- **Repair**, can repair common mechanical equipment and electronics.
+- **Repair**, can fix or rig common mechanical equipment and electronics.
 
 ## Medic
 - **Healing**, can use Medic's Kit to restore one player's STR score per use.
@@ -66,11 +71,11 @@ Pick a class. Each class has a set of bonuses or abilities.
 
 ## Spy
 - **Charisma**, charms personel on a 4 in 6, they'll follow simple suggestions.
-- **Discrete**, can palm anything, can sneak small items past guards.
+- **Discrete**, can palm anything, can easily sneak small items undetected.
 
 ## Officer
 - **Tactics**, +1 to initiative rolls, and **near** allies gain +2 to damage rolls.
-- **Organzation**, three times per day, self or ally may reroll failed saves.
+- **Organzation**, three times per day, self or ally may reroll *failed saves*.
 
 ## Pilot
 - **Air Pilot**, Can fly any type of airplane.
@@ -95,7 +100,6 @@ With higher ranks, characters may learn to use the following:
 - Tank driving / Tracked vehicle driving
 - Tank gunnery
 - Airplane piloting
-- Air navigation
 - Small boat piloting
 - Sea Navigation
 - Electronics operation, can use all radios
@@ -112,7 +116,8 @@ Other skills may be created by consulting with the Referee.
 - Combat movement, in 1 round (10 seconds)
     - 50 feet with an action, such as firing or reloading.
     - 100 feet without acting, this is a double movement.
-    - **Retreat** up to 150 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
+    - **Retreat** up to 150 feet & forgoe other actions, enemies gain +1 on attack vs you.
+    - Entering a **Prone** position or getting up from one.
 - Overland movement, in 1 turn (10 minutes):
     - **Walking**: 1500 feet or 500 yards, when carrying any equipment.
     - **Running**: 3000 feet or 1000 yards, when carrying any equipment
@@ -123,15 +128,15 @@ Other skills may be created by consulting with the Referee.
 # Equipment
 - Everyone starts with a **rucksack** that can hold up to 20 slots of items.
 - You do not have to pay for equipment; unlisted items take 1 week to arrive.
-- If an item says **per** it is stackable; 2 per means you can stack 2 per 1 slot.
+- If an item says **per** it is stackable; e.g. 2 per means 2 items stack per 1 slot.
 - You cannot mix stackable items, slots are limited to **item type**.
 - **Pistols** and **revolvers**, if holstered on a hip, do not take a slot.
-- **Mines** disable all vehicles, and deals 4d8 damage to non tracked ones.
+- **Mines** disable all vehicles, and deal 4d8 damage to non-tracked ones.
 - **Medic's Kits** can only be used by Medics, they have 6 uses per mission.
 - **First Aid kits** can be used by anyone, one usage, heals 2 STR for 1 person.
 - **Handheld radios** work within 1 mile ranges; **backpack radios**, 3 miles.
 - **Detonators** can be a timer (up to 30 min.) or wire detonator (300 ft).
-- **Grenade launchers** are used with **rifle grenades** and attached to rifles.
+- **Grenade launchers** are used with **rifle grenades** and attach to rifles.
 - You must **specify** grenade types: hand or rifle, normal or smoke.
 
 | Weapons            | Slots | Gear                   | Slots
@@ -168,24 +173,25 @@ Other skills may be created by consulting with the Referee.
 - **Bayonets** can be equipped to Rifles, Shotguns, or Automatic rifles.
 - All weapons can be used as **improvised melee** ones, with 1d4 + 1 damage.
 - Ranged weapons have limited attacks before they must be reloaded.
+- **Reload** means the number of attacks before a reload action is required.
 
-|  Weapons             | Damage  | Range   | Notes            |
-|----------------------|---------|---------|------------------|
-|  Knife or Bayonet    | 1d4 + 4 | Close   |                  |
-|  Pistol, Silenced .22| 1d4 + 1 | Near    | 10 attacks       |
-|  Pistol              | 1d6     | Near    | 8 attacks        |
-|  Revolver            | 1d6 + 1 | Near    | 6 attacks        |
-|  Sub Machine gun     | 2d6     | Near    | 20 attacks       |
-|  Carbine             | 2d6 + 1 | Far     | 15 attacks       |
-|  Rifle               | 2d6 + 2 | Far     | 10 attacks       |
-|  Automatic Rifle     | 3d6     | Far     | 15 attacks       |
-|  Shotgun             | 4d6     | Near    | 8 attacks        |
-|  Sniper Rifle        | 6d4     | Extreme | 5 attacks        |
-|  Machine gun         | 4d6     | Far     | 50 attacks       |
-|  Bazooka             | 5d8     | Far     | Blast Damage, AP |
-|  Grenade, hand       | 2d8     | Near    | Blast Damage, AP |
-|  Grenade, rifle      | 2d8     | Far     | Blast Damage, AP |
-|  Grenade, smoke      | 0       | Near    | Lasts 2d4 rounds |
+|  Weapons             | Damage  | Range   | Reload  |  Notes            |
+|----------------------|---------|---------|---------|-------------------|
+|  Knife or Bayonet    | 1d4 + 4 | Close   | -       |                   |
+|  Pistol, Silenced .22| 1d4 + 1 | Near    | 10      |         |
+|  Pistol              | 1d6     | Near    | 8       |        |
+|  Revolver            | 1d6 + 1 | Near    | 6       |        |
+|  Sub Machine gun     | 2d6     | Near    | 20      |         |
+|  Carbine             | 2d6 + 1 | Far     | 15      |         |
+|  Rifle               | 2d6 + 2 | Far     | 10      |         |
+|  Automatic Rifle     | 3d6     | Far     | 15      |         |
+|  Shotgun             | 4d6     | Near    | 8       |        |
+|  Sniper Rifle        | 6d4     | Extreme | 5       | Has a scope      |
+|  Machine gun         | 4d6     | Far     | 50      | Prone or mounted |
+|  Bazooka             | 5d8     | Far     | 1       | Blast Damage, AP |
+|  Grenade, rifle      | 2d8     | Far     | 1       | Blast Damage, AP |
+|  Grenade, hand       | 2d8     | Near    | -       | Blast Damage, AP |
+|  Grenade, smoke      | 0       | Near    | -       | Lasts 2d4 rounds |
 
 # Distance and Weapon Ranges
 - There are 5 bands of ranges normally used in combat:
@@ -232,18 +238,17 @@ Other skills may be created by consulting with the Referee.
 
 \newpage{}
 # Combat
-1. **Surprise**: If one side catches the other offguard, they may gain 1 free round of actions before combat begins.
+1. **Surprise**: If one side catches the other off guard, each on that side may perform 1 action before initative.
     - If an enemy is completely unaware of your presence and you are in **close** range with a deadly weapon, roll 1d6 to instantly kill. On a 1 the kill attempt fails and initiative begins.
-2. **Initiative**: Players Roll 1d6, on 1-3 referee acts first, 4-6 players act first.
+2. **Initiative**: Players roll 1d6: on 1-3 referee acts first, 4-6 players act first.
     - Combat is side versus side; initiative winner performs the below first.
 3. **Morale**: Only when required, a WIL Save to avoid being routed.
     - Required for NPCs if they lose half their numbers.
 4. **Combat Turns**: For your side, each player may take 2 actions: any combination of movement, attack, or reload.
     - Other actions may be taken at referee discretion, such as use a radio.
-    - You may forgoe actions and instead retreat up to 150 feet.
 5. **Movement**: A movement action covers up to 50 feet of ground. 
-    - As a movement, you may either become **prone** or get up from prone. Prone gives +1 on attack rolls, and +1 DR.
-   - **Retreat** or **routed**, move up to 200 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
+    - As a movement, you can become **prone** or get up from prone; being prone gives +1 on attack rolls, and +1 DR.
+   - **Retreat** or **routed**, move up to 150 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
 6. **Range**: Determine if target is within your weapons range.
 7. **Attack Roll**: Roll 1d6, a 1 or 2 is a miss. 3 to 6 is a hit.
     - If 3 attacks target the same 10 foot area, enemies in that space are **pinned down** and take -2 on their next attack.
@@ -271,17 +276,19 @@ Other skills may be created by consulting with the Referee.
 - **Scars Table**: If you take critical damage, roll 1d6 on the **Scars Table**.
 - **Ability Score Loss**: If a character has their STR score reduced to zero they are dead. If their DEX or WIL are reduced to zero the character is paralysed or mentally broken respectively, and cannot act until they have a Full Rest. 
 - **Death**: When a character dies the Player creates a new character and the Referee finds a way to have them join the group as soon as possible. Here, quickness is required over realism. Alternatively the Player may control a Hireling or Member of their Company.
+- **Poison** usually causes Ability Score loss.
+- Effects like Blindness will Impair attacks and call for Saves to carry out usually simple actions.
 
 ## Scars Table
 
 | Roll | Scar, Effect                                          |
 |------|-------------------------------------------------------|
-|  1   | For whom the bell tolls, lose -1 max HP               |
-|  2   | Long term injury, reduce max slots by 2, for 4 weeks  |
+|  1   | For Whom the Bell Tolls, lose -1 max HP               |
+|  2   | Old War Wound, reduce max slots by 2, for 4 weeks     |
 |  3   | Shell Shocked, make a moral check on your next combat |
-|  4   | Minor brush with death, gain +1 max HP                |
+|  4   | Brush with Death, gain +1 max HP                      |
 |  5   | Purple Heart, gain 1d4 additional max HP              |
-|  6   | The grim reaper, gain 1d6 additional max HP           |
+|  6   | The Grim Reaper, gain 1d6 additional max HP           |
 
 \newpage{}
 
@@ -306,7 +313,7 @@ Other skills may be created by consulting with the Referee.
 - At day, Scopes and Binoculars easily let someone see **Extreme** range.
 - At night, combat visibility is decreased to **Near** range.
 - At night, Scopes and Binoculars easily let someone see **Distant** range.
-- Someone creating a light at night (lighting a cigarette or torch) is an easy target, visibility of someone doing so is treated as if during the day.
+- Someone creating a light at night (e.g. lighting a cigarette) is an easy target; visibility of someone doing so is treated as if during the day.
 
 # Luck Rolls
 - Sometimes you’ll want an element of randomness without rolling a Save, particularly in situations dictated by luck or those that fall outside of the three Ability Scores. 
