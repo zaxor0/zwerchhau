@@ -203,6 +203,7 @@ Pick two
 \newpage{}
 # Enemies & NPCs
 - The following table applies to all NPCs, whether ally or enemy.
+- All enemies and NPCs have 10s for their stat block; STR, DEX, WIL.
 - Damage dealt to enemies reduces HP, death occurs at 0 HP for them.
 - Tanks, amored cars, and some Jeeps have machine guns, a **MG**.
 - Tanks get 2 attacks per turn, 1 main gun and one **MG**.
@@ -230,3 +231,9 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 | Dive Bombers           | 4d8    |
 | Airplane Strafing Runs | 3d8 +1 |
 | Naval Bombardment      | 8d8    |
+
+\newpage{}
+# Optional Rules
+- **Attack Rolls**: Roll 1d6 to attack, miss on 1s and 2s.
+- **Distance**: If you are very far from your target, take -1 on attacks, if using attack rolls.
+- **Pin Down**: 3 attacks on a 10 foot area forces the occupying opponents to lose their next attack.

@@ -323,6 +323,7 @@ Other skills may be created by consulting with the Referee.
 \newpage{}
 # Enemies & NPCs
 - The following table applies to all NPCs, whether ally or enemy.
+- All enemies and NPCs have 10s for their stat block; STR, DEX, WIL.
 - Enemies are less well trained than players, they hit on 4-6 on a 1d6.
 - Enemies normal range of fire is **far** unless otherwise noted.
 - Damage dealt to enemies reduces HP, death occurs at 0 HP for them.
