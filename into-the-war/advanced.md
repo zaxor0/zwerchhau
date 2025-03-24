@@ -116,7 +116,7 @@ Other skills may be created by consulting with the Referee.
 - Combat movement, in 1 round (10 seconds)
     - 50 feet with an action, such as firing or reloading.
     - 100 feet without acting, this is a double movement.
-    - **Retreat** up to 150 feet & forgoe other actions, enemies gain +1 on attack vs you.
+    - **Retreat** away from battle, up to 150 feet, forgoing other actions; enemies gain +1 on attack vs you.
     - Entering a **Prone** position or getting up from one.
 - Overland movement, in 1 turn (10 minutes):
     - **Walking**: 1500 feet or 500 yards, when carrying any equipment.
