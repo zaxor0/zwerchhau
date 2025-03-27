@@ -441,7 +441,7 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 **Rations**: Required for multiday overland travel, requires a mess kit to be prepared. Multiple days without food may require a WIL save to prevent negatives to combat.
 
-**Retreat** or **routed**, move up to 200 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
+**Retreat** or **routed**, move up to 150 feet away from battle, forgoe other actions. Enemies gain +1 to attack rolls against you.
 
 **Revolver**: A one handed range weapon capable of 6 attacks before a reload is required. Deals 1d6 + 1 damage and has a normal range of **near**. 
 
