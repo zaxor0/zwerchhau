@@ -43,7 +43,7 @@ Roll 3d6 for each of the following ability scores, also called stats.
 - When your HP is at zero, any additional damage is dealt to your strength.
 - Damage to strength can be recovered with a week of rest.
 - If your strength reaches zero, you die.
-- Hit points can only increase with high rolls on the Scars Table.
+- Hit points can only increase with high rolls on the **Scars Table**.
 - The maximum hit points any one player can have is 20.
 
 \newpage{}
@@ -260,10 +260,11 @@ Other skills may be created by consulting with the Referee.
     - Machine guns must be fired while prone or mounted on a surface. For every 5 continuous attacks they must halt for 1 round to cool down.
 9. **Expend Ammo**: Tally attacks fired per ranged weapon.
 10. **Damage Roll**: Roll your weapons damage dice; reduce total due to any DR, deal damage to enemy's HP.
-    - **Hand to hand** combat without a weapon deals 1d4 damage.
+    - If attacking from **cover**, such as trench or wall, you have a DR of 3.
     - For weapons that cause **Blast** damage, roll for each person in a 20 ft.
     - For weapons with **AP** (armor piercing) ignore half DR rounded up.
     - For bazooka or grenade versus a tank, on an attack roll of 6, players may forgo damage to HP and instead disable the tank's movement. 
+    - **Hand to hand** combat without a weapon deals 1d4 damage.
 11. **Pierce Armor**: On a successful attack, if using an **AP** weapon, permanently reduce the targets DR by 2.
 12. Combat ends whenever one side is eliminated or one side flees successfully, else return to step 2 and repeat.
 
