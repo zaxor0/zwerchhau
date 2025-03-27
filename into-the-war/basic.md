@@ -234,6 +234,8 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 \newpage{}
 # Optional Rules
+- **Language Proficiencies**: For each secondary language, roll 1d6: 1-2 spoken only, 3-4 spoken & written, 5-6 fluent.
 - **Attack Rolls**: Roll 1d6 to attack, miss on 1s and 2s.
 - **Distance**: If you are very far from your target, take -1 on attacks, if using attack rolls.
 - **Pin Down**: 3 attacks on a 10 foot area forces the occupying opponents to lose their next attack.
+

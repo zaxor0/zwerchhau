@@ -463,4 +463,4 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 
 **Tanks**: Large tracked vehicles, that come in 3 sizes. Each size has increasing HP and damage (due to a larger main gun). They also each have 1 machine gun for a secondary attack that can deal 3d8 damage. 
 
-**Trench Tool**: A small foldable shovel
+**Trench Tool**: A small foldable shovel, takes up 1 slot. Can be a valueable melee weapon in a moment of desperation. 
