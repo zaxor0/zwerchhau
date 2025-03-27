@@ -244,23 +244,24 @@ Other skills may be created by consulting with the Referee.
     - Combat is side versus side; initiative winner performs the below first.
 3. **Morale**: Only when required, a WIL Save to avoid being routed.
     - Required for NPCs if they lose half their numbers.
-4. **Combat Turns**: For your side, each player may take 2 actions: any combination of movement, attack, or reload.
+4. **Declarations**: Everyone on your has to commit to their two actions prior to any movement or rolls.
+5. **Combat Turns**: For your side, each player may take 2 actions: any combination of movement, attack, or reload.
     - Other actions may be taken at referee discretion, such as use a radio.
-5. **Movement**: A movement action covers up to 50 feet of ground. 
+6. **Movement**: A movement action covers up to 50 feet of ground. 
     - As a movement, you can become **prone** or get up from prone; being prone gives +1 on attack rolls, and +1 DR.
    - **Retreat** or **routed**, move up to 150 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
-6. **Range**: Determine if target is within your weapons range.
-7. **Attack Roll**: Roll 1d6, a 1 or 2 is a miss. 3 to 6 is a hit.
+7. **Range**: Determine if target is within your weapons range.
+8. **Attack Roll**: Roll 1d6, a 1 or 2 is a miss. 3 to 6 is a hit.
     - If 3 attacks target the same 10 foot area, enemies in that space are **pinned down** and take -2 on their next attack.
     - Machine guns must be fired while prone or mounted on a surface. For every 5 continuous attacks they must halt for 1 round to cool down.
-8. **Expend Ammo**: Tally attacks fired per ranged weapon.
-9. **Damage Roll**: Roll your weapons damage dice; reduce total due to any DR, deal damage to enemy's HP.
+9. **Expend Ammo**: Tally attacks fired per ranged weapon.
+10. **Damage Roll**: Roll your weapons damage dice; reduce total due to any DR, deal damage to enemy's HP.
     - **Hand to hand** combat without a weapon deals 1d4 damage.
     - For weapons that cause **Blast** damage, roll for each person in a 20 ft.
     - For weapons with **AP** (armor piercing) ignore half DR rounded up.
     - For bazooka or grenade versus a tank, on an attack roll of 6, players may forgo damage to HP and instead disable the tank's movement. 
-10. **Pierce Armor**: On a successful attack, if using an **AP** weapon, permanently reduce the targets DR by 2.
-11. Combat ends whenever one side is eliminated or one side flees successfully, else return to step 2 and repeat.
+11. **Pierce Armor**: On a successful attack, if using an **AP** weapon, permanently reduce the targets DR by 2.
+12. Combat ends whenever one side is eliminated or one side flees successfully, else return to step 2 and repeat.
 
 \newpage{}
 
