@@ -251,7 +251,7 @@ Other skills may be created by consulting with the Referee.
     - If your target dies before you attack, make a **Luck Roll** to see if you can change targets.
 6. **Movement**: A movement action covers up to 50 feet of ground. 
     - As a movement, you can become **prone** or get up from prone; being prone gives +1 on attack rolls, and +1 DR.
-    - **Retreat** or **routed**, move up to 150 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
+    - **Retreat** or **routed**, move up to 150 feet away from battle, forgoe all other actions. Enemies gain +1 on attack rolls against you.
 7. **Range**: Determine if target is within your weapons range.
 8. **Attack Roll**: Roll 1d6, a 1 or 2 is a miss. 3 to 6 is a hit.
     - If 3 attacks target the same 10 foot area, enemies in that space are **pinned down** and take -2 on their next attack.
