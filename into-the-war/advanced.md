@@ -244,12 +244,14 @@ Other skills may be created by consulting with the Referee.
     - Combat is side versus side; initiative winner performs the below first.
 3. **Morale**: Only when required, a WIL Save to avoid being routed.
     - Required for NPCs if they lose half their numbers.
-4. **Declarations**: Everyone on your has to commit to their two actions prior to any movement or rolls.
-5. **Combat Turns**: For your side, each player may take 2 actions: any combination of movement, attack, or reload.
+5. **Combat Turns**: For your side, each player does the following:
+    - **Declarations**: Commit to their two actions prior to any movement or rolls.
+    - **Actions**: Each player may take 2 actions: any combination of movement, attack, or reload.
     - Other actions may be taken at referee discretion, such as use a radio.
+    - If your target dies before you roll attack, make a **Luck Roll** to see if you can change targets.
 6. **Movement**: A movement action covers up to 50 feet of ground. 
     - As a movement, you can become **prone** or get up from prone; being prone gives +1 on attack rolls, and +1 DR.
-   - **Retreat** or **routed**, move up to 150 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
+    - **Retreat** or **routed**, move up to 150 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
 7. **Range**: Determine if target is within your weapons range.
 8. **Attack Roll**: Roll 1d6, a 1 or 2 is a miss. 3 to 6 is a hit.
     - If 3 attacks target the same 10 foot area, enemies in that space are **pinned down** and take -2 on their next attack.
