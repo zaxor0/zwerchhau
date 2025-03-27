@@ -248,7 +248,7 @@ Other skills may be created by consulting with the Referee.
     - **Declarations**: Commit to two actions prior to any movement or rolls.
     - **Actions**: Any combination of movement, attack, or reload.
     - Other actions may be taken at referee discretion, such as use a radio.
-    - If your target dies before you roll attack, make a **Luck Roll** to see if you can change targets.
+    - If your target dies before you attack, make a **Luck Roll** to see if you can change targets.
 6. **Movement**: A movement action covers up to 50 feet of ground. 
     - As a movement, you can become **prone** or get up from prone; being prone gives +1 on attack rolls, and +1 DR.
     - **Retreat** or **routed**, move up to 150 feet but enemies gain +1 to attack rolls against you. No other actions may be taken.
