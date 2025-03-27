@@ -245,8 +245,8 @@ Other skills may be created by consulting with the Referee.
 3. **Morale**: Only when required, a WIL Save to avoid being routed.
     - Required for NPCs if they lose half their numbers.
 5. **Combat Turns**: For your side, each player does the following:
-    - **Declarations**: Commit to their two actions prior to any movement or rolls.
-    - **Actions**: Each player may take 2 actions: any combination of movement, attack, or reload.
+    - **Declarations**: Commit to two actions prior to any movement or rolls.
+    - **Actions**: Take 2 actions, any combination of movement, attack, or reload.
     - Other actions may be taken at referee discretion, such as use a radio.
     - If your target dies before you roll attack, make a **Luck Roll** to see if you can change targets.
 6. **Movement**: A movement action covers up to 50 feet of ground. 
