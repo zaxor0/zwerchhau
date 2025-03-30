@@ -143,7 +143,7 @@ Other skills may be created by consulting with the Referee.
 
 | Weapons            | Slots | Gear                   | Slots
 |--------------------|-------|------------------------|-------
-| Automatic Rifle    | 2     | Ammo, 6 reloads        | 1 
+| Automatic Rifle    | 3     | Ammo, 6 reloads        | 1 
 | Bazooka            | 3     | Ammo MG, 2 reloads     | 1
 | Carbine            | 2     | Bed Roll               | 1
 | Cyanide Pills 6ct. | 3 Per | Binoculars             | 1
