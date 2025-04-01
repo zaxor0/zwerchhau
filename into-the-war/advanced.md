@@ -13,6 +13,8 @@ Chris McDowall is the original creator of Into the Odd. For more on Into the Odd
 # Introduction
 - This is a World War 2 table top RPG using the Into the Odd mechanics
 - You are in the war, you are the good guys. The Fascists are the bad guys.
+- You play a single member of an elite squad, gameplay is mission based.
+- Ideally missions can be completed in a single session of gaming.
 
 # Characters
 To create a character follow these steps:
@@ -393,6 +395,8 @@ Some attacks, from artillery, planes, or mortars, may harm player characters, th
 **Crowbar**: Iron bar intended to pry open doors, locks, and other stuck items. Can be used as a melee weapon that deals 1d4 damage.
 
 **Cyanide Pills**: A suicide pill that can easily be hidden on person. Upon ingestion, kills within minutes.
+
+**Damage Reduction (DR)**: Reduces the total damage received for each attack.
 
 **Detonator**: Required to ignite explosives, either a timer or wire detonator. Timers offer up to 30 minutes of count down. Wire is available up to 300 feet.
 

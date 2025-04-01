@@ -13,6 +13,8 @@ Chris McDowall is the original creator of Into the Odd. For more on Into the Odd
 # Introduction
 - This is a World War 2 table top RPG using the Into the Odd mechanics
 - You are in the war, you are the good guys. The Fascists are the bad guys.
+- You play a single member of an elite squad, gameplay is mission based.
+- Ideally missions can be completed in a single session of gaming.
 
 # Characters
 To create a character follow these steps:
