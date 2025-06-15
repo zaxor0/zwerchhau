@@ -37,7 +37,7 @@ Roll 3d6 for each of the following ability scores, also called stats.
 - You are fluent in your native language.
 - Roll 1d4, gain that many additional languages. You are proficient in these.
 - For each additional language, roll 1d6 to determine your proficiency: 
-    1-2 spoken only, 3-4 spoken & written, 5-6 fluent.
+\n\t    1-2 spoken only, 3-4 spoken & written, 5-6 fluent.
 
 
 # Hitpoints & Health
