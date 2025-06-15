@@ -22,7 +22,7 @@ To create a character follow these steps:
 1. Roll ability scores
 2. Select languages
 3. Roll HP
-4. Pick two attribues
+4. Pick two features 
 5. Give yourself a name and physical description.
 6. Acquire equipment 
 
@@ -46,7 +46,7 @@ Roll 3d6 for each of the following ability scores, also called stats.
 
 \newpage{}
 
-# Attributes 
+# Features 
 Pick two
 
 - **Charisma**, charms personel on a 4 in 6, they'll follow simple suggestions.
