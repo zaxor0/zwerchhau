@@ -36,9 +36,6 @@ Roll 3d6 for each of the following ability scores, also called stats.
 # Languages
 - You are fluent in your native language.
 - Roll 1d4, gain that many additional languages. You are proficient in these.
-- For each additional language, roll 1d6 to determine your proficiency: 
-\n\t    1-2 spoken only, 3-4 spoken & written, 5-6 fluent.
-
 
 # Hitpoints & Health
 - Roll 1d6, add 4, this is your HP, between 5 and 10.
@@ -52,7 +49,7 @@ Roll 3d6 for each of the following ability scores, also called stats.
 \newpage{}
 
 # Classes
-Pick a class. Each class has a set of bonuses or abilities.
+Pick a class. Each class has a set of 2 features.
 
 ## Soldier
 - **Tough**, always have a DR of 2.
